@@ -24,6 +24,23 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: 'Fredoka', sans-serif;
-  background: #fff;
+  background: #ffd4e5;
   color: #6b4423;
+}
+
+@layer components {
+  .dreamy-surface {
+    @apply rounded-3xl border border-white/50 bg-white/70 shadow-dreamy backdrop-blur-md;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
