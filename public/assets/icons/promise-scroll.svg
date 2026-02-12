@@ -1,0 +1,60 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="255" rx="70" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <rect x="145" y="130" width="110" height="150" rx="8" fill="#FFFFFF"/>
+  
+  <!-- Main parchment body - cocoa outline -->
+  <rect x="153" y="160" width="94" height="90" fill="none" stroke="#8B6F47" stroke-width="8"/>
+  
+  <!-- Main parchment body - cream fill -->
+  <rect x="157" y="164" width="86" height="82" fill="#F5E6D3"/>
+  
+  <!-- Top wooden rod -->
+  <rect x="153" y="138" width="94" height="18" rx="9" fill="none" stroke="#8B6F47" stroke-width="8"/>
+  <rect x="157" y="142" width="86" height="14" rx="7" fill="#D4A574"/>
+  <!-- Rod highlight -->
+  <rect x="160" y="144" width="30" height="5" rx="2" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Bottom wooden rod -->
+  <rect x="153" y="254" width="94" height="18" rx="9" fill="none" stroke="#8B6F47" stroke-width="8"/>
+  <rect x="157" y="258" width="86" height="14" rx="7" fill="#D4A574"/>
+  <!-- Rod highlight -->
+  <rect x="160" y="260" width="30" height="5" rx="2" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Paper rolled edge at top (showing paper attached to rod) -->
+  <path d="M 157 156 Q 200 152 243 156" fill="none" stroke="#8B6F47" stroke-width="3"/>
+  <path d="M 157 158 Q 200 154 243 158" fill="#F5E6D3"/>
+  
+  <!-- Paper rolled edge at bottom (showing paper attached to rod) -->
+  <path d="M 157 250 Q 200 254 243 250" fill="none" stroke="#8B6F47" stroke-width="3"/>
+  <path d="M 157 248 Q 200 252 243 248" fill="#F5E6D3"/>
+  
+  <!-- Decorative text lines on scroll -->
+  <line x1="170" y1="180" x2="230" y2="180" stroke="#8B6F47" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  <line x1="170" y1="195" x2="230" y2="195" stroke="#8B6F47" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  <line x1="170" y1="210" x2="220" y2="210" stroke="#8B6F47" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Heart seal -->
+  <circle cx="200" cy="230" r="18" fill="#FFFFFF"/>
+  <circle cx="200" cy="230" r="16" fill="none" stroke="#8B6F47" stroke-width="4"/>
+  <circle cx="200" cy="230" r="13" fill="#FFB6C1"/>
+  
+  <!-- Heart shape in seal -->
+  <path d="M 200 237 C 200 237 193 231 193 227 C 193 225 194 224 195.5 224 C 196.5 224 197.5 224.5 200 227 C 202.5 224.5 203.5 224 204.5 224 C 206 224 207 225 207 227 C 207 231 200 237 200 237 Z" fill="#FFFFFF"/>
+  
+  <!-- Gentle highlight on parchment -->
+  <rect x="162" y="168" width="35" height="75" fill="#FFFFFF" opacity="0.15"/>
+  
+  <!-- Subtle shading on parchment bottom -->
+  <rect x="157" y="225" width="86" height="21" fill="#000000" opacity="0.04"/>
+  
+  <!-- Tiny sparkles around seal -->
+  <circle cx="225" cy="215" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="175" cy="218" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="215" cy="235" r="2" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Tiny heart accent (floating) -->
+  <path d="M 265 190 C 265 188 266 187 267 187 C 268 187 268 188 268 188 C 268 188 269 187 269 187 C 270 187 271 188 271 190 C 271 192 268 194 268 194 C 268 194 265 192 265 190 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

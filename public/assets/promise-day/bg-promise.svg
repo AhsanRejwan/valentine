@@ -1,0 +1,66 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="promiseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8F0;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#D4A574;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="warmLight">
+      <stop offset="0%" style="stop-color:#FFF4D4;stop-opacity:0.7"/>
+      <stop offset="50%" style="stop-color:#FFD4A3;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#FFD4A3;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="softBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+    </filter>
+  </defs>
+  
+  <!-- Base -->
+  <rect width="1920" height="1080" fill="url(#promiseGradient)"/>
+  
+  <!-- Warm desk light glow (top left) -->
+  <ellipse cx="300" cy="200" rx="500" ry="400" fill="url(#warmLight)" filter="url(#softBlur)"/>
+  
+  <!-- Soft ambient glow (top right) -->
+  <ellipse cx="1600" cy="300" rx="600" ry="500" fill="url(#warmLight)" filter="url(#softBlur)" opacity="0.6"/>
+  
+  <!-- Desk surface suggestion (bottom third) -->
+  <rect y="700" width="1920" height="380" fill="#C8B299" opacity="0.15"/>
+  
+  <!-- Stationery elements (very subtle) -->
+  <g opacity="0.1">
+    <!-- Paper stack left -->
+    <rect x="150" y="850" width="180" height="5" rx="2" fill="#FFFFFF"/>
+    <rect x="150" y="860" width="180" height="5" rx="2" fill="#FFFFFF"/>
+    
+    <!-- Paper stack right -->
+    <rect x="1600" y="880" width="200" height="5" rx="2" fill="#FFFFFF"/>
+    <rect x="1600" y="890" width="200" height="5" rx="2" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Writing lines in center (middle 50% of screen, trailing off at edges) -->
+  <g opacity="0.08">
+    <line x1="480" y1="300" x2="1440" y2="300" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <line x1="480" y1="350" x2="1440" y2="350" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="480" y1="400" x2="1440" y2="400" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="480" y1="450" x2="1440" y2="450" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+    <line x1="480" y1="500" x2="1440" y2="500" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="1"/>
+    <line x1="480" y1="550" x2="1440" y2="550" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="1"/>
+    <line x1="480" y1="600" x2="1440" y2="600" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+    <line x1="480" y1="650" x2="1440" y2="650" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="480" y1="700" x2="1440" y2="700" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="480" y1="750" x2="1440" y2="750" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  </g>
+  
+  <!-- Tiny hearts -->
+  <g opacity="0.12">
+    <path d="M 400 350 C 400 347 402 345 404 345 C 405 345 406 346 406 347 C 406 346 407 345 408 345 C 410 345 412 347 412 350 C 412 353 406 357 406 357 C 406 357 400 353 400 350 Z" fill="#FFB6C1"/>
+    <path d="M 1500 400 C 1500 397 1502 395 1504 395 C 1505 395 1506 396 1506 397 C 1506 396 1507 395 1508 395 C 1510 395 1512 397 1512 400 C 1512 403 1506 407 1506 407 C 1506 407 1500 403 1500 400 Z" fill="#FFB6C1"/>
+    <path d="M 900 250 C 900 247 902 245 904 245 C 905 245 906 246 906 247 C 906 246 907 245 908 245 C 910 245 912 247 912 250 C 912 253 906 257 906 257 C 906 257 900 253 900 250 Z" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- Overlay -->
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.03"/>
+</svg>

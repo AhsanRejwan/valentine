@@ -1,0 +1,38 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="225" rx="65" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <path d="M 200 155 Q 170 150 145 165 Q 130 180 135 200 Q 140 220 165 233 Q 185 242 200 240 Q 215 242 235 233 Q 260 220 265 200 Q 270 180 255 165 Q 230 150 200 155 Z" fill="#FFFFFF"/>
+  
+  <!-- Upper lip outline - cocoa brown -->
+  <path d="M 140 200 Q 142 182 157 170 Q 172 160 187 165 Q 195 168 200 170 Q 205 168 213 165 Q 228 160 243 170 Q 258 182 260 200" fill="none" stroke="#8B6F47" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Upper lip fill - baby pink -->
+  <path d="M 143 200 Q 145 184 159 173 Q 173 164 187 168 Q 194 171 200 173 Q 206 171 213 168 Q 227 164 241 173 Q 255 184 257 200 Z" fill="#FFD4E5"/>
+  
+  <!-- Lower lip outline - cocoa brown -->
+  <path d="M 140 200 Q 138 215 155 228 Q 175 238 200 238 Q 225 238 245 228 Q 262 215 260 200" fill="none" stroke="#8B6F47" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Lower lip fill - baby pink (slightly deeper shade) -->
+  <path d="M 143 200 Q 141 213 157 225 Q 176 235 200 235 Q 224 235 243 225 Q 259 213 257 200 Z" fill="#FFB6C1"/>
+  
+  <!-- Center line where lips meet - curved like natural lips -->
+  <path d="M 140 200 Q 160 205 180 204 Q 190 203 200 203 Q 210 203 220 204 Q 240 205 260 200" fill="none" stroke="#8B6F47" stroke-width="3"/>
+  
+  <!-- Glossy highlight on upper lip -->
+  <ellipse cx="175" cy="178" rx="20" ry="10" fill="#FFFFFF" opacity="0.5" transform="rotate(-10 175 178)"/>
+  
+  <!-- Glossy highlight on lower lip -->
+  <ellipse cx="200" cy="215" rx="35" ry="10" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Subtle shading at bottom of lower lip -->
+  <ellipse cx="200" cy="230" rx="42" ry="10" fill="#000000" opacity="0.06"/>
+  
+  <!-- Tiny sparkles -->
+  <circle cx="270" cy="185" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="277" cy="192" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Tiny heart accent -->
+  <path d="M 125 185 C 125 183 126 182 127 182 C 128 182 128 183 128 183 C 128 183 129 182 129 182 C 130 182 131 183 131 185 C 131 187 128 189 128 189 C 128 189 125 187 125 185 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

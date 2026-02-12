@@ -1,0 +1,37 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chocoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#D4A574;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#8B6F47;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6B4423;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="warmGlow">
+      <stop offset="0%" style="stop-color:#FFD4A3;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#D4A574;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#8B6F47;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="softBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#chocoGradient)"/>
+  
+  <ellipse cx="400" cy="300" rx="500" ry="400" fill="url(#warmGlow)" filter="url(#softBlur)"/>
+  <ellipse cx="1500" cy="700" rx="600" ry="450" fill="url(#warmGlow)" filter="url(#softBlur)"/>
+  <ellipse cx="900" cy="500" rx="400" ry="350" fill="url(#warmGlow)" filter="url(#softBlur)" opacity="0.5"/>
+  
+  <g opacity="0.15">
+    <path d="M 300 200 C 300 197 302 195 304 195 C 305 195 306 196 306 197 C 306 196 307 195 308 195 C 310 195 312 197 312 200 C 312 203 306 207 306 207 C 306 207 300 203 300 200 Z" fill="#FFB6C1"/>
+    <path d="M 800 350 C 800 347 802 345 804 345 C 805 345 806 346 806 347 C 806 346 807 345 808 345 C 810 345 812 347 812 350 C 812 353 806 357 806 357 C 806 357 800 353 800 350 Z" fill="#FFB6C1"/>
+    <path d="M 1400 250 C 1400 247 1402 245 1404 245 C 1405 245 1406 246 1406 247 C 1406 246 1407 245 1408 245 C 1410 245 1412 247 1412 250 C 1412 253 1406 257 1406 257 C 1406 257 1400 253 1400 250 Z" fill="#FFB6C1"/>
+    <path d="M 500 700 C 500 697 502 695 504 695 C 505 695 506 696 506 697 C 506 696 507 695 508 695 C 510 695 512 697 512 700 C 512 703 506 707 506 707 C 506 707 500 703 500 700 Z" fill="#FFB6C1"/>
+    <path d="M 1200 800 C 1200 797 1202 795 1204 795 C 1205 795 1206 796 1206 797 C 1206 796 1207 795 1208 795 C 1210 795 1212 797 1212 800 C 1212 803 1206 807 1206 807 C 1206 807 1200 803 1200 800 Z" fill="#FFB6C1"/>
+    <path d="M 1600 450 C 1600 447 1602 445 1604 445 C 1605 445 1606 446 1606 447 C 1606 446 1607 445 1608 445 C 1610 445 1612 447 1612 450 C 1612 453 1606 457 1606 457 C 1606 457 1600 453 1600 450 Z" fill="#FFB6C1"/>
+  </g>
+  
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.03"/>
+</svg>

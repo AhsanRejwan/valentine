@@ -1,0 +1,71 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="255" rx="75" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <g>
+    <!-- Left ear border -->
+    <circle cx="150" cy="150" r="34" fill="#FFFFFF"/>
+    <!-- Right ear border -->
+    <circle cx="250" cy="150" r="34" fill="#FFFFFF"/>
+    <!-- Head border -->
+    <circle cx="200" cy="190" r="62" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Left ear - cocoa outline -->
+  <circle cx="150" cy="150" r="30" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <!-- Left ear - soft brown fill -->
+  <circle cx="150" cy="150" r="26" fill="#D4A574"/>
+  <!-- Left ear inner - lighter cream -->
+  <circle cx="150" cy="150" r="16" fill="#F5E6D3"/>
+  
+  <!-- Right ear - cocoa outline -->
+  <circle cx="250" cy="150" r="30" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <!-- Right ear - soft brown fill -->
+  <circle cx="250" cy="150" r="26" fill="#D4A574"/>
+  <!-- Right ear inner - lighter cream -->
+  <circle cx="250" cy="150" r="16" fill="#F5E6D3"/>
+  
+  <!-- Head - cocoa outline -->
+  <circle cx="200" cy="190" r="58" fill="none" stroke="#8B6F47" stroke-width="8"/>
+  <!-- Head - soft brown fill -->
+  <circle cx="200" cy="190" r="53" fill="#D4A574"/>
+  
+  <!-- Face/muzzle area - cream -->
+  <ellipse cx="200" cy="205" rx="35" ry="30" fill="#F5E6D3"/>
+  
+  <!-- Left eye - cocoa brown -->
+  <circle cx="180" cy="180" r="5" fill="#8B6F47"/>
+  <!-- Left eye shine -->
+  <circle cx="182" cy="178" r="2" fill="#FFFFFF"/>
+  
+  <!-- Right eye - cocoa brown -->
+  <circle cx="220" cy="180" r="5" fill="#8B6F47"/>
+  <!-- Right eye shine -->
+  <circle cx="222" cy="178" r="2" fill="#FFFFFF"/>
+  
+  <!-- Nose - cocoa brown (small triangle) -->
+  <ellipse cx="200" cy="200" rx="6" ry="5" fill="#8B6F47"/>
+  <!-- Nose highlight -->
+  <ellipse cx="199" cy="199" rx="2" ry="1.5" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Mouth - simple smile -->
+  <path d="M 190 210 Q 200 216 210 210" fill="none" stroke="#8B6F47" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Tiny blush cheeks - soft pink -->
+  <ellipse cx="170" cy="195" rx="10" ry="7" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="230" cy="195" rx="10" ry="7" fill="#FFB6C1" opacity="0.5"/>
+  
+  <!-- Subtle shading at bottom of head -->
+  <ellipse cx="200" cy="225" rx="45" ry="15" fill="#000000" opacity="0.04"/>
+  
+  <!-- Gentle highlight on top of head -->
+  <ellipse cx="190" cy="165" rx="25" ry="15" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Tiny sparkles -->
+  <circle cx="260" cy="175" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="267" cy="182" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Tiny heart accent -->
+  <path d="M 135 175 C 135 173 136 172 137 172 C 138 172 138 173 138 173 C 138 173 139 172 139 172 C 140 172 141 173 141 175 C 141 177 138 179 138 179 C 138 179 135 177 135 175 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="270" rx="50" ry="10" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <g>
+    <!-- Pin top circle border -->
+    <circle cx="200" cy="160" r="52" fill="#FFFFFF"/>
+    <!-- Pin bottom border -->
+    <path d="M 200 212 L 175 255 L 200 240 L 225 255 Z" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Location pin - cocoa outline -->
+  <circle cx="200" cy="160" r="48" fill="none" stroke="#8B6F47" stroke-width="8"/>
+  
+  <!-- Location pin - baby pink fill -->
+  <circle cx="200" cy="160" r="43" fill="#FFD4E5"/>
+  
+  <!-- Pin bottom point - cocoa outline -->
+  <path d="M 200 208 L 178 248 L 200 235 L 222 248 Z" fill="#8B6F47"/>
+  
+  <!-- Pin bottom point - baby pink fill -->
+  <path d="M 200 212 L 182 245 L 200 234 L 218 245 Z" fill="#FFD4E5"/>
+  
+  <!-- Inner circle outline -->
+  <circle cx="200" cy="160" r="32" fill="none" stroke="#8B6F47" stroke-width="4"/>
+  
+  <!-- Heart inside pin -->
+  <path d="M 200 175 C 200 175 188 167 188 161 C 188 157 190 155 193 155 C 196 155 198 157 200 160 C 202 157 204 155 207 155 C 210 155 212 157 212 161 C 212 167 200 175 200 175 Z" fill="#8B6F47"/>
+  <path d="M 200 173 C 200 173 190 166 190 161 C 190 158 191.5 156.5 193.5 156.5 C 195.5 156.5 197.5 158 200 161 C 202.5 158 204.5 156.5 206.5 156.5 C 208.5 156.5 210 158 210 161 C 210 166 200 173 200 173 Z" fill="#FFFFFF"/>
+  
+  <!-- Floating hearts around pin -->
+  <path d="M 155 175 C 155 173 156 172 157 172 C 158 172 158 173 158 173 C 158 173 159 172 159 172 C 160 172 161 173 161 175 C 161 177 158 179 158 179 C 158 179 155 177 155 175 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <path d="M 245 175 C 245 173 246 172 247 172 C 248 172 248 173 248 173 C 248 173 249 172 249 172 C 250 172 251 173 251 175 C 251 177 248 179 248 179 C 248 179 245 177 245 175 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <path d="M 220 130 C 220 128.5 220.5 128 221 128 C 221.5 128 222 128.5 222 129 C 222 128.5 222.5 128 223 128 C 223.5 128 224 128.5 224 130 C 224 131.5 222 133 222 133 C 222 133 220 131.5 220 130 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Sparkles -->
+  <circle cx="235" cy="145" r="4" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="243" cy="152" r="3" fill="#FFF4D4" opacity="0.8"/>
+  <circle cx="165" cy="145" r="3.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="157" cy="152" r="2.5" fill="#FFF4D4" opacity="0.7"/>
+  
+  <!-- Gentle highlight on pin -->
+  <ellipse cx="185" cy="145" rx="20" ry="15" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Subtle shading -->
+  <ellipse cx="200" cy="180" rx="35" ry="15" fill="#000000" opacity="0.04"/>
+</svg>
