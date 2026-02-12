@@ -601,18 +601,46 @@ Assets:
 - `/assets/kiss-day/bg-kiss.*`
 - `/assets/kiss-day/kiss-mark.svg`
 - `/assets/kiss-day/floating-hearts-pack.svg`
+- `/assets/hug-day/hug-meter-heart-empty.svg`
+- `/assets/hug-day/hug-meter-heart-fill.svg`
 - Modal/coupon assets
 
 Design elements:
-- Kiss mark center
-- Heart particle overlay layer
+- Intro copy: “Your buira is sending you kisses… catch them before they fly away 💗”
+- Kiss marks spawn from lower area and float upward
+- Tap-to-catch interaction
+- Love meter at bottom-center using heart meter assets
 
-Animations:
-- On click: heart particles float up for ~2s
-- Modal pop-in after particles begin/end
+Gameplay rules (must):
+- Kisses float upward with slight side sway and random scale
+- Tap a kiss: pop + sparkle + +1 kiss count
+- Missed kiss: continues upward and fades out
+- Each caught kiss adds ~10% meter progress
+- Meter fills at 10 kisses total
+
+Spawn logic (must):
+- Spawn a kiss every 700–1200ms
+- Per kiss randomize:
+  - `positionX` (safe range in stage)
+  - `duration` (4–7s)
+  - `scale` (0.8–1.2)
+- Remove kisses when clicked or when they leave the top/fade out
+
+Micro-interactions:
+- On tap:
+  - scale up (~1.2x) -> shrink -> disappear (~250ms)
+  - tiny heart burst/sparkle
+  - optional soft pop sound
+
+Reward moment:
+- On meter reaching 100%:
+  - soft full-screen glow
+  - extra floating hearts
+  - text: “You caught all my kisses 😚”
+  - coupon modal opens
 
 Experience:
-- A quick cute “kiss” moment with floating hearts.
+- A playful catch game that feels affectionate, teasing, and rewarding.
 
 ---
 
@@ -737,9 +765,22 @@ Tasks:
 
 ### Phase 12 — Kiss Day
 Tasks:
-- Kiss click -> heart particles -> coupon
+- Implement “Catch My Kisses” minigame:
+  - state: `kissCount`, `kissesSpawned[]`, `meterProgress`
+  - spawn system with randomized X/duration/scale
+  - tap-to-catch logic (+1, pop/sparkle, remove kiss)
+  - miss handling (float away + remove)
+  - bottom-center kiss meter using hug meter assets
+  - 10 kisses -> 100% meter -> reward moment -> coupon modal
+- Kiss Day coupon text:
+  - `Redeem for unlimited kisses from your personal boy toy 💋`
+- Ensure signature rotation includes:
+  - `your personal boy toy`
   Validation:
-- Hearts animate smoothly
+- Spawn cadence stays within 700–1200ms range
+- Meter progression is correct (10 catches to full)
+- No stuck kisses (all removed by click or expiry)
+- Reward sequence always triggers at 100%
 
 ### Phase 13 — Valentine’s Day Finale
 Tasks:

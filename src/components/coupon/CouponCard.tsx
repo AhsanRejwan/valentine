@@ -15,6 +15,7 @@ const SIGNATURES = [
   'yours truly',
   'your loves you like crazy guy',
   'your man',
+  'your personal boy toy',
   'yours forever',
 ] as const
 
