@@ -104,25 +104,27 @@ function DraggableChocolate({ option, isPlaced, isActive }: DraggableChocolatePr
     : undefined
 
   return (
-    <button
-      ref={setNodeRef}
-      type="button"
-      className={clsx(
-        'group touch-none rounded-2xl border bg-white/85 p-3 text-left shadow-sticker transition duration-200',
-        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-soft-rose/80 focus-visible:ring-offset-2',
-        isPlaced ? 'cursor-not-allowed border-white/60 opacity-55' : 'cursor-grab border-white/70 hover:-translate-y-1',
-        isDragging && 'cursor-grabbing opacity-80 shadow-glow',
-        isActive && 'border-soft-rose shadow-glow',
-      )}
-      style={style}
-      disabled={isPlaced}
-      aria-label={isPlaced ? `${option.label} already placed` : `Drag ${option.label} to a slot`}
-      {...attributes}
-      {...listeners}
-    >
-      <img src={option.image} alt="" aria-hidden className="mx-auto h-14 w-full max-w-[4.4rem] object-contain md:h-16" />
-      <p className="mt-2 text-center text-xs font-semibold text-rich-brown md:text-sm">{option.label}</p>
-    </button>
+    <div className="flex flex-col items-center justify-start">
+      <button
+        ref={setNodeRef}
+        type="button"
+        className={clsx(
+          'group touch-none rounded-xl bg-transparent p-1 transition duration-200',
+          'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-soft-rose/80 focus-visible:ring-offset-2',
+          isPlaced ? 'cursor-not-allowed opacity-40' : 'cursor-grab hover:scale-[1.06]',
+          isDragging && 'cursor-grabbing scale-[1.03] opacity-85',
+          isActive && 'drop-shadow-[0_0_10px_rgba(255,182,193,0.9)]',
+        )}
+        style={style}
+        disabled={isPlaced}
+        aria-label={isPlaced ? `${option.label} already placed` : `Drag ${option.label} to a slot`}
+        {...attributes}
+        {...listeners}
+      >
+        <img src={option.image} alt="" aria-hidden className="mx-auto h-14 w-full max-w-[4.6rem] object-contain md:h-16" />
+      </button>
+      <p className="mt-1 text-center text-xs font-semibold text-rich-brown md:text-sm">{option.label}</p>
+    </div>
   )
 }
 

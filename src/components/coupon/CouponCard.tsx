@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { DayId } from '../../config/days'
 
 interface CouponCardProps {
@@ -17,13 +18,42 @@ const SIGNATURES = [
   'yours forever',
 ] as const
 
-function getSignature(dayId: DayId) {
-  const index = dayId.split('').reduce((accumulator, value) => accumulator + value.charCodeAt(0), 0) % SIGNATURES.length
-  return SIGNATURES[index]
+let signatureCycle: string[] = []
+let signatureIndex = 0
+let lastSignature: string | null = null
+
+function shuffleSignatures() {
+  const shuffled = [...SIGNATURES]
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1))
+    ;[shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]]
+  }
+
+  if (lastSignature && shuffled.length > 1 && shuffled[0] === lastSignature) {
+    const swapIndex = shuffled.findIndex((signature) => signature !== lastSignature)
+    if (swapIndex > 0) {
+      ;[shuffled[0], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[0]]
+    }
+  }
+
+  signatureCycle = shuffled
+  signatureIndex = 0
 }
 
-export function CouponCard({ dayId, title, rewardText }: CouponCardProps) {
-  const signature = getSignature(dayId)
+function getNextSignature() {
+  if (signatureIndex >= signatureCycle.length) {
+    shuffleSignatures()
+  }
+
+  const signature = signatureCycle[signatureIndex]
+  signatureIndex += 1
+  lastSignature = signature
+  return signature
+}
+
+export function CouponCard({ title, rewardText }: CouponCardProps) {
+  const [signature] = useState(() => getNextSignature())
 
   return (
     <div className="mx-auto w-full max-w-[560px] rounded-3xl border border-white/60 bg-cream/80 p-4 shadow-dreamy md:p-6">
