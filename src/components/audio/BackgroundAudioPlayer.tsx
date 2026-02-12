@@ -63,22 +63,25 @@ export function BackgroundAudioPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const [volume, setVolume] = useState(DEFAULT_VOLUME)
   const [isMuted, setIsMuted] = useState(false)
-  const [awaitingInteraction, setAwaitingInteraction] = useState(false)
+  const [isAutoplayBlocked, setIsAutoplayBlocked] = useState(false)
+  const playAttemptedRef = useRef(false)
 
-  const ensurePlayback = useCallback(async () => {
+  const ensurePlayback = useCallback(async (trackBlockState: boolean) => {
     const audio = audioRef.current
-    if (!audio) {
-      return false
-    }
-
-    if (!audio.paused) {
+    if (!audio || !audio.paused) {
       return true
     }
 
     try {
       await audio.play()
+      if (trackBlockState) {
+        setIsAutoplayBlocked(false)
+      }
       return true
     } catch {
+      if (trackBlockState) {
+        setIsAutoplayBlocked(true)
+      }
       return false
     }
   }, [])
@@ -94,53 +97,33 @@ export function BackgroundAudioPlayer() {
   }, [isMuted, volume])
 
   useEffect(() => {
-    let unmounted = false
-
-    const tryAutoStart = async () => {
-      const started = await ensurePlayback()
-      if (!unmounted) {
-        setAwaitingInteraction(!started)
-      }
-    }
-
-    void tryAutoStart()
-
-    return () => {
-      unmounted = true
-    }
-  }, [ensurePlayback])
-
-  useEffect(() => {
-    if (!awaitingInteraction) {
+    if (playAttemptedRef.current) {
       return
     }
 
-    const tryStartOnInteraction = async () => {
-      const started = await ensurePlayback()
-      if (started) {
-        setAwaitingInteraction(false)
-      }
+    playAttemptedRef.current = true
+    const audio = audioRef.current
+    if (!audio) {
+      return
     }
 
-    window.addEventListener('pointerdown', tryStartOnInteraction)
-    window.addEventListener('touchstart', tryStartOnInteraction)
-    window.addEventListener('keydown', tryStartOnInteraction)
-
-    return () => {
-      window.removeEventListener('pointerdown', tryStartOnInteraction)
-      window.removeEventListener('touchstart', tryStartOnInteraction)
-      window.removeEventListener('keydown', tryStartOnInteraction)
-    }
-  }, [awaitingInteraction, ensurePlayback])
+    void ensurePlayback(true)
+  }, [ensurePlayback])
 
   const updateVolume = (nextVolume: number) => {
     const safeVolume = clamp(nextVolume, 0, 1)
     setVolume(safeVolume)
     setIsMuted(safeVolume === 0)
-    void ensurePlayback()
+    void ensurePlayback(false)
   }
 
   const toggleMute = () => {
+    const audio = audioRef.current
+    if (audio && audio.paused && !isMuted) {
+      void ensurePlayback(false)
+      return
+    }
+
     setIsMuted((currentMuted) => {
       const nextMuted = !currentMuted
       if (!nextMuted && volume <= 0) {
@@ -148,12 +131,33 @@ export function BackgroundAudioPlayer() {
       }
       return nextMuted
     })
-    void ensurePlayback()
+    void ensurePlayback(false)
+  }
+
+  const onStartExperience = () => {
+    setIsAutoplayBlocked(false)
+    void ensurePlayback(false)
   }
 
   return (
     <>
-      <audio ref={audioRef} src={AUDIO_SRC} loop preload="auto" />
+      <audio ref={audioRef} src={AUDIO_SRC} loop preload="auto" autoPlay playsInline />
+
+      {isAutoplayBlocked ? (
+        <button
+          type="button"
+          onClick={onStartExperience}
+          className="fixed inset-0 z-[80] flex items-center justify-center bg-rich-brown/45 p-4 backdrop-blur-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-soft-rose/80 focus-visible:ring-offset-2"
+          aria-label="Start the experience"
+        >
+          <div className="dreamy-surface max-w-md px-6 py-7 text-center md:px-8 md:py-8">
+            <p className="text-sm uppercase tracking-[0.2em] text-soft-brown">Music Ready</p>
+            <h3 className="mt-2 text-2xl font-semibold text-rich-brown md:text-3xl">
+              Click anywhere to start the experience
+            </h3>
+          </div>
+        </button>
+      ) : null}
 
       <div className="fixed right-3 top-3 z-[70] md:right-4 md:top-4">
         <div className="rounded-2xl border border-white/65 bg-white/82 px-3 py-2 shadow-dreamy backdrop-blur-md">
@@ -203,12 +207,6 @@ export function BackgroundAudioPlayer() {
               <PlusIcon />
             </button>
           </div>
-
-          {awaitingInteraction ? (
-            <p className="mt-2 text-center text-[11px] font-semibold uppercase tracking-wide text-soft-brown">
-              Tap anywhere to start music
-            </p>
-          ) : null}
         </div>
       </div>
     </>
