@@ -378,10 +378,11 @@ export default function ChocolateDay() {
             <Button
               onClick={() => {
                 void downloadCoupon(couponRef.current, { dayId: 'chocolate-day', selection: 'custom-box' })
+                setIsCouponOpen(false)
               }}
               disabled={isDownloading}
             >
-              {isDownloading ? 'Preparing PNG...' : 'Download PNG'}
+              {isDownloading ? 'Preparing Coupon...' : 'Download Coupon'}
             </Button>
           </div>
         </div>

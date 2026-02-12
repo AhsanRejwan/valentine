@@ -75,10 +75,11 @@ export function DayPage({ dayId }: DayPageProps) {
             <Button
               onClick={() => {
                 void downloadCoupon(couponRef.current, { dayId })
+                setIsCouponOpen(false)
               }}
               disabled={isDownloading}
             >
-              {isDownloading ? 'Preparing PNG...' : 'Download PNG'}
+              {isDownloading ? 'Preparing Coupon...' : 'Download Coupon'}
             </Button>
           </div>
         </div>

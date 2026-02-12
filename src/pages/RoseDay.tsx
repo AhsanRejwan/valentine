@@ -150,10 +150,11 @@ export default function RoseDay() {
             <Button
               onClick={() => {
                 void downloadCoupon(couponRef.current, { dayId: 'rose-day', selection: selectedRose?.id })
+                setIsCouponOpen(false)
               }}
               disabled={isDownloading}
             >
-              {isDownloading ? 'Preparing PNG...' : 'Download PNG'}
+              {isDownloading ? 'Preparing Coupon...' : 'Download Coupon'}
             </Button>
           </div>
         </div>

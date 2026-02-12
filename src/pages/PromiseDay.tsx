@@ -321,10 +321,11 @@ export default function PromiseDay() {
             <Button
               onClick={() => {
                 void downloadCoupon(couponRef.current, { dayId: 'promise-day' })
+                setIsCouponOpen(false)
               }}
               disabled={isDownloading}
             >
-              {isDownloading ? 'Preparing PNG...' : 'Download PNG'}
+              {isDownloading ? 'Preparing Coupon...' : 'Download Coupon'}
             </Button>
           </div>
         </div>

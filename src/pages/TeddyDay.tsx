@@ -258,10 +258,11 @@ export default function TeddyDay() {
             <Button
               onClick={() => {
                 void downloadCoupon(couponRef.current, { dayId: 'teddy-day', selection: selectionSlug || undefined })
+                setIsCouponOpen(false)
               }}
               disabled={isDownloading}
             >
-              {isDownloading ? 'Preparing PNG...' : 'Download PNG'}
+              {isDownloading ? 'Preparing Coupon...' : 'Download Coupon'}
             </Button>
           </div>
         </div>
