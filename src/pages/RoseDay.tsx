@@ -127,7 +127,7 @@ export default function RoseDay() {
         </section>
 
         <div className="flex justify-center">
-          <Link to={`/${location.search}`}>
+          <Link to={{ pathname: '/', search: location.search, hash: '#roadmap' }}>
             <Button variant="secondary">Back to Home</Button>
           </Link>
         </div>

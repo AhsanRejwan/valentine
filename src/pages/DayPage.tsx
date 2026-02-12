@@ -56,7 +56,7 @@ export function DayPage({ dayId }: DayPageProps) {
 
         <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
           <Button onClick={() => setIsCouponOpen(true)}>Preview Coupon</Button>
-          <Link to={`/${location.search}`}>
+          <Link to={{ pathname: '/', search: location.search, hash: '#roadmap' }}>
             <Button variant="secondary">Back to Home</Button>
           </Link>
         </div>

@@ -23,7 +23,7 @@ function getStatusStyles(status: DayStatus) {
 
 export function Roadmap({ now, debug, query }: RoadmapProps) {
   return (
-    <section className="dreamy-surface relative mx-auto w-full max-w-5xl overflow-hidden px-4 py-6 md:px-6 md:py-7">
+    <section id="roadmap" className="dreamy-surface relative mx-auto w-full max-w-5xl overflow-hidden px-4 py-6 md:px-6 md:py-7">
       <div className="relative z-10">
         <h3 className="text-center text-2xl font-semibold text-rich-brown md:text-3xl">Valentine Week Roadmap</h3>
         <p className="mt-1 text-center text-sm text-cocoa">Unlocks automatically at local midnight.</p>

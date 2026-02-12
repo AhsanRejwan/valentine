@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { PageLayout } from './PageLayout'
 import { Button } from '../ui/Button'
 import { useNow } from '../../hooks/useNow'
@@ -12,6 +12,7 @@ interface LockedViewProps {
 
 export function LockedView({ title, unlockAt, backgroundSrc }: LockedViewProps) {
   const now = useNow()
+  const location = useLocation()
   const msRemaining = Math.max(0, unlockAt.getTime() - now.getTime())
 
   return (
@@ -28,7 +29,7 @@ export function LockedView({ title, unlockAt, backgroundSrc }: LockedViewProps) 
         <p className="mt-2 text-sm text-soft-brown">Unlocks at {formatDateTime(unlockAt)}</p>
 
         <div className="mt-7">
-          <Link to="/">
+          <Link to={{ pathname: '/', search: location.search, hash: '#roadmap' }}>
             <Button variant="secondary">Back to Home</Button>
           </Link>
         </div>

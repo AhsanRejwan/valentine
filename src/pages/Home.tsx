@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { PageLayout } from '../components/layout/PageLayout'
 import { DebugErrorView } from '../components/layout/DebugErrorView'
@@ -7,12 +8,34 @@ import { Roadmap } from '../components/layout/Roadmap'
 import { parseDebugConfig } from '../utils/debug'
 import { getNextUnlock, getNow } from '../utils/unlock'
 import { useNow } from '../hooks/useNow'
+import { useReducedMotionPreference } from '../hooks/useReducedMotionPreference'
 
 export default function Home() {
   const location = useLocation()
   const debug = parseDebugConfig(location.search)
   const liveNow = useNow()
   const now = debug.debugDate ? getNow(debug) : liveNow
+  const prefersReducedMotion = useReducedMotionPreference()
+
+  useEffect(() => {
+    if (location.hash !== '#roadmap') {
+      return
+    }
+
+    const frame = window.requestAnimationFrame(() => {
+      const roadmap = document.getElementById('roadmap')
+      if (!roadmap) {
+        return
+      }
+
+      roadmap.scrollIntoView({
+        behavior: prefersReducedMotion ? 'auto' : 'smooth',
+        block: 'start',
+      })
+    })
+
+    return () => window.cancelAnimationFrame(frame)
+  }, [location.hash, prefersReducedMotion])
 
   if (debug.invalidDayId) {
     return <DebugErrorView invalidDayId={debug.invalidDayId} />

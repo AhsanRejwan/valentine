@@ -356,7 +356,7 @@ export default function ChocolateDay() {
             <Button variant="secondary" onClick={resetBox}>
               Reset Box
             </Button>
-            <Link to={`/${location.search}`}>
+            <Link to={{ pathname: '/', search: location.search, hash: '#roadmap' }}>
               <Button variant="secondary">Back to Home</Button>
             </Link>
           </div>
