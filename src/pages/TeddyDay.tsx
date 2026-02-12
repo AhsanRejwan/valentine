@@ -13,7 +13,6 @@ import { getDayById } from '../config/days'
 import { useReducedMotionPreference } from '../hooks/useReducedMotionPreference'
 import { useNow } from '../hooks/useNow'
 import { parseDebugConfig } from '../utils/debug'
-import { formatDateTime } from '../utils/time'
 import { getDayUnlockAt, getNow, isUnlocked } from '../utils/unlock'
 
 type AccessoryId = 'heart' | 'bow' | 'flower'
@@ -147,7 +146,6 @@ export default function TeddyDay() {
           <p className="mx-auto mt-2 max-w-2xl text-cocoa">
             Toggle your favorite accessories, then confirm to reveal your Teddy Day coupon.
           </p>
-          <p className="mt-3 text-sm text-soft-brown">Scheduled unlock: {formatDateTime(getDayUnlockAt(day.id, now))}</p>
         </section>
 
         <section className="dreamy-surface px-5 py-6 md:px-8 md:py-8">
