@@ -6,7 +6,16 @@ interface CouponCardProps {
   rewardText: string
 }
 
-const SIGNATURES = ['your buira', 'your gadhu', 'your idiot', 'your personal boy toy'] as const
+const SIGNATURES = [
+  'your buira',
+  'your gadhu',
+  'your idiot',
+  'your chhagol',
+  'yours truly',
+  'your loves you like crazy guy',
+  'your man',
+  'yours forever',
+] as const
 
 function getSignature(dayId: DayId) {
   const index = dayId.split('').reduce((accumulator, value) => accumulator + value.charCodeAt(0), 0) % SIGNATURES.length

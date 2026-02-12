@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react'
 import clsx from 'clsx'
-import { useReducedMotionPreference } from '../../hooks/useReducedMotionPreference'
 
 interface PageLayoutProps {
   backgroundSrc: string
@@ -25,21 +24,12 @@ export function PageLayout({
   className,
   contentClassName,
 }: PageLayoutProps) {
-  const prefersReducedMotion = useReducedMotionPreference()
-
   return (
     <div className={clsx('relative isolate min-h-screen overflow-hidden', className)}>
       <img
         src={backgroundSrc}
         alt={backgroundAlt}
         className="pointer-events-none absolute inset-0 h-full w-full object-cover"
-      />
-      <div className="pointer-events-none absolute inset-0 bg-dreamy-radial" />
-      <div
-        className={clsx(
-          'pointer-events-none absolute inset-0 bg-gradient-to-b from-white/35 via-transparent to-white/45',
-          !prefersReducedMotion && 'animate-pulse-glow-soft',
-        )}
       />
       {overlays ? <div className="pointer-events-none absolute inset-0">{overlays}</div> : null}
 

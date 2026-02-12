@@ -272,7 +272,11 @@ CouponCard responsibilities:
    - “your buira”
    - “your gadhu”
    - “your idiot”
-   - “your personal boy toy”
+   - “your chhagol”
+   - “yours truly”
+   - “your loves you like crazy guy”
+   - “your man”
+   - “yours forever”
 
 Assets:
 - `/assets/coupons/coupon-base-template.svg`
