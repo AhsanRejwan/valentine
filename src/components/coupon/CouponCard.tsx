@@ -28,7 +28,7 @@ export function CouponCard({ dayId, title, rewardText }: CouponCardProps) {
         <div className="relative z-10">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-soft-brown">Redeemable Coupon</p>
           <h4 className="mt-2 text-2xl font-semibold md:text-3xl">{title}</h4>
-          <img src="/assets/coupons/coupon-divider.svg" alt="" aria-hidden className="mt-4 h-4 w-full object-cover" />
+          <img src="/assets/coupons/coupon-divider.svg" alt="" aria-hidden className="mt-4 w-full object-contain" />
 
           <p className="mt-4 text-base leading-relaxed text-cocoa md:text-lg">{rewardText}</p>
 

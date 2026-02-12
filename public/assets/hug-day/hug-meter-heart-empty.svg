@@ -1,19 +1,57 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="118"
+   height="90"
+   viewBox="0 0 118 90"
+   version="1.1"
+   id="svg14"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
   <!-- Shadow -->
-  <ellipse cx="100" cy="130" rx="40" ry="8" fill="#000000" opacity="0.08"/>
-  
+  <ellipse
+     cx="60"
+     cy="80"
+     rx="40"
+     ry="8"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
   <!-- White sticker border -->
-  <path d="M 100 140 C 100 140 50 110 50 80 C 50 60 62 50 75 50 C 85 50 92 55 100 65 C 108 55 115 50 125 50 C 138 50 150 60 150 80 C 150 110 100 140 100 140 Z" fill="#FFFFFF"/>
-  
+  <path
+     d="M 60,90 C 60,90 10,60 10,30 10,10 22,0 35,0 45,0 52,5 60,15 68,5 75,0 85,0 c 13,0 25,10 25,30 0,30 -50,60 -50,60 z"
+     fill="#ffffff"
+     id="path4" />
   <!-- Heart outline - cocoa brown (empty/unfilled) -->
-  <path d="M 100 133 C 100 133 55 105 55 80 C 55 62 65 54 76 54 C 85 54 93 59 100 67 C 107 59 115 54 124 54 C 135 54 145 62 145 80 C 145 105 100 133 100 133 Z" fill="none" stroke="#8B6F47" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  
+  <path
+     d="M 60,83 C 60,83 15,55 15,30 15,12 25,4 36,4 45,4 53,9 60,17 67,9 75,4 84,4 c 11,0 21,8 21,26 0,25 -45,53 -45,53 z"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path6" />
   <!-- Inner outline for depth -->
-  <path d="M 100 128 C 100 128 60 102 60 80 C 60 65 68 58 77 58 C 85 58 92 62 100 69 C 108 62 115 58 123 58 C 132 58 140 65 140 80 C 140 102 100 128 100 128 Z" fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.3"/>
-  
+  <path
+     d="M 60,78 C 60,78 20,52 20,30 20,15 28,8 37,8 45,8 52,12 60,19 68,12 75,8 83,8 c 9,0 17,7 17,22 0,22 -40,48 -40,48 z"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     opacity="0.3"
+     id="path8" />
   <!-- Tiny sparkle -->
-  <circle cx="155" cy="70" r="3" fill="#FFFFFF" opacity="0.8"/>
-  
+  <circle
+     cx="115"
+     cy="20"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle10" />
   <!-- Tiny accent -->
-  <path d="M 40 95 C 40 93.5 40.5 93 41 93 C 41.5 93 42 93.5 42 94 C 42 93.5 42.5 93 43 93 C 43.5 93 44 93.5 44 95 C 44 96.5 42 98 42 98 C 42 98 40 96.5 40 95 Z" fill="#FFB6C1" opacity="0.4"/>
+  <path
+     d="m 0,45 c 0,-1.5 0.5,-2 1,-2 0.5,0 1,0.5 1,1 0,-0.5 0.5,-1 1,-1 0.5,0 1,0.5 1,2 0,1.5 -2,3 -2,3 0,0 -2,-1.5 -2,-3 z"
+     fill="#ffb6c1"
+     opacity="0.4"
+     id="path12" />
 </svg>

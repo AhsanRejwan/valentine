@@ -1,37 +1,167 @@
-<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="368"
+   height="216"
+   viewBox="0 0 368 216"
+   version="1.1"
+   id="svg38"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs42" />
   <!-- Shadow -->
-  <ellipse cx="250" cy="245" rx="170" ry="18" fill="#000000" opacity="0.08"/>
-  
+  <ellipse
+     cx="190"
+     cy="163"
+     rx="170"
+     ry="18"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
   <!-- White border -->
-  <rect x="80" y="90" width="340" height="200" fill="#FFFFFF"/>
-  
+  <rect
+     x="20"
+     y="8"
+     width="340"
+     height="200"
+     fill="#ffffff"
+     id="rect4" />
   <!-- Scroll paper -->
-  <rect x="90" y="100" width="320" height="180" fill="none" stroke="#8B6F47" stroke-width="8"/>
-  <rect x="95" y="105" width="310" height="170" fill="#F5E6D3"/>
-  
+  <rect
+     x="30"
+     y="18"
+     width="320"
+     height="180"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="8"
+     id="rect6" />
+  <rect
+     x="35"
+     y="23"
+     width="310"
+     height="170"
+     fill="#f5e6d3"
+     id="rect8" />
   <!-- Top rod -->
-  <rect x="90" y="85" width="320" height="20" rx="10" fill="none" stroke="#8B6F47" stroke-width="6"/>
-  <rect x="95" y="90" width="310" height="15" rx="8" fill="#D4A574"/>
-  <ellipse cx="250" cy="98" rx="140" ry="4" fill="#F5E6D3" opacity="0.8"/>
-  
+  <rect
+     x="30"
+     y="3"
+     width="320"
+     height="20"
+     rx="10"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="rect10" />
+  <rect
+     x="35"
+     y="8"
+     width="310"
+     height="15"
+     rx="8"
+     fill="#d4a574"
+     id="rect12" />
+  <ellipse
+     cx="190"
+     cy="16"
+     rx="140"
+     ry="4"
+     fill="#f5e6d3"
+     opacity="0.8"
+     id="ellipse14" />
   <!-- Bottom rod -->
-  <rect x="90" y="275" width="320" height="20" rx="10" fill="none" stroke="#8B6F47" stroke-width="6"/>
-  <rect x="95" y="280" width="310" height="15" rx="8" fill="#D4A574"/>
-  <ellipse cx="250" cy="287" rx="140" ry="4" fill="#F5E6D3" opacity="0.8"/>
-  
+  <rect
+     x="30"
+     y="193"
+     width="320"
+     height="20"
+     rx="10"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="rect16" />
+  <rect
+     x="35"
+     y="198"
+     width="310"
+     height="15"
+     rx="8"
+     fill="#d4a574"
+     id="rect18" />
+  <ellipse
+     cx="190"
+     cy="205"
+     rx="140"
+     ry="4"
+     fill="#f5e6d3"
+     opacity="0.8"
+     id="ellipse20" />
   <!-- Decorative lines (text space indication) -->
-  <line x1="120" y1="140" x2="380" y2="140" stroke="#8B6F47" stroke-width="2" opacity="0.2"/>
-  <line x1="120" y1="170" x2="380" y2="170" stroke="#8B6F47" stroke-width="2" opacity="0.2"/>
-  <line x1="120" y1="200" x2="350" y2="200" stroke="#8B6F47" stroke-width="2" opacity="0.2"/>
-  <line x1="120" y1="230" x2="380" y2="230" stroke="#8B6F47" stroke-width="2" opacity="0.2"/>
-  
+  <line
+     x1="60"
+     y1="58"
+     x2="320"
+     y2="58"
+     stroke="#8b6f47"
+     stroke-width="2"
+     opacity="0.2"
+     id="line22" />
+  <line
+     x1="60"
+     y1="88"
+     x2="320"
+     y2="88"
+     stroke="#8b6f47"
+     stroke-width="2"
+     opacity="0.2"
+     id="line24" />
+  <line
+     x1="60"
+     y1="118"
+     x2="290"
+     y2="118"
+     stroke="#8b6f47"
+     stroke-width="2"
+     opacity="0.2"
+     id="line26" />
+  <line
+     x1="60"
+     y1="148"
+     x2="320"
+     y2="148"
+     stroke="#8b6f47"
+     stroke-width="2"
+     opacity="0.2"
+     id="line28" />
   <!-- Highlight -->
-  <rect x="110" y="110" width="80" height="160" fill="#FFFFFF" opacity="0.2"/>
-  
+  <rect
+     x="50"
+     y="28"
+     width="80"
+     height="160"
+     fill="#ffffff"
+     opacity="0.2"
+     id="rect30" />
   <!-- Sparkles -->
-  <circle cx="425" cy="115" r="3" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="75" cy="115" r="3" fill="#FFFFFF" opacity="0.8"/>
-  
+  <circle
+     cx="365"
+     cy="33"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle32" />
+  <circle
+     cx="15"
+     cy="33"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle34" />
   <!-- Heart -->
-  <path d="M 60 190 C 60 188 61 187 62 187 C 63 187 63 188 63 188 C 63 188 64 187 64 187 C 65 187 66 188 66 190 C 66 192 63 194 63 194 C 63 194 60 192 60 190 Z" fill="#FFB6C1" opacity="0.5"/>
+  <path
+     d="m 0,108 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="path36" />
 </svg>

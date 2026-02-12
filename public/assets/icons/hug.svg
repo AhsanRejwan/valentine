@@ -1,79 +1,284 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="140"
+   height="144"
+   viewBox="0 0 140 144"
+   version="1.1"
+   id="svg72"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs76" />
   <!-- Soft shadow -->
-  <ellipse cx="200" cy="260" rx="70" ry="12" fill="#000000" opacity="0.08"/>
-  
+  <ellipse
+     cx="70"
+     cy="132"
+     rx="70"
+     ry="12"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
   <!-- White sticker border -->
-  <g>
+  <g
+     id="g12"
+     transform="translate(-130,-128)">
     <!-- Left figure border -->
-    <circle cx="175" cy="160" r="26" fill="#FFFFFF"/>
-    <ellipse cx="170" cy="210" rx="32" ry="42" fill="#FFFFFF"/>
+    <circle
+       cx="175"
+       cy="160"
+       r="26"
+       fill="#ffffff"
+       id="circle4" />
+    <ellipse
+       cx="170"
+       cy="210"
+       rx="32"
+       ry="42"
+       fill="#ffffff"
+       id="ellipse6" />
     <!-- Right figure border -->
-    <circle cx="225" cy="160" r="26" fill="#FFFFFF"/>
-    <ellipse cx="230" cy="210" rx="32" ry="42" fill="#FFFFFF"/>
+    <circle
+       cx="225"
+       cy="160"
+       r="26"
+       fill="#ffffff"
+       id="circle8" />
+    <ellipse
+       cx="230"
+       cy="210"
+       rx="32"
+       ry="42"
+       fill="#ffffff"
+       id="ellipse10" />
   </g>
-  
   <!-- LEFT FIGURE -->
   <!-- Head - cocoa outline -->
-  <circle cx="175" cy="160" r="22" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <circle
+     cx="45"
+     cy="32"
+     r="22"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="circle14" />
   <!-- Head - baby pink fill -->
-  <circle cx="175" cy="160" r="18" fill="#FFD4E5"/>
-  
+  <circle
+     cx="45"
+     cy="32"
+     r="18"
+     fill="#ffd4e5"
+     id="circle16" />
   <!-- Body - cocoa outline -->
-  <ellipse cx="170" cy="210" rx="28" ry="38" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <ellipse
+     cx="40"
+     cy="82"
+     rx="28"
+     ry="38"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="ellipse18" />
   <!-- Body - baby pink fill -->
-  <ellipse cx="170" cy="210" rx="24" ry="34" fill="#FFD4E5"/>
-  
+  <ellipse
+     cx="40"
+     cy="82"
+     rx="24"
+     ry="34"
+     fill="#ffd4e5"
+     id="ellipse20" />
   <!-- Left arm reaching around (behind right figure) -->
-  <path d="M 168 195 Q 165 210 175 220 Q 190 230 210 225" fill="none" stroke="#8B6F47" stroke-width="8" stroke-linecap="round"/>
-  <path d="M 168 195 Q 165 210 175 220 Q 190 230 210 225" fill="none" stroke="#FFD4E5" stroke-width="4" stroke-linecap="round"/>
-  
-  
+  <path
+     d="m 38,67 q -3,15 7,25 15,10 35,5"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="8"
+     stroke-linecap="round"
+     id="path22" />
+  <path
+     d="m 38,67 q -3,15 7,25 15,10 35,5"
+     fill="none"
+     stroke="#ffd4e5"
+     stroke-width="4"
+     stroke-linecap="round"
+     id="path24" />
   <!-- RIGHT FIGURE -->
   <!-- Head - cocoa outline -->
-  <circle cx="225" cy="160" r="22" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <circle
+     cx="95"
+     cy="32"
+     r="22"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="circle26" />
   <!-- Head - soft peach fill -->
-  <circle cx="225" cy="160" r="18" fill="#FFDAB9"/>
-  
+  <circle
+     cx="95"
+     cy="32"
+     r="18"
+     fill="#ffdab9"
+     id="circle28" />
   <!-- Body - cocoa outline -->
-  <ellipse cx="230" cy="210" rx="28" ry="38" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <ellipse
+     cx="100"
+     cy="82"
+     rx="28"
+     ry="38"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="ellipse30" />
   <!-- Body - soft peach fill -->
-  <ellipse cx="230" cy="210" rx="24" ry="34" fill="#FFDAB9"/>
-  
+  <ellipse
+     cx="100"
+     cy="82"
+     rx="24"
+     ry="34"
+     fill="#ffdab9"
+     id="ellipse32" />
   <!-- Right arm reaching around (behind left figure) -->
-  <path d="M 232 195 Q 235 210 225 220 Q 210 230 190 225" fill="none" stroke="#8B6F47" stroke-width="8" stroke-linecap="round"/>
-  <path d="M 232 195 Q 235 210 225 220 Q 210 230 190 225" fill="none" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
-  
-  
+  <path
+     d="m 102,67 q 3,15 -7,25 -15,10 -35,5"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="8"
+     stroke-linecap="round"
+     id="path34" />
+  <path
+     d="m 102,67 q 3,15 -7,25 -15,10 -35,5"
+     fill="none"
+     stroke="#ffdab9"
+     stroke-width="4"
+     stroke-linecap="round"
+     id="path36" />
   <!-- FACIAL FEATURES -->
   <!-- Left figure - closed happy eyes -->
-  <path d="M 168 158 Q 170 160 172 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 178 158 Q 180 160 182 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path
+     d="m 38,30 q 2,2 4,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path38" />
+  <path
+     d="m 48,30 q 2,2 4,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path40" />
   <!-- Left figure - smile -->
-  <path d="M 170 166 Q 175 169 180 166" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
-  
+  <path
+     d="m 40,38 q 5,3 10,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path42" />
   <!-- Right figure - closed happy eyes -->
-  <path d="M 218 158 Q 220 160 222 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 228 158 Q 230 160 232 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path
+     d="m 88,30 q 2,2 4,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path44" />
+  <path
+     d="m 98,30 q 2,2 4,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path46" />
   <!-- Right figure - smile -->
-  <path d="M 220 166 Q 225 169 230 166" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
-  
+  <path
+     d="m 90,38 q 5,3 10,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path48" />
   <!-- Blush cheeks -->
-  <ellipse cx="168" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
-  <ellipse cx="182" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
-  <ellipse cx="218" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
-  <ellipse cx="232" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
-  
+  <ellipse
+     cx="38"
+     cy="35"
+     rx="5"
+     ry="3"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="ellipse50" />
+  <ellipse
+     cx="52"
+     cy="35"
+     rx="5"
+     ry="3"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="ellipse52" />
+  <ellipse
+     cx="88"
+     cy="35"
+     rx="5"
+     ry="3"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="ellipse54" />
+  <ellipse
+     cx="102"
+     cy="35"
+     rx="5"
+     ry="3"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="ellipse56" />
   <!-- Gentle highlights on heads -->
-  <ellipse cx="172" cy="153" rx="8" ry="5" fill="#FFFFFF" opacity="0.4"/>
-  <ellipse cx="222" cy="153" rx="8" ry="5" fill="#FFFFFF" opacity="0.4"/>
-  
+  <ellipse
+     cx="42"
+     cy="25"
+     rx="8"
+     ry="5"
+     fill="#ffffff"
+     opacity="0.4"
+     id="ellipse58" />
+  <ellipse
+     cx="92"
+     cy="25"
+     rx="8"
+     ry="5"
+     fill="#ffffff"
+     opacity="0.4"
+     id="ellipse60" />
   <!-- Tiny sparkles around them -->
-  <circle cx="150" cy="180" r="2.5" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="250" cy="180" r="2.5" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="200" cy="145" r="3" fill="#FFFFFF" opacity="0.8"/>
-  
+  <circle
+     cx="20"
+     cy="52"
+     r="2.5"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle62" />
+  <circle
+     cx="120"
+     cy="52"
+     r="2.5"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle64" />
+  <circle
+     cx="70"
+     cy="17"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle66" />
   <!-- Tiny hearts floating above -->
-  <path d="M 195 135 C 195 133 196 132 197 132 C 198 132 198 133 198 133 C 198 133 199 132 199 132 C 200 132 201 133 201 135 C 201 137 198 139 198 139 C 198 139 195 137 195 135 Z" fill="#FFB6C1" opacity="0.6"/>
-  
-  <path d="M 208 130 C 208 128.5 208.5 128 209 128 C 209.5 128 210 128.5 210 129 C 210 128.5 210.5 128 211 128 C 211.5 128 212 128.5 212 130 C 212 131.5 210 133 210 133 C 210 133 208 131.5 208 130 Z" fill="#FFB6C1" opacity="0.6"/>
+  <path
+     d="m 65,7 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path68" />
+  <path
+     d="m 78,2 c 0,-1.5 0.5,-2 1,-2 0.5,0 1,0.5 1,1 0,-0.5 0.5,-1 1,-1 0.5,0 1,0.5 1,2 0,1.5 -2,3 -2,3 0,0 -2,-1.5 -2,-3 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path70" />
 </svg>

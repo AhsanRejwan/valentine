@@ -1,73 +1,246 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="130"
+   height="152"
+   viewBox="0 0 130 152"
+   version="1.1"
+   id="svg60"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs64" />
   <!-- Soft shadow -->
-  <ellipse cx="200" cy="265" rx="65" ry="12" fill="#000000" opacity="0.08"/>
-  
+  <ellipse
+     cx="65"
+     cy="140"
+     rx="65"
+     ry="12"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
   <!-- White sticker border -->
-  <g>
-    <rect x="145" y="185" width="110" height="70" rx="8" fill="#FFFFFF"/>
-    <rect x="145" y="125" width="110" height="60" rx="8" fill="#FFFFFF"/>
+  <g
+     id="g8"
+     transform="translate(-135,-125)">
+    <rect
+       x="145"
+       y="185"
+       width="110"
+       height="70"
+       rx="8"
+       fill="#ffffff"
+       id="rect4" />
+    <rect
+       x="145"
+       y="125"
+       width="110"
+       height="60"
+       rx="8"
+       fill="#ffffff"
+       id="rect6" />
   </g>
-  
   <!-- Box bottom - cocoa outline -->
-  <rect x="150" y="190" width="100" height="60" rx="6" fill="none" stroke="#8B6F47" stroke-width="6"/>
-  
+  <rect
+     x="15"
+     y="65"
+     width="100"
+     height="60"
+     rx="6"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="rect10" />
   <!-- Box bottom - cream fill -->
-  <rect x="153" y="193" width="94" height="54" rx="5" fill="#F5E6D3"/>
-  
+  <rect
+     x="18"
+     y="68"
+     width="94"
+     height="54"
+     rx="5"
+     fill="#f5e6d3"
+     id="rect12" />
   <!-- Box lid (open, tilted back) - cocoa outline -->
-  <rect x="150" y="130" width="100" height="50" rx="6" fill="none" stroke="#8B6F47" stroke-width="6"/>
-  
+  <rect
+     x="15"
+     y="5"
+     width="100"
+     height="50"
+     rx="6"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="rect14" />
   <!-- Box lid - soft pink fill -->
-  <rect x="153" y="133" width="94" height="44" rx="5" fill="#FFD4E5"/>
-  
+  <rect
+     x="18"
+     y="8"
+     width="94"
+     height="44"
+     rx="5"
+     fill="#ffd4e5"
+     id="rect16" />
   <!-- Inner cushion (inside box) - soft cream -->
-  <ellipse cx="200" cy="215" rx="35" ry="18" fill="#FFDAB9"/>
-  
+  <ellipse
+     cx="65"
+     cy="90"
+     rx="35"
+     ry="18"
+     fill="#ffdab9"
+     id="ellipse18" />
   <!-- Ring on cushion -->
   <!-- Ring band - cocoa outline -->
-  <ellipse cx="200" cy="210" rx="16" ry="16" fill="none" stroke="#8B6F47" stroke-width="4"/>
-  
+  <circle
+     cx="65"
+     cy="85"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="4"
+     id="ellipse20"
+     r="16" />
   <!-- Ring band - soft gold/peach fill -->
-  <ellipse cx="200" cy="210" rx="13" ry="13" fill="none" stroke="#FFDAB9" stroke-width="3"/>
-  
+  <circle
+     cx="65"
+     cy="85"
+     fill="none"
+     stroke="#ffdab9"
+     stroke-width="3"
+     id="ellipse22"
+     r="13" />
   <!-- Ring band inner -->
-  <ellipse cx="200" cy="210" rx="10" ry="10" fill="none" stroke="#8B6F47" stroke-width="2"/>
-  
+  <circle
+     cx="65"
+     cy="85"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     id="ellipse24"
+     r="10" />
   <!-- Diamond on ring -->
-  <path d="M 200 190 L 206 198 L 202 204 L 198 204 L 194 198 Z" fill="#8B6F47"/>
-  <path d="M 200 192 L 205 199 L 202 203 L 198 203 L 195 199 Z" fill="#D4E5FF"/>
-  
+  <path
+     d="m 65,65 6,8 -4,6 h -4 l -4,-6 z"
+     fill="#8b6f47"
+     id="path26" />
+  <path
+     d="m 65,67 5,7 -3,4 h -4 l -3,-4 z"
+     fill="#d4e5ff"
+     id="path28" />
   <!-- Diamond facets -->
-  <line x1="200" y1="192" x2="200" y2="203" stroke="#8B6F47" stroke-width="1"/>
-  <line x1="195" y1="199" x2="205" y2="199" stroke="#8B6F47" stroke-width="1"/>
-  
+  <line
+     x1="65"
+     y1="67"
+     x2="65"
+     y2="78"
+     stroke="#8b6f47"
+     stroke-width="1"
+     id="line30" />
+  <line
+     x1="60"
+     y1="74"
+     x2="70"
+     y2="74"
+     stroke="#8b6f47"
+     stroke-width="1"
+     id="line32" />
   <!-- Diamond sparkle/shine -->
-  <circle cx="198" cy="196" r="2" fill="#FFFFFF" opacity="0.9"/>
-  
+  <circle
+     cx="63"
+     cy="71"
+     r="2"
+     fill="#ffffff"
+     opacity="0.9"
+     id="circle34" />
   <!-- Ribbon detail on lid -->
-  <rect x="153" y="150" width="94" height="8" fill="#FFDAB9" opacity="0.6"/>
-  
+  <rect
+     x="18"
+     y="25"
+     width="94"
+     height="8"
+     fill="#ffdab9"
+     opacity="0.6"
+     id="rect36" />
   <!-- Gentle highlight on lid -->
-  <rect x="160" y="138" width="35" height="12" rx="4" fill="#FFFFFF" opacity="0.4"/>
-  
+  <rect
+     x="25"
+     y="13"
+     width="35"
+     height="12"
+     rx="4"
+     fill="#ffffff"
+     opacity="0.4"
+     id="rect38" />
   <!-- Gentle highlight on box -->
-  <rect x="160" y="198" width="35" height="12" rx="4" fill="#FFFFFF" opacity="0.3"/>
-  
+  <rect
+     x="25"
+     y="73"
+     width="35"
+     height="12"
+     rx="4"
+     fill="#ffffff"
+     opacity="0.3"
+     id="rect40" />
   <!-- Subtle shading on box bottom -->
-  <rect x="153" y="225" width="94" height="22" rx="5" fill="#000000" opacity="0.04"/>
-  
+  <rect
+     x="18"
+     y="100"
+     width="94"
+     height="22"
+     rx="5"
+     fill="#000000"
+     opacity="0.04"
+     id="rect42" />
   <!-- Big sparkles around ring (pastel sparkle) -->
-  <circle cx="175" cy="195" r="4" fill="#FFFFFF" opacity="0.9"/>
-  <circle cx="225" cy="195" r="4" fill="#FFF4D4" opacity="0.9"/>
-  <circle cx="190" cy="185" r="3.5" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="210" cy="185" r="3.5" fill="#D4E5FF" opacity="0.8"/>
-  
+  <circle
+     cx="40"
+     cy="70"
+     r="4"
+     fill="#ffffff"
+     opacity="0.9"
+     id="circle44" />
+  <circle
+     cx="90"
+     cy="70"
+     r="4"
+     fill="#fff4d4"
+     opacity="0.9"
+     id="circle46" />
+  <circle
+     cx="55"
+     cy="60"
+     r="3.5"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle48" />
+  <circle
+     cx="75"
+     cy="60"
+     r="3.5"
+     fill="#d4e5ff"
+     opacity="0.8"
+     id="circle50" />
   <!-- Additional sparkles -->
-  <circle cx="165" cy="205" r="3" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="235" cy="205" r="3" fill="#FFF4D4" opacity="0.7"/>
-  
+  <circle
+     cx="30"
+     cy="80"
+     r="3"
+     fill="#ffffff"
+     opacity="0.7"
+     id="circle52" />
+  <circle
+     cx="100"
+     cy="80"
+     r="3"
+     fill="#fff4d4"
+     opacity="0.7"
+     id="circle54" />
   <!-- Tiny heart accents -->
-  <path d="M 255 200 C 255 198 256 197 257 197 C 258 197 258 198 258 198 C 258 198 259 197 259 197 C 260 197 261 198 261 200 C 261 202 258 204 258 204 C 258 204 255 202 255 200 Z" fill="#FFB6C1" opacity="0.6"/>
-  
-  <path d="M 140 160 C 140 158 141 157 142 157 C 143 157 143 158 143 158 C 143 158 144 157 144 157 C 145 157 146 158 146 160 C 146 162 143 164 143 164 C 143 164 140 162 140 160 Z" fill="#FFB6C1" opacity="0.6"/>
+  <path
+     d="m 120,75 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path56" />
+  <path
+     d="m 5,35 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path58" />
 </svg>

@@ -1,85 +1,311 @@
-<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
-  <defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2308"
+   height="1446.4286"
+   viewBox="0 0 2308 1446.4286"
+   version="1.1"
+   id="svg88"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs32">
     <!-- Main dreamy gradient -->
-    <linearGradient id="dreamyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1"/>
-      <stop offset="35%" style="stop-color:#FFE8F0;stop-opacity:1"/>
-      <stop offset="65%" style="stop-color:#FFD4E5;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:1"/>
+    <linearGradient
+       id="dreamyGradient"
+       x1="0"
+       y1="0"
+       x2="1440"
+       y2="1440"
+       gradientTransform="matrix(1.3333333,0,0,0.75,148,195)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#F5E6D3;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="35%"
+         style="stop-color:#FFE8F0;stop-opacity:1"
+         id="stop4" />
+      <stop
+         offset="65%"
+         style="stop-color:#FFD4E5;stop-opacity:1"
+         id="stop6" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFDAB9;stop-opacity:1"
+         id="stop8" />
     </linearGradient>
-    
     <!-- Radial gradient for soft glow -->
-    <radialGradient id="softGlow1">
-      <stop offset="0%" style="stop-color:#FFDAB9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:0"/>
+    <radialGradient
+       id="softGlow1">
+      <stop
+         offset="0%"
+         style="stop-color:#FFDAB9;stop-opacity:0.4"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFDAB9;stop-opacity:0"
+         id="stop13" />
     </radialGradient>
-    
-    <radialGradient id="softGlow2">
-      <stop offset="0%" style="stop-color:#FFD4E5;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#FFD4E5;stop-opacity:0"/>
+    <radialGradient
+       id="softGlow2">
+      <stop
+         offset="0%"
+         style="stop-color:#FFD4E5;stop-opacity:0.3"
+         id="stop16" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFD4E5;stop-opacity:0"
+         id="stop18" />
     </radialGradient>
-    
-    <radialGradient id="softGlow3">
-      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:0.5"/>
-      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:0"/>
+    <radialGradient
+       id="softGlow3"
+       gradientTransform="matrix(1.0760139,0,0,0.92935601,148,195)"
+       cx="836.42041"
+       cy="430.40556"
+       fx="836.42041"
+       fy="430.40556"
+       r="364.30756"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#F5E6D3;stop-opacity:0.5"
+         id="stop21" />
+      <stop
+         offset="100%"
+         style="stop-color:#F5E6D3;stop-opacity:0"
+         id="stop23" />
     </radialGradient>
-    
     <!-- Blur filter for bokeh effect -->
-    <filter id="bokeh">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    <filter
+       id="bokeh"
+       x="-0.012590164"
+       y="-0.023357664"
+       width="1.0251803"
+       height="1.0467153">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="8"
+         id="feGaussianBlur26" />
     </filter>
-    
-    <filter id="softBlur">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+    <filter
+       id="softBlur"
+       x="-0.06"
+       y="-0.064285714"
+       width="1.12"
+       height="1.1285714">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="15"
+         id="feGaussianBlur29" />
     </filter>
+    <radialGradient
+       xlink:href="#softGlow1"
+       id="radialGradient92"
+       gradientTransform="matrix(1.0649776,0,0,0.9389869,148,195)"
+       cx="281.69607"
+       cy="212.99551"
+       fx="281.69607"
+       fy="212.99551"
+       r="420.66613"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#softGlow2"
+       id="radialGradient94"
+       gradientTransform="matrix(1.1137802,0,0,0.8978432,148,195)"
+       cx="1436.5491"
+       cy="891.02416"
+       fx="1436.5491"
+       fy="891.02416"
+       r="502.7922"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#softGlow1"
+       id="radialGradient96"
+       gradientTransform="matrix(1.0311601,0,0,0.9697815,148,195)"
+       cx="1357.6941"
+       cy="309.34803"
+       fx="1357.6941"
+       fy="309.34803"
+       r="325.84658"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#softGlow2"
+       id="radialGradient98"
+       gradientTransform="matrix(1.0855787,0,0,0.92116769,148,195)"
+       cx="460.58385"
+       cy="922.74186"
+       fx="460.58385"
+       fy="922.74186"
+       r="392.04897"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-  
   <!-- Main gradient background -->
-  <rect width="1920" height="1080" fill="url(#dreamyGradient)"/>
-  
+  <rect
+     width="1920"
+     height="1080"
+     fill="url(#dreamyGradient)"
+     id="rect34"
+     x="148"
+     y="195"
+     style="fill:url(#dreamyGradient)" />
   <!-- Soft glowing circles for dreamy effect -->
-  <ellipse cx="300" cy="200" rx="400" ry="350" fill="url(#softGlow1)" filter="url(#softBlur)"/>
-  <ellipse cx="1600" cy="800" rx="500" ry="400" fill="url(#softGlow2)" filter="url(#softBlur)"/>
-  <ellipse cx="900" cy="400" rx="350" ry="300" fill="url(#softGlow3)" filter="url(#softBlur)"/>
-  <ellipse cx="1400" cy="300" rx="300" ry="280" fill="url(#softGlow1)" filter="url(#softBlur)"/>
-  <ellipse cx="500" cy="850" rx="380" ry="320" fill="url(#softGlow2)" filter="url(#softBlur)"/>
-  
+  <ellipse
+     cx="448"
+     cy="395"
+     rx="400"
+     ry="350"
+     fill="url(#softGlow1)"
+     filter="url(#softBlur)"
+     id="ellipse36"
+     style="fill:url(#radialGradient92)" />
+  <ellipse
+     cx="1748"
+     cy="995"
+     rx="500"
+     ry="400"
+     fill="url(#softGlow2)"
+     filter="url(#softBlur)"
+     id="ellipse38"
+     style="fill:url(#radialGradient94)" />
+  <ellipse
+     cx="1048"
+     cy="595"
+     rx="350"
+     ry="300"
+     fill="url(#softGlow3)"
+     filter="url(#softBlur)"
+     id="ellipse40"
+     style="fill:url(#softGlow3)" />
+  <ellipse
+     cx="1548"
+     cy="495"
+     rx="300"
+     ry="280"
+     fill="url(#softGlow1)"
+     filter="url(#softBlur)"
+     id="ellipse42"
+     style="fill:url(#radialGradient96)" />
+  <ellipse
+     cx="648"
+     cy="1045"
+     rx="380"
+     ry="320"
+     fill="url(#softGlow2)"
+     filter="url(#softBlur)"
+     id="ellipse44"
+     style="fill:url(#radialGradient98)" />
   <!-- Subtle heart bokeh (very soft and blurred) -->
-  <g opacity="0.15" filter="url(#bokeh)">
+  <g
+     opacity="0.15"
+     filter="url(#bokeh)"
+     id="g66"
+     transform="translate(148,195)">
     <!-- Small hearts scattered -->
-    <path d="M 250 150 C 250 150 235 142 235 135 C 235 130 238 128 242 128 C 245 128 247 130 250 133 C 253 130 255 128 258 128 C 262 128 265 130 265 135 C 265 142 250 150 250 150 Z" fill="#FFB6C1"/>
-    
-    <path d="M 1650 250 C 1650 250 1635 242 1635 235 C 1635 230 1638 228 1642 228 C 1645 228 1647 230 1650 233 C 1653 230 1655 228 1658 228 C 1662 228 1665 230 1665 235 C 1665 242 1650 250 1650 250 Z" fill="#FFDAB9"/>
-    
-    <path d="M 1200 850 C 1200 850 1185 842 1185 835 C 1185 830 1188 828 1192 828 C 1195 828 1197 830 1200 833 C 1203 830 1205 828 1208 828 C 1212 828 1215 830 1215 835 C 1215 842 1200 850 1200 850 Z" fill="#FFD4E5"/>
-    
-    <path d="M 450 600 C 450 600 440 594 440 589 C 440 585 442 583 445 583 C 447 583 449 585 450 587 C 451 585 453 583 455 583 C 458 583 460 585 460 589 C 460 594 450 600 450 600 Z" fill="#FFB6C1"/>
-    
-    <path d="M 1500 550 C 1500 550 1490 544 1490 539 C 1490 535 1492 533 1495 533 C 1497 533 1499 535 1500 537 C 1501 535 1503 533 1505 533 C 1508 533 1510 535 1510 539 C 1510 544 1500 550 1500 550 Z" fill="#FFDAB9"/>
-    
-    <path d="M 750 300 C 750 300 740 294 740 289 C 740 285 742 283 745 283 C 747 283 749 285 750 287 C 751 285 753 283 755 283 C 758 283 760 285 760 289 C 760 294 750 300 750 300 Z" fill="#FFD4E5"/>
-    
-    <path d="M 1100 200 C 1100 200 1090 194 1090 189 C 1090 185 1092 183 1095 183 C 1097 183 1099 185 1100 187 C 1101 185 1103 183 1105 183 C 1108 183 1110 185 1110 189 C 1110 194 1100 200 1100 200 Z" fill="#FFB6C1"/>
-    
-    <path d="M 350 950 C 350 950 340 944 340 939 C 340 935 342 933 345 933 C 347 933 349 935 350 937 C 351 935 353 933 355 933 C 358 933 360 935 360 939 C 360 944 350 950 350 950 Z" fill="#FFDAB9"/>
-    
-    <path d="M 1750 650 C 1750 650 1740 644 1740 639 C 1740 635 1742 633 1745 633 C 1747 633 1749 635 1750 637 C 1751 635 1753 633 1755 633 C 1758 633 1760 635 1760 639 C 1760 644 1750 650 1750 650 Z" fill="#FFD4E5"/>
-    
-    <path d="M 900 750 C 900 750 890 744 890 739 C 890 735 892 733 895 733 C 897 733 899 735 900 737 C 901 735 903 733 905 733 C 908 733 910 735 910 739 C 910 744 900 750 900 750 Z" fill="#FFB6C1"/>
+    <path
+       d="m 250,150 c 0,0 -15,-8 -15,-15 0,-5 3,-7 7,-7 3,0 5,2 8,5 3,-3 5,-5 8,-5 4,0 7,2 7,7 0,7 -15,15 -15,15 z"
+       fill="#ffb6c1"
+       id="path46" />
+    <path
+       d="m 1650,250 c 0,0 -15,-8 -15,-15 0,-5 3,-7 7,-7 3,0 5,2 8,5 3,-3 5,-5 8,-5 4,0 7,2 7,7 0,7 -15,15 -15,15 z"
+       fill="#ffdab9"
+       id="path48" />
+    <path
+       d="m 1200,850 c 0,0 -15,-8 -15,-15 0,-5 3,-7 7,-7 3,0 5,2 8,5 3,-3 5,-5 8,-5 4,0 7,2 7,7 0,7 -15,15 -15,15 z"
+       fill="#ffd4e5"
+       id="path50" />
+    <path
+       d="m 450,600 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffb6c1"
+       id="path52" />
+    <path
+       d="m 1500,550 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffdab9"
+       id="path54" />
+    <path
+       d="m 750,300 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffd4e5"
+       id="path56" />
+    <path
+       d="m 1100,200 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffb6c1"
+       id="path58" />
+    <path
+       d="m 350,950 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffdab9"
+       id="path60" />
+    <path
+       d="m 1750,650 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffd4e5"
+       id="path62" />
+    <path
+       d="m 900,750 c 0,0 -10,-6 -10,-11 0,-4 2,-6 5,-6 2,0 4,2 5,4 1,-2 3,-4 5,-4 3,0 5,2 5,6 0,5 -10,11 -10,11 z"
+       fill="#ffb6c1"
+       id="path64" />
   </g>
-  
   <!-- Very subtle soft circles for additional bokeh -->
-  <g opacity="0.1" filter="url(#bokeh)">
-    <circle cx="600" cy="400" r="30" fill="#FFDAB9"/>
-    <circle cx="1300" cy="700" r="40" fill="#FFD4E5"/>
-    <circle cx="200" cy="800" r="25" fill="#FFB6C1"/>
-    <circle cx="1700" cy="400" r="35" fill="#FFDAB9"/>
-    <circle cx="800" cy="150" r="28" fill="#FFD4E5"/>
-    <circle cx="1450" cy="950" r="32" fill="#FFB6C1"/>
-    <circle cx="400" cy="500" r="22" fill="#FFDAB9"/>
-    <circle cx="1000" cy="900" r="38" fill="#FFD4E5"/>
+  <g
+     opacity="0.1"
+     filter="url(#bokeh)"
+     id="g84"
+     transform="translate(148,195)">
+    <circle
+       cx="600"
+       cy="400"
+       r="30"
+       fill="#ffdab9"
+       id="circle68" />
+    <circle
+       cx="1300"
+       cy="700"
+       r="40"
+       fill="#ffd4e5"
+       id="circle70" />
+    <circle
+       cx="200"
+       cy="800"
+       r="25"
+       fill="#ffb6c1"
+       id="circle72" />
+    <circle
+       cx="1700"
+       cy="400"
+       r="35"
+       fill="#ffdab9"
+       id="circle74" />
+    <circle
+       cx="800"
+       cy="150"
+       r="28"
+       fill="#ffd4e5"
+       id="circle76" />
+    <circle
+       cx="1450"
+       cy="950"
+       r="32"
+       fill="#ffb6c1"
+       id="circle78" />
+    <circle
+       cx="400"
+       cy="500"
+       r="22"
+       fill="#ffdab9"
+       id="circle80" />
+    <circle
+       cx="1000"
+       cy="900"
+       r="38"
+       fill="#ffd4e5"
+       id="circle82" />
   </g>
-  
   <!-- Subtle overlay for depth -->
-  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.03"/>
+  <rect
+     width="1920"
+     height="1080"
+     fill="#ffffff"
+     opacity="0.03"
+     id="rect86"
+     x="148"
+     y="195" />
 </svg>
