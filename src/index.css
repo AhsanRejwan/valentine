@@ -34,6 +34,24 @@ body {
   }
 }
 
+.home-wordcloud-shell {
+  position: relative;
+  isolation: isolate;
+}
+
+.home-wordcloud-stage {
+  position: relative;
+  display: block;
+}
+
+.home-wordcloud-static {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  filter: drop-shadow(0 20px 26px rgba(139, 85, 67, 0.24));
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

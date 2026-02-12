@@ -1,0 +1,31 @@
+.wordcloud-word {
+  position: absolute;
+  display: inline-block;
+  transform-origin: center;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: 0;
+  white-space: nowrap;
+  color: #5f3a21;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wordcloud-main {
+  font-weight: 700;
+  letter-spacing: 0.024em;
+  color: #6f3518;
+}
+
+.wordcloud-cocoa {
+  color: #5f3a21;
+}
+
+.wordcloud-rose {
+  color: #73402a;
+}
+
+.wordcloud-peach {
+  color: #835236;
+}
