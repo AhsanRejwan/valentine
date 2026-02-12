@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="126.66666 235.58484 1920 1080"
+   version="1.1"
+   id="svg63"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21">
+    <linearGradient
+       id="kissGradient"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1440"
+       gradientTransform="matrix(1.3333333,0,0,0.75,126.66667,235.58484)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#E6D4FF;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="40%"
+         style="stop-color:#D4C4F0;stop-opacity:1"
+         id="stop4" />
+      <stop
+         offset="70%"
+         style="stop-color:#FFD4E5;stop-opacity:1"
+         id="stop6" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFE8F0;stop-opacity:1"
+         id="stop8" />
+    </linearGradient>
+    <radialGradient
+       id="softGlow">
+      <stop
+         offset="0%"
+         style="stop-color:#E6D4FF;stop-opacity:0.4"
+         id="stop11" />
+      <stop
+         offset="50%"
+         style="stop-color:#FFD4E5;stop-opacity:0.2"
+         id="stop13" />
+      <stop
+         offset="100%"
+         style="stop-color:#E6D4FF;stop-opacity:0"
+         id="stop15" />
+    </radialGradient>
+    <filter
+       id="bokehBlur"
+       x="-0.026666667"
+       y="-0.039538715"
+       width="1.0533333"
+       height="1.0790774">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="10"
+         id="feGaussianBlur18" />
+    </filter>
+    <radialGradient
+       xlink:href="#softGlow"
+       id="radialGradient67"
+       gradientTransform="matrix(1.0414426,0,0,0.9602065,126.66667,235.58484)"
+       cx="384.08258"
+       cy="260.36063"
+       fx="384.08258"
+       fy="260.36063"
+       r="505.70873"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#softGlow"
+       id="radialGradient69"
+       gradientTransform="matrix(1.0822989,0,0,0.92395914,126.66667,235.58484)"
+       cx="1385.9387"
+       cy="649.37933"
+       fx="1385.9387"
+       fy="649.37933"
+       r="583.94215"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#softGlow"
+       id="radialGradient71"
+       gradientTransform="matrix(1.0479314,0,0,0.95426089,126.66667,235.58484)"
+       cx="906.54783"
+       cy="419.17255"
+       fx="906.54783"
+       fy="419.17255"
+       r="452.31964"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Base gradient -->
+  <rect
+     width="1920"
+     height="1080"
+     fill="url(#kissGradient)"
+     id="rect23"
+     x="126.66666"
+     y="235.58484"
+     style="fill:url(#kissGradient)" />
+  <!-- Soft glows for dreamy atmosphere -->
+  <ellipse
+     cx="526.66669"
+     cy="485.58484"
+     rx="500"
+     ry="450"
+     fill="url(#softGlow)"
+     filter="url(#bokehBlur)"
+     id="ellipse25"
+     style="fill:url(#radialGradient67)" />
+  <ellipse
+     cx="1626.6666"
+     cy="835.58484"
+     rx="600"
+     ry="500"
+     fill="url(#softGlow)"
+     filter="url(#bokehBlur)"
+     opacity="0.7"
+     id="ellipse27"
+     style="fill:url(#radialGradient69)" />
+  <ellipse
+     cx="1076.6666"
+     cy="635.58484"
+     rx="450"
+     ry="400"
+     fill="url(#softGlow)"
+     filter="url(#bokehBlur)"
+     opacity="0.5"
+     id="ellipse29"
+     style="fill:url(#radialGradient71)" />
+  <!-- Floating hearts bokeh (soft and blurred) -->
+  <g
+     opacity="0.2"
+     filter="url(#bokehBlur)"
+     id="g47"
+     transform="translate(126.66667,235.58484)">
+    <path
+       d="m 300,200 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#ffb6c1"
+       id="path31" />
+    <path
+       d="m 800,350 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#e6d4ff"
+       id="path33" />
+    <path
+       d="m 1400,250 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#ffb6c1"
+       id="path35" />
+    <path
+       d="m 500,700 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#e6d4ff"
+       id="path37" />
+    <path
+       d="m 1200,800 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#ffb6c1"
+       id="path39" />
+    <path
+       d="m 1600,450 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#e6d4ff"
+       id="path41" />
+    <path
+       d="m 600,500 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#ffb6c1"
+       id="path43" />
+    <path
+       d="m 1100,150 c 0,-3 2,-5 4,-5 1,0 2,1 2,2 0,-1 1,-2 2,-2 2,0 4,2 4,5 0,3 -6,7 -6,7 0,0 -6,-4 -6,-7 z"
+       fill="#e6d4ff"
+       id="path45" />
+  </g>
+  <!-- Additional soft bokeh circles -->
+  <g
+     opacity="0.15"
+     filter="url(#bokehBlur)"
+     id="g59"
+     transform="translate(126.66667,235.58484)">
+    <circle
+       cx="350"
+       cy="450"
+       r="30"
+       fill="#e6d4ff"
+       id="circle49" />
+    <circle
+       cx="1550"
+       cy="350"
+       r="35"
+       fill="#ffd4e5"
+       id="circle51" />
+    <circle
+       cx="750"
+       cy="650"
+       r="28"
+       fill="#ffb6c1"
+       id="circle53" />
+    <circle
+       cx="1350"
+       cy="750"
+       r="32"
+       fill="#e6d4ff"
+       id="circle55" />
+    <circle
+       cx="950"
+       cy="200"
+       r="25"
+       fill="#ffd4e5"
+       id="circle57" />
+  </g>
+  <!-- Subtle overlay -->
+  <rect
+     width="1920"
+     height="1080"
+     fill="#ffffff"
+     opacity="0.03"
+     id="rect61"
+     x="126.66666"
+     y="235.58484" />
+</svg>

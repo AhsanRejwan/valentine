@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="361.5"
+   height="29.5"
+   viewBox="0 0 361.5 29.5"
+   version="1.1"
+   id="svg40"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44" />
+  <!-- Soft shadow -->
+  <ellipse
+     cx="181.5"
+     cy="21.5"
+     rx="180"
+     ry="8"
+     fill="#000000"
+     opacity="0.06"
+     id="ellipse2" />
+  <!-- Left dotted line -->
+  <line
+     x1="1.5"
+     y1="11.5"
+     x2="121.5"
+     y2="11.5"
+     stroke="#8b6f47"
+     stroke-width="3"
+     stroke-dasharray="6, 4"
+     stroke-linecap="round"
+     id="line4" />
+  <!-- Left heart -->
+  <g
+     id="g12"
+     transform="translate(-18.5,-28.5)">
+    <!-- White sticker border -->
+    <path
+       d="m 160,45 c 0,0 -5,-3 -5,-6 0,-2 1,-3 2.5,-3 1,0 1.5,1 2.5,2 1,-1 1.5,-2 2.5,-2 1.5,0 2.5,1 2.5,3 0,3 -5,6 -5,6 z"
+       fill="#ffffff"
+       id="path6" />
+    <!-- Cocoa outline -->
+    <path
+       d="m 160,44 c 0,0 -4,-2.5 -4,-5 0,-1.5 0.5,-2 1.5,-2 1,0 1.5,0.5 2.5,1.5 1,-1 1.5,-1.5 2.5,-1.5 1,0 1.5,0.5 1.5,2 0,2.5 -4,5 -4,5 z"
+       fill="none"
+       stroke="#8b6f47"
+       stroke-width="2"
+       id="path8" />
+    <!-- Baby pink fill -->
+    <path
+       d="m 160,43 c 0,0 -3,-2 -3,-4 0,-1 0.5,-1.5 1,-1.5 0.5,0 1,0.5 2,1.5 1,-1 1.5,-1.5 2,-1.5 0.5,0 1,0.5 1,1.5 0,2 -3,4 -3,4 z"
+       fill="#ffd4e5"
+       id="path10" />
+  </g>
+  <!-- Center heart -->
+  <g
+     id="g20"
+     transform="translate(-18.5,-28.5)">
+    <!-- White sticker border -->
+    <path
+       d="m 200,45 c 0,0 -5,-3 -5,-6 0,-2 1,-3 2.5,-3 1,0 1.5,1 2.5,2 1,-1 1.5,-2 2.5,-2 1.5,0 2.5,1 2.5,3 0,3 -5,6 -5,6 z"
+       fill="#ffffff"
+       id="path14" />
+    <!-- Cocoa outline -->
+    <path
+       d="m 200,44 c 0,0 -4,-2.5 -4,-5 0,-1.5 0.5,-2 1.5,-2 1,0 1.5,0.5 2.5,1.5 1,-1 1.5,-1.5 2.5,-1.5 1,0 1.5,0.5 1.5,2 0,2.5 -4,5 -4,5 z"
+       fill="none"
+       stroke="#8b6f47"
+       stroke-width="2"
+       id="path16" />
+    <!-- Soft peach fill -->
+    <path
+       d="m 200,43 c 0,0 -3,-2 -3,-4 0,-1 0.5,-1.5 1,-1.5 0.5,0 1,0.5 2,1.5 1,-1 1.5,-1.5 2,-1.5 0.5,0 1,0.5 1,1.5 0,2 -3,4 -3,4 z"
+       fill="#ffdab9"
+       id="path18" />
+  </g>
+  <!-- Right heart -->
+  <g
+     id="g28"
+     transform="translate(-18.5,-28.5)">
+    <!-- White sticker border -->
+    <path
+       d="m 240,45 c 0,0 -5,-3 -5,-6 0,-2 1,-3 2.5,-3 1,0 1.5,1 2.5,2 1,-1 1.5,-2 2.5,-2 1.5,0 2.5,1 2.5,3 0,3 -5,6 -5,6 z"
+       fill="#ffffff"
+       id="path22" />
+    <!-- Cocoa outline -->
+    <path
+       d="m 240,44 c 0,0 -4,-2.5 -4,-5 0,-1.5 0.5,-2 1.5,-2 1,0 1.5,0.5 2.5,1.5 1,-1 1.5,-1.5 2.5,-1.5 1,0 1.5,0.5 1.5,2 0,2.5 -4,5 -4,5 z"
+       fill="none"
+       stroke="#8b6f47"
+       stroke-width="2"
+       id="path24" />
+    <!-- Baby pink fill -->
+    <path
+       d="m 240,43 c 0,0 -3,-2 -3,-4 0,-1 0.5,-1.5 1,-1.5 0.5,0 1,0.5 2,1.5 1,-1 1.5,-1.5 2,-1.5 0.5,0 1,0.5 1,1.5 0,2 -3,4 -3,4 z"
+       fill="#ffd4e5"
+       id="path26" />
+  </g>
+  <!-- Right dotted line -->
+  <line
+     x1="241.5"
+     y1="11.5"
+     x2="361.5"
+     y2="11.5"
+     stroke="#8b6f47"
+     stroke-width="3"
+     stroke-dasharray="6, 4"
+     stroke-linecap="round"
+     id="line30" />
+  <!-- Tiny sparkles -->
+  <circle
+     cx="91.5"
+     cy="6.5"
+     r="2"
+     fill="#ffffff"
+     opacity="0.7"
+     id="circle32" />
+  <circle
+     cx="271.5"
+     cy="6.5"
+     r="2"
+     fill="#ffffff"
+     opacity="0.7"
+     id="circle34" />
+  <!-- Tiny accent hearts (very small) -->
+  <path
+     d="m 156.5,1.5 c 0,-1 0.5,-1.5 1,-1.5 0.5,0 0.5,0.5 0.5,0.5 0,0 0.5,-0.5 0.5,-0.5 0.5,0 1,0.5 1,1.5 0,1 -1.5,2 -1.5,2 0,0 -1.5,-1 -1.5,-2 z"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="path36" />
+  <path
+     d="m 203.5,1.5 c 0,-1 0.5,-1.5 1,-1.5 0.5,0 0.5,0.5 0.5,0.5 0,0 0.5,-0.5 0.5,-0.5 0.5,0 1,0.5 1,1.5 0,1 -1.5,2 -1.5,2 0,0 -1.5,-1 -1.5,-2 z"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="path38" />
+</svg>

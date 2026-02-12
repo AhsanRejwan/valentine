@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="134"
+   height="107"
+   viewBox="0 0 134 107"
+   version="1.1"
+   id="svg38"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs42" />
+  <!-- Soft shadow -->
+  <ellipse
+     cx="65"
+     cy="95"
+     rx="60"
+     ry="12"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
+  <!-- White sticker border -->
+  <rect
+     x="10"
+     y="0"
+     width="110"
+     height="100"
+     rx="8"
+     fill="#ffffff"
+     id="rect4" />
+  <!-- Box lid top - cocoa outline -->
+  <rect
+     x="15"
+     y="5"
+     width="100"
+     height="35"
+     rx="6"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="rect6" />
+  <!-- Box lid - soft pink fill -->
+  <rect
+     x="18"
+     y="8"
+     width="94"
+     height="29"
+     rx="5"
+     fill="#ffd4e5"
+     id="rect8" />
+  <!-- Box bottom - cocoa outline -->
+  <rect
+     x="15"
+     y="40"
+     width="100"
+     height="55"
+     rx="6"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="rect10" />
+  <!-- Box bottom - cream fill -->
+  <rect
+     x="18"
+     y="43"
+     width="94"
+     height="49"
+     rx="5"
+     fill="#f5e6d3"
+     id="rect12" />
+  <!-- Ribbon on lid (horizontal) -->
+  <rect
+     x="18"
+     y="20"
+     width="94"
+     height="8"
+     fill="#ffdab9"
+     id="rect14" />
+  <!-- Ribbon bow on top -->
+  <ellipse
+     cx="50"
+     cy="15"
+     rx="8"
+     ry="6"
+     fill="#8b6f47"
+     id="ellipse16" />
+  <ellipse
+     cx="50"
+     cy="15"
+     rx="6"
+     ry="4"
+     fill="#ffdab9"
+     id="ellipse18" />
+  <ellipse
+     cx="80"
+     cy="15"
+     rx="8"
+     ry="6"
+     fill="#8b6f47"
+     id="ellipse20" />
+  <ellipse
+     cx="80"
+     cy="15"
+     rx="6"
+     ry="4"
+     fill="#ffdab9"
+     id="ellipse22" />
+  <!-- Bow center knot -->
+  <circle
+     cx="65"
+     cy="15"
+     r="5"
+     fill="#8b6f47"
+     id="circle24" />
+  <circle
+     cx="65"
+     cy="15"
+     r="3"
+     fill="#ffdab9"
+     id="circle26" />
+  <!-- Gentle highlight on lid -->
+  <rect
+     x="25"
+     y="12"
+     width="35"
+     height="8"
+     rx="4"
+     fill="#ffffff"
+     opacity="0.4"
+     id="rect28" />
+  <!-- Subtle shading on box bottom -->
+  <rect
+     x="18"
+     y="70"
+     width="94"
+     height="22"
+     rx="5"
+     fill="#000000"
+     opacity="0.04"
+     id="rect30" />
+  <!-- Tiny sparkles -->
+  <circle
+     cx="125"
+     cy="15"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle32" />
+  <circle
+     cx="132"
+     cy="22"
+     r="2"
+     fill="#ffffff"
+     opacity="0.6"
+     id="circle34" />
+  <!-- Tiny heart accent -->
+  <path
+     d="m 0,25 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="path36" />
+</svg>

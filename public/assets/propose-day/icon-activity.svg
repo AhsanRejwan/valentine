@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="140"
+   height="137"
+   viewBox="0 0 140 137"
+   version="1.1"
+   id="svg54"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs58" />
+  <!-- Soft shadow -->
+  <ellipse
+     cx="70"
+     cy="125"
+     rx="70"
+     ry="12"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
+  <!-- White sticker border -->
+  <g
+     id="g12"
+     transform="translate(-130,-135)">
+    <!-- Person 1 border -->
+    <circle
+       cx="175"
+       cy="170"
+       r="26"
+       fill="#ffffff"
+       id="circle4" />
+    <ellipse
+       cx="170"
+       cy="215"
+       rx="32"
+       ry="40"
+       fill="#ffffff"
+       id="ellipse6" />
+    <!-- Person 2 border -->
+    <circle
+       cx="225"
+       cy="170"
+       r="26"
+       fill="#ffffff"
+       id="circle8" />
+    <ellipse
+       cx="230"
+       cy="215"
+       rx="32"
+       ry="40"
+       fill="#ffffff"
+       id="ellipse10" />
+  </g>
+  <!-- PERSON 1 (left) -->
+  <!-- Head -->
+  <circle
+     cx="45"
+     cy="35"
+     r="22"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="circle14" />
+  <circle
+     cx="45"
+     cy="35"
+     r="18"
+     fill="#ffd4e5"
+     id="circle16" />
+  <!-- Body -->
+  <ellipse
+     cx="40"
+     cy="80"
+     rx="28"
+     ry="36"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="ellipse18" />
+  <ellipse
+     cx="40"
+     cy="80"
+     rx="24"
+     ry="32"
+     fill="#ffdab9"
+     id="ellipse20" />
+  <!-- Simple facial features -->
+  <circle
+     cx="40"
+     cy="33"
+     r="2"
+     fill="#8b6f47"
+     id="circle22" />
+  <circle
+     cx="50"
+     cy="33"
+     r="2"
+     fill="#8b6f47"
+     id="circle24" />
+  <path
+     d="m 42,40 q 3,2 6,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path26" />
+  <!-- PERSON 2 (right) -->
+  <!-- Head -->
+  <circle
+     cx="95"
+     cy="35"
+     r="22"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="circle28" />
+  <circle
+     cx="95"
+     cy="35"
+     r="18"
+     fill="#d4e5ff"
+     id="circle30" />
+  <!-- Body -->
+  <ellipse
+     cx="100"
+     cy="80"
+     rx="28"
+     ry="36"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="ellipse32" />
+  <ellipse
+     cx="100"
+     cy="80"
+     rx="24"
+     ry="32"
+     fill="#f5e6d3"
+     id="ellipse34" />
+  <!-- Simple facial features -->
+  <circle
+     cx="90"
+     cy="33"
+     r="2"
+     fill="#8b6f47"
+     id="circle36" />
+  <circle
+     cx="100"
+     cy="33"
+     r="2"
+     fill="#8b6f47"
+     id="circle38" />
+  <path
+     d="m 92,40 q 3,2 6,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path40" />
+  <!-- Hearts floating between them -->
+  <path
+     d="m 65,15 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     id="path42" />
+  <path
+     d="m 75,20 c 0,-1.5 0.5,-2 1,-2 0.5,0 1,0.5 1,1 0,-0.5 0.5,-1 1,-1 0.5,0 1,0.5 1,2 0,1.5 -2,3 -2,3 0,0 -2,-1.5 -2,-3 z"
+     fill="#ffb6c1"
+     id="path44" />
+  <!-- Hearts above -->
+  <path
+     d="m 55,5 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path46" />
+  <path
+     d="m 85,3 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path48" />
+  <!-- Sparkles -->
+  <circle
+     cx="25"
+     cy="50"
+     r="2.5"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle50" />
+  <circle
+     cx="115"
+     cy="50"
+     r="2.5"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle52" />
+</svg>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="140 150 1920 1080"
+   version="1.1"
+   id="svg130"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs26">
+    <!-- Sky gradient -->
+    <linearGradient
+       id="skyGradient"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1440"
+       gradientTransform="matrix(1.3333333,0,0,0.75,140,150)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#FFE8F0;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="60%"
+         style="stop-color:#FFDAB9;stop-opacity:1"
+         id="stop4" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFD4A3;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <!-- Sun glow -->
+    <radialGradient
+       id="sunGlow"
+       cx="1600"
+       cy="250"
+       fx="1600"
+       fy="250"
+       r="400"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(140,150)">
+      <stop
+         offset="0%"
+         style="stop-color:#FFF4D4;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="50%"
+         style="stop-color:#FFD4A3;stop-opacity:0.6"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFDAB9;stop-opacity:0"
+         id="stop13" />
+    </radialGradient>
+    <!-- Ground gradient -->
+    <linearGradient
+       id="groundGradient"
+       x1="-78.97065"
+       y1="1506.8889"
+       x2="-78.97065"
+       y2="2747.8563"
+       gradientTransform="matrix(1.7728105,0,0,0.56407607,140,150)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#D4E5D3;stop-opacity:0.5"
+         id="stop16" />
+      <stop
+         offset="100%"
+         style="stop-color:#C8DCC8;stop-opacity:0.7"
+         id="stop18" />
+    </linearGradient>
+    <!-- Building gradient -->
+    <linearGradient
+       id="buildingGradient"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         style="stop-color:#F5E6D3;stop-opacity:0.6"
+         id="stop21" />
+      <stop
+         offset="100%"
+         style="stop-color:#FFDAB9;stop-opacity:0.4"
+         id="stop23" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#buildingGradient"
+       id="linearGradient134"
+       x1="86.60254"
+       y1="230.94011"
+       x2="86.60254"
+       y2="404.14519"
+       gradientTransform="scale(0.57735027,1.7320508)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#buildingGradient"
+       id="linearGradient136"
+       x1="290.33027"
+       y1="204.93902"
+       x2="290.33027"
+       y2="409.87803"
+       gradientTransform="scale(0.58554004,1.7078251)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#buildingGradient"
+       id="linearGradient138"
+       x1="584.54161"
+       y1="201.52543"
+       x2="584.54161"
+       y2="371.23106"
+       gradientTransform="scale(0.53033009,1.8856181)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#buildingGradient"
+       id="linearGradient140"
+       x1="2719.0587"
+       y1="212.42646"
+       x2="2719.0587"
+       y2="391.3119"
+       gradientTransform="scale(0.55901699,1.7888544)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#buildingGradient"
+       id="linearGradient142"
+       x1="2800.8332"
+       y1="204.93902"
+       x2="2800.8332"
+       y2="409.87803"
+       gradientTransform="scale(0.58554004,1.7078251)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#buildingGradient"
+       id="linearGradient144"
+       x1="3249.8205"
+       y1="219.08902"
+       x2="3249.8205"
+       y2="383.40579"
+       gradientTransform="scale(0.54772256,1.8257419)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Sky background -->
+  <rect
+     width="1920"
+     height="1080"
+     fill="url(#skyGradient)"
+     id="rect28"
+     x="140"
+     y="150"
+     style="fill:url(#skyGradient)" />
+  <!-- Sun glow -->
+  <circle
+     cx="1740"
+     cy="400"
+     fill="url(#sunGlow)"
+     id="ellipse30"
+     r="400"
+     style="fill:url(#sunGlow)" />
+  <!-- Sun -->
+  <circle
+     cx="1740"
+     cy="400"
+     r="120"
+     fill="#fff4d4"
+     opacity="0.8"
+     id="circle32" />
+  <circle
+     cx="1740"
+     cy="400"
+     r="100"
+     fill="#ffd4a3"
+     id="circle34" />
+  <!-- Distant city buildings (left side, very soft) -->
+  <g
+     opacity="0.2"
+     id="g42"
+     transform="translate(140,150)">
+    <rect
+       x="50"
+       y="400"
+       width="100"
+       height="300"
+       rx="8"
+       fill="url(#buildingGradient)"
+       id="rect36"
+       style="fill:url(#linearGradient134)" />
+    <rect
+       x="170"
+       y="350"
+       width="120"
+       height="350"
+       rx="8"
+       fill="url(#buildingGradient)"
+       id="rect38"
+       style="fill:url(#linearGradient136)" />
+    <rect
+       x="310"
+       y="380"
+       width="90"
+       height="320"
+       rx="8"
+       fill="url(#buildingGradient)"
+       id="rect40"
+       style="fill:url(#linearGradient138)" />
+  </g>
+  <!-- Distant city buildings (right side, very soft) -->
+  <g
+     opacity="0.2"
+     id="g50"
+     transform="translate(140,150)">
+    <rect
+       x="1520"
+       y="380"
+       width="100"
+       height="320"
+       rx="8"
+       fill="url(#buildingGradient)"
+       id="rect44"
+       style="fill:url(#linearGradient140)" />
+    <rect
+       x="1640"
+       y="350"
+       width="120"
+       height="350"
+       rx="8"
+       fill="url(#buildingGradient)"
+       id="rect46"
+       style="fill:url(#linearGradient142)" />
+    <rect
+       x="1780"
+       y="400"
+       width="90"
+       height="300"
+       rx="8"
+       fill="url(#buildingGradient)"
+       id="rect48"
+       style="fill:url(#linearGradient144)" />
+  </g>
+  <!-- Park ground -->
+  <ellipse
+     cx="1100"
+     cy="1350"
+     rx="1100"
+     ry="350"
+     fill="url(#groundGradient)"
+     id="ellipse52"
+     style="fill:url(#groundGradient)" />
+  <!-- Trees (left side - minimal silhouettes) -->
+  <g
+     opacity="0.3"
+     id="g62"
+     transform="translate(140,150)">
+    <!-- Tree 1 -->
+    <rect
+       x="180"
+       y="650"
+       width="20"
+       height="150"
+       rx="10"
+       fill="#8b6f47"
+       id="rect54" />
+    <ellipse
+       cx="190"
+       cy="640"
+       rx="60"
+       ry="70"
+       fill="#d4e5d3"
+       id="ellipse56" />
+    <!-- Tree 2 -->
+    <rect
+       x="280"
+       y="680"
+       width="18"
+       height="130"
+       rx="9"
+       fill="#8b6f47"
+       id="rect58" />
+    <ellipse
+       cx="289"
+       cy="670"
+       rx="55"
+       ry="65"
+       fill="#d4e5d3"
+       id="ellipse60" />
+  </g>
+  <!-- Trees (right side - minimal silhouettes) -->
+  <g
+     opacity="0.3"
+     id="g72"
+     transform="translate(140,150)">
+    <!-- Tree 3 -->
+    <rect
+       x="1720"
+       y="650"
+       width="20"
+       height="150"
+       rx="10"
+       fill="#8b6f47"
+       id="rect64" />
+    <ellipse
+       cx="1730"
+       cy="640"
+       rx="60"
+       ry="70"
+       fill="#d4e5d3"
+       id="ellipse66" />
+    <!-- Tree 4 -->
+    <rect
+       x="1620"
+       y="680"
+       width="18"
+       height="130"
+       rx="9"
+       fill="#8b6f47"
+       id="rect68" />
+    <ellipse
+       cx="1629"
+       cy="670"
+       rx="55"
+       ry="65"
+       fill="#d4e5d3"
+       id="ellipse70" />
+  </g>
+  <!-- Park bench (left bottom corner) -->
+  <g
+     opacity="0.4"
+     id="g86"
+     transform="translate(140,150)">
+    <!-- Bench seat -->
+    <rect
+       x="120"
+       y="880"
+       width="150"
+       height="15"
+       rx="7"
+       fill="#8b6f47"
+       id="rect74" />
+    <rect
+       x="125"
+       y="882"
+       width="140"
+       height="11"
+       rx="5"
+       fill="#d4a574"
+       id="rect76" />
+    <!-- Bench back -->
+    <rect
+       x="130"
+       y="850"
+       width="130"
+       height="12"
+       rx="6"
+       fill="#8b6f47"
+       id="rect78" />
+    <rect
+       x="135"
+       y="852"
+       width="120"
+       height="8"
+       rx="4"
+       fill="#d4a574"
+       id="rect80" />
+    <!-- Legs -->
+    <rect
+       x="135"
+       y="880"
+       width="8"
+       height="35"
+       rx="4"
+       fill="#8b6f47"
+       id="rect82" />
+    <rect
+       x="247"
+       y="880"
+       width="8"
+       height="35"
+       rx="4"
+       fill="#8b6f47"
+       id="rect84" />
+  </g>
+  <!-- Park bench (right bottom corner) -->
+  <g
+     opacity="0.4"
+     id="g100"
+     transform="translate(140,150)">
+    <!-- Bench seat -->
+    <rect
+       x="1650"
+       y="880"
+       width="150"
+       height="15"
+       rx="7"
+       fill="#8b6f47"
+       id="rect88" />
+    <rect
+       x="1655"
+       y="882"
+       width="140"
+       height="11"
+       rx="5"
+       fill="#d4a574"
+       id="rect90" />
+    <!-- Bench back -->
+    <rect
+       x="1660"
+       y="850"
+       width="130"
+       height="12"
+       rx="6"
+       fill="#8b6f47"
+       id="rect92" />
+    <rect
+       x="1665"
+       y="852"
+       width="120"
+       height="8"
+       rx="4"
+       fill="#d4a574"
+       id="rect94" />
+    <!-- Legs -->
+    <rect
+       x="1665"
+       y="880"
+       width="8"
+       height="35"
+       rx="4"
+       fill="#8b6f47"
+       id="rect96" />
+    <rect
+       x="1777"
+       y="880"
+       width="8"
+       height="35"
+       rx="4"
+       fill="#8b6f47"
+       id="rect98" />
+  </g>
+  <!-- Soft clouds -->
+  <g
+     opacity="0.2"
+     id="g110"
+     transform="translate(140,150)">
+    <ellipse
+       cx="300"
+       cy="200"
+       rx="80"
+       ry="40"
+       fill="#ffffff"
+       id="ellipse102" />
+    <ellipse
+       cx="340"
+       cy="190"
+       rx="70"
+       ry="35"
+       fill="#ffffff"
+       id="ellipse104" />
+    <ellipse
+       cx="1200"
+       cy="180"
+       rx="90"
+       ry="45"
+       fill="#ffffff"
+       id="ellipse106" />
+    <ellipse
+       cx="1250"
+       cy="170"
+       rx="75"
+       ry="38"
+       fill="#ffffff"
+       id="ellipse108" />
+  </g>
+  <!-- Floating heart decorations (very subtle) -->
+  <g
+     opacity="0.15"
+     id="g116"
+     transform="translate(140,150)">
+    <path
+       d="m 400,500 c 0,-5 3,-8 7,-8 3,0 5,2 8,5 3,-3 5,-5 8,-5 4,0 7,3 7,8 0,7 -15,17 -15,17 0,0 -15,-10 -15,-17 z"
+       fill="#ffb6c1"
+       id="path112" />
+    <path
+       d="m 1500,480 c 0,-5 3,-8 7,-8 3,0 5,2 8,5 3,-3 5,-5 8,-5 4,0 7,3 7,8 0,7 -15,17 -15,17 0,0 -15,-10 -15,-17 z"
+       fill="#ffb6c1"
+       id="path114" />
+  </g>
+  <!-- Sparkles in the air -->
+  <g
+     opacity="0.3"
+     id="g126"
+     transform="translate(140,150)">
+    <circle
+       cx="500"
+       cy="300"
+       r="3"
+       fill="#ffffff"
+       id="circle118" />
+    <circle
+       cx="800"
+       cy="250"
+       r="2.5"
+       fill="#fff4d4"
+       id="circle120" />
+    <circle
+       cx="1100"
+       cy="280"
+       r="3"
+       fill="#ffffff"
+       id="circle122" />
+    <circle
+       cx="1400"
+       cy="320"
+       r="2"
+       fill="#fff4d4"
+       id="circle124" />
+  </g>
+  <!-- Subtle overlay for depth -->
+  <rect
+     width="1920"
+     height="1080"
+     fill="#ffffff"
+     opacity="0.02"
+     id="rect128"
+     x="140"
+     y="150" />
+</svg>

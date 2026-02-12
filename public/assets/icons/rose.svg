@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="110"
+   height="174"
+   viewBox="0 0 110 174"
+   version="1.1"
+   id="svg74"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs78" />
+  <!-- Soft shadow -->
+  <ellipse
+     cx="55"
+     cy="139"
+     rx="55"
+     ry="12"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
+  <!-- White sticker border -->
+  <g
+     id="g12"
+     transform="translate(-145,-126)">
+    <!-- Stem border -->
+    <rect
+       x="195"
+       y="220"
+       width="10"
+       height="80"
+       rx="5"
+       fill="#ffffff"
+       id="rect4" />
+    <!-- Leaf left border -->
+    <ellipse
+       cx="175"
+       cy="250"
+       rx="18"
+       ry="12"
+       fill="#ffffff"
+       transform="rotate(-30,175,250)"
+       id="ellipse6" />
+    <!-- Leaf right border -->
+    <ellipse
+       cx="225"
+       cy="270"
+       rx="18"
+       ry="12"
+       fill="#ffffff"
+       transform="rotate(30,225,270)"
+       id="ellipse8" />
+    <!-- Rose bloom border -->
+    <circle
+       cx="200"
+       cy="180"
+       r="42"
+       fill="#ffffff"
+       id="circle10" />
+  </g>
+  <!-- Stem - cocoa brown outline -->
+  <rect
+     x="52"
+     y="96"
+     width="6"
+     height="76"
+     rx="3"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="3"
+     id="rect14" />
+  <!-- Stem fill - soft green/cream -->
+  <rect
+     x="53.5"
+     y="98"
+     width="3"
+     height="72"
+     rx="1.5"
+     fill="#d4e5d3"
+     id="rect16" />
+  <!-- Leaf left - cocoa outline -->
+  <ellipse
+     cx="-36.019238"
+     cy="122.38715"
+     rx="15"
+     ry="10"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="3"
+     transform="rotate(-30)"
+     id="ellipse18" />
+  <!-- Leaf left fill - soft green/cream -->
+  <ellipse
+     cx="-36.019238"
+     cy="122.38715"
+     rx="12"
+     ry="7"
+     fill="#d4e5d3"
+     transform="rotate(-30)"
+     id="ellipse20" />
+  <!-- Leaf right - cocoa outline -->
+  <ellipse
+     cx="141.28203"
+     cy="84.707657"
+     rx="15"
+     ry="10"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="3"
+     transform="rotate(30)"
+     id="ellipse22" />
+  <!-- Leaf right fill - soft green/cream -->
+  <ellipse
+     cx="141.28203"
+     cy="84.707657"
+     rx="12"
+     ry="7"
+     fill="#d4e5d3"
+     transform="rotate(30)"
+     id="ellipse24" />
+  <!-- Outer petals layer (5 petals) - baby pink with cocoa outline -->
+  <!-- Top petal -->
+  <ellipse
+     cx="55"
+     cy="24"
+     rx="18"
+     ry="24"
+     fill="#8b6f47"
+     id="ellipse26" />
+  <ellipse
+     cx="55"
+     cy="24"
+     rx="15"
+     ry="21"
+     fill="#ffd4e5"
+     id="ellipse28" />
+  <!-- Top-left petal -->
+  <ellipse
+     cx="-27.413467"
+     cy="38.710487"
+     rx="18"
+     ry="24"
+     fill="#8b6f47"
+     transform="rotate(-70)"
+     id="ellipse30" />
+  <ellipse
+     cx="-27.413467"
+     cy="38.710487"
+     rx="15"
+     ry="21"
+     fill="#ffd4e5"
+     transform="rotate(-70)"
+     id="ellipse32" />
+  <!-- Top-right petal -->
+  <ellipse
+     cx="65.035683"
+     cy="-64.655701"
+     rx="18"
+     ry="24"
+     fill="#8b6f47"
+     transform="rotate(70)"
+     id="ellipse34" />
+  <ellipse
+     cx="65.035683"
+     cy="-64.655701"
+     rx="15"
+     ry="21"
+     fill="#ffd4e5"
+     transform="rotate(70)"
+     id="ellipse36" />
+  <!-- Bottom-left petal -->
+  <ellipse
+     cx="-72.845749"
+     cy="-35.475296"
+     rx="18"
+     ry="24"
+     fill="#8b6f47"
+     transform="rotate(-140)"
+     id="ellipse38" />
+  <ellipse
+     cx="-72.845749"
+     cy="-35.475296"
+     rx="15"
+     ry="21"
+     fill="#ffd4e5"
+     transform="rotate(-140)"
+     id="ellipse40" />
+  <!-- Bottom-right petal -->
+  <ellipse
+     cx="-11.419139"
+     cy="-106.18194"
+     rx="18"
+     ry="24"
+     fill="#8b6f47"
+     transform="rotate(140)"
+     id="ellipse42" />
+  <ellipse
+     cx="-11.419139"
+     cy="-106.18194"
+     rx="15"
+     ry="21"
+     fill="#ffd4e5"
+     transform="rotate(140)"
+     id="ellipse44" />
+  <!-- Middle petals layer (smaller, tighter) -->
+  <ellipse
+     cx="55"
+     cy="49"
+     rx="14"
+     ry="18"
+     fill="#8b6f47"
+     id="ellipse46" />
+  <ellipse
+     cx="55"
+     cy="49"
+     rx="11"
+     ry="15"
+     fill="#ffb6c1"
+     id="ellipse48" />
+  <ellipse
+     cx="-9.8994951"
+     cy="66.46804"
+     rx="12"
+     ry="16"
+     fill="#8b6f47"
+     transform="rotate(-45)"
+     id="ellipse50" />
+  <ellipse
+     cx="-9.8994951"
+     cy="66.46804"
+     rx="9"
+     ry="13"
+     fill="#ffb6c1"
+     transform="rotate(-45)"
+     id="ellipse52" />
+  <ellipse
+     cx="87.681244"
+     cy="-11.313708"
+     rx="12"
+     ry="16"
+     fill="#8b6f47"
+     transform="rotate(45)"
+     id="ellipse54" />
+  <ellipse
+     cx="87.681244"
+     cy="-11.313708"
+     rx="9"
+     ry="13"
+     fill="#ffb6c1"
+     transform="rotate(45)"
+     id="ellipse56" />
+  <!-- Center spiral bud -->
+  <ellipse
+     cx="55"
+     cy="56"
+     rx="10"
+     ry="12"
+     fill="#8b6f47"
+     id="ellipse58" />
+  <ellipse
+     cx="55"
+     cy="56"
+     rx="7"
+     ry="9"
+     fill="#ffdab9"
+     id="ellipse60" />
+  <!-- Tiny center -->
+  <circle
+     cx="55"
+     cy="56"
+     r="4"
+     fill="#8b6f47"
+     id="circle62" />
+  <!-- Subtle shading at bottom of bloom -->
+  <ellipse
+     cx="55"
+     cy="74"
+     rx="35"
+     ry="12"
+     fill="#000000"
+     opacity="0.04"
+     id="ellipse64" />
+  <!-- Gentle highlight on top of bloom -->
+  <ellipse
+     cx="45"
+     cy="39"
+     rx="18"
+     ry="10"
+     fill="#ffffff"
+     opacity="0.4"
+     id="ellipse66" />
+  <!-- Tiny sparkles -->
+  <circle
+     cx="90"
+     cy="34"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle68" />
+  <circle
+     cx="97"
+     cy="41"
+     r="2"
+     fill="#ffffff"
+     opacity="0.6"
+     id="circle70" />
+  <!-- Tiny heart accent -->
+  <path
+     d="m 10,44 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.5"
+     id="path72" />
+</svg>

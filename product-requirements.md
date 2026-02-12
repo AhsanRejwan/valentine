@@ -68,7 +68,7 @@ If user visits locked page:
 #### Unlocked Day Behavior
 - Page accessible anytime after unlock
 - Completed days remain accessible
-- Downloaded coupons are remembered
+- No persistent progress memory is required across sessions
 
 ---
 
@@ -206,6 +206,7 @@ Customize teddy.
 Acceptance:
 - Teddy visible
 - Accessories toggle
+- Flower bouquet accessory option available
 - Confirm triggers animation
 - Coupon appears
 
@@ -240,12 +241,21 @@ Acceptance:
 ## 6.8 Kiss Day
 
 ### Goal
-Send a virtual kiss.
+Catch floating kisses playfully.
 
 Acceptance:
-- Kiss icon visible
-- Click → floating hearts
-- Coupon appears after animation
+- Intro prompt visible:
+  - “Your buira is sending you kisses… catch them before they fly away 💗”
+- Kiss marks float upward from lower screen area
+- User taps kisses to collect them
+- Each collected kiss increments a meter
+- Meter fills in 10 catches (about 10% each)
+- Missed kisses float away and disappear
+- On full meter:
+  - reward text appears (“You caught all my kisses 😚”)
+  - coupon modal appears
+- Coupon reward text:
+  - “Redeem for unlimited kisses from your personal boy toy 💋”
 
 ---
 
@@ -274,7 +284,7 @@ Coupon must:
 
 Success Criteria:
 - Download always works
-- Claimed state persists
+- No persistent claimed or selection state after refresh
 - Layout readable on all screens
 
 ---

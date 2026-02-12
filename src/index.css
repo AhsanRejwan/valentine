@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Fredoka', sans-serif;
+  background: #ffd4e5;
+  color: #6b4423;
+}
+
+@layer components {
+  .dreamy-surface {
+    @apply rounded-3xl border border-white/50 bg-white/70 shadow-dreamy backdrop-blur-md;
+  }
+}
+
+.home-wordcloud-shell {
+  position: relative;
+  isolation: isolate;
+}
+
+.home-wordcloud-stage {
+  position: relative;
+  display: block;
+}
+
+.home-wordcloud-static {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  filter: drop-shadow(0 20px 26px rgba(139, 85, 67, 0.24));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

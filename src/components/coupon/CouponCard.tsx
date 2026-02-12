@@ -1,0 +1,92 @@
+import { useState } from 'react'
+import type { DayId } from '../../config/days'
+
+interface CouponCardProps {
+  dayId: DayId
+  title: string
+  rewardText: string
+}
+
+const SIGNATURES = [
+  'your buira',
+  'your gadhu',
+  'your idiot',
+  'your chhagol',
+  'yours truly',
+  'your loves you like crazy guy',
+  'your man',
+  'your personal boy toy',
+  'yours forever',
+] as const
+
+let signatureCycle: string[] = []
+let signatureIndex = 0
+let lastSignature: string | null = null
+
+function shuffleSignatures() {
+  const shuffled = [...SIGNATURES]
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1))
+    ;[shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]]
+  }
+
+  if (lastSignature && shuffled.length > 1 && shuffled[0] === lastSignature) {
+    const swapIndex = shuffled.findIndex((signature) => signature !== lastSignature)
+    if (swapIndex > 0) {
+      ;[shuffled[0], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[0]]
+    }
+  }
+
+  signatureCycle = shuffled
+  signatureIndex = 0
+}
+
+function getNextSignature() {
+  if (signatureIndex >= signatureCycle.length) {
+    shuffleSignatures()
+  }
+
+  const signature = signatureCycle[signatureIndex]
+  signatureIndex += 1
+  lastSignature = signature
+  return signature
+}
+
+export function CouponCard({ title, rewardText }: CouponCardProps) {
+  const [signature] = useState(() => getNextSignature())
+
+  return (
+    <div className="mx-auto w-full max-w-[560px] rounded-3xl border border-white/60 bg-cream/80 p-4 shadow-dreamy md:p-6">
+      <div className="relative overflow-hidden rounded-2xl border border-soft-brown/35 bg-white/90 px-5 py-6 text-rich-brown">
+        <img
+          src="/assets/coupons/coupon-base-template.svg"
+          alt=""
+          aria-hidden
+          className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-30"
+        />
+        <div className="relative z-10">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-soft-brown">Redeemable Coupon</p>
+          <h4 className="mt-2 text-2xl font-semibold md:text-3xl">{title}</h4>
+          <img src="/assets/coupons/coupon-divider.svg" alt="" aria-hidden className="mt-4 w-full object-contain" />
+
+          <p className="mt-4 text-base leading-relaxed text-cocoa md:text-lg">{rewardText}</p>
+
+          <div className="mt-6 flex items-center justify-between gap-4">
+            <p className="text-sm text-soft-brown">
+              made with love,
+              <br />
+              <span className="font-semibold text-rich-brown">{signature}</span>
+            </p>
+            <img
+              src="/assets/coupons/coupon-stamp-redeemable.svg"
+              alt=""
+              aria-hidden
+              className="h-16 w-16 object-contain opacity-90"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

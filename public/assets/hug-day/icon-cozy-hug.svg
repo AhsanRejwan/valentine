@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="184"
+   height="187"
+   viewBox="0 0 184 187"
+   version="1.1"
+   id="svg50"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs54" />
+  <!-- Shadow -->
+  <ellipse
+     cx="92"
+     cy="172"
+     rx="80"
+     ry="15"
+     fill="#000000"
+     opacity="0.08"
+     id="ellipse2" />
+  <!-- White sticker border -->
+  <circle
+     cx="92"
+     cy="92"
+     r="92"
+     fill="#ffffff"
+     id="circle4" />
+  <!-- Figure 1 (left - baby pink) -->
+  <!-- Head -->
+  <circle
+     cx="62"
+     cy="62"
+     r="30"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="circle6" />
+  <circle
+     cx="62"
+     cy="62"
+     r="26"
+     fill="#ffd4e5"
+     id="circle8" />
+  <!-- Body -->
+  <ellipse
+     cx="62"
+     cy="122"
+     rx="32"
+     ry="42"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="ellipse10" />
+  <ellipse
+     cx="62"
+     cy="122"
+     rx="28"
+     ry="38"
+     fill="#ffd4e5"
+     id="ellipse12" />
+  <!-- Arm reaching around -->
+  <path
+     d="m 47,102 q 45,5 65,25"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     stroke-linecap="round"
+     id="path14" />
+  <path
+     d="m 49,104 q 43,5 61,23"
+     fill="none"
+     stroke="#ffd4e5"
+     stroke-width="4"
+     id="path16" />
+  <!-- Figure 2 (right - soft peach) -->
+  <!-- Head -->
+  <circle
+     cx="122"
+     cy="62"
+     r="30"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="circle18" />
+  <circle
+     cx="122"
+     cy="62"
+     r="26"
+     fill="#ffdab9"
+     id="circle20" />
+  <!-- Body -->
+  <ellipse
+     cx="122"
+     cy="122"
+     rx="32"
+     ry="42"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     id="ellipse22" />
+  <ellipse
+     cx="122"
+     cy="122"
+     rx="28"
+     ry="38"
+     fill="#ffdab9"
+     id="ellipse24" />
+  <!-- Arm reaching around -->
+  <path
+     d="m 137,102 q -45,5 -65,25"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="6"
+     stroke-linecap="round"
+     id="path26" />
+  <path
+     d="m 135,104 q -43,5 -61,23"
+     fill="none"
+     stroke="#ffdab9"
+     stroke-width="4"
+     id="path28" />
+  <!-- Happy faces -->
+  <circle
+     cx="57"
+     cy="60"
+     r="2"
+     fill="#8b6f47"
+     id="circle30" />
+  <circle
+     cx="67"
+     cy="60"
+     r="2"
+     fill="#8b6f47"
+     id="circle32" />
+  <path
+     d="m 59,67 q 3,2 6,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path34" />
+  <circle
+     cx="117"
+     cy="60"
+     r="2"
+     fill="#8b6f47"
+     id="circle36" />
+  <circle
+     cx="127"
+     cy="60"
+     r="2"
+     fill="#8b6f47"
+     id="circle38" />
+  <path
+     d="m 119,67 q 3,2 6,0"
+     fill="none"
+     stroke="#8b6f47"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path40" />
+  <!-- Hearts above -->
+  <path
+     d="m 87,27 c 0,-2 1,-3 2,-3 1,0 1,1 1,1 0,0 1,-1 1,-1 1,0 2,1 2,3 0,2 -3,4 -3,4 0,0 -3,-2 -3,-4 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path42" />
+  <path
+     d="m 97,22 c 0,-1.5 0.5,-2 1,-2 0.5,0 1,0.5 1,1 0,-0.5 0.5,-1 1,-1 0.5,0 1,0.5 1,2 0,1.5 -2,3 -2,3 0,0 -2,-1.5 -2,-3 z"
+     fill="#ffb6c1"
+     opacity="0.6"
+     id="path44" />
+  <!-- Sparkles -->
+  <circle
+     cx="152"
+     cy="82"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle46" />
+  <circle
+     cx="32"
+     cy="82"
+     r="3"
+     fill="#ffffff"
+     opacity="0.8"
+     id="circle48" />
+</svg>

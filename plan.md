@@ -20,7 +20,7 @@ Font is **Fredoka**.
     - Word cloud (heart-shaped) matching the approved mock vibe
     - Each day’s interaction + coupon modal
     - Coupon download to PNG (DOM → image)
-    - localStorage persistence for claimed coupons + user selections
+    - No persistence of claimed coupons or selections across refresh
     - Reduced motion support
 
 ---
@@ -107,7 +107,6 @@ src/
   utils/
     debug.ts
     unlock.ts
-    storage.ts
     time.ts
   App.tsx
   main.tsx
@@ -200,23 +199,15 @@ These must be honored on:
 
 ---
 
-## 6) Persistence (localStorage)
+## 6) Interaction State (No Persistence)
 
-### Required keys
-- `claimedCoupons` → `{ [dayId]: true }`
-- `selections` → store per day:
-   - Rose: selected color
-   - Propose: selected option
-   - Chocolate: slot states (optional)
-   - Teddy: selected accessories
-   - Promise: revealed count (optional)
-   - Hug: chosen hug type
-   - Kiss: claimed state
-   - Valentine: accepted state
+Use in-memory React state (`useState`) only for each page interaction.
 
-Create helper file `src/utils/storage.ts` with:
-- `getJSON(key, fallback)`
-- `setJSON(key, value)`
+Rules:
+- No `localStorage` usage for claimed coupons or selections
+- No saved progress across refresh/reopen
+- Coupon can be downloaded immediately after interaction completion
+- Unlock gating remains date-based and independent of interaction state
 
 ---
 
@@ -265,7 +256,6 @@ Responsibilities:
    - locked: dim + lock overlay
    - today: glow pulse
    - unlocked: normal
-   - claimed: add tiny badge (heart)
 
 Assets:
 - `/assets/home/roadmap-ribbon-path.svg`
@@ -282,7 +272,11 @@ CouponCard responsibilities:
    - “your buira”
    - “your gadhu”
    - “your idiot”
-   - “your personal boy toy”
+   - “your chhagol”
+   - “yours truly”
+   - “your loves you like crazy guy”
+   - “your man”
+   - “yours forever”
 
 Assets:
 - `/assets/coupons/coupon-base-template.svg`
@@ -291,7 +285,6 @@ Assets:
 
 Download responsibilities (`useCouponDownload.ts`):
 - Export coupon ref to PNG with html-to-image
-- Mark coupon claimed in localStorage
 - Filename format:
    - `coupon-<dayId>.png`
    - if selection exists: `coupon-<dayId>-<selection>.png`
@@ -527,7 +520,7 @@ Assets:
 - `/assets/teddy-day/teddy-base.svg`
 - `/assets/teddy-day/teddy-heart-accessory.svg`
 - `/assets/teddy-day/teddy-bow-accessory.svg`
-- `/assets/teddy-day/teddy-sleep-cap-accessory.svg`
+- `/assets/teddy-day/teddy-flower-bouquet-accessory.svg`
 - Modal/coupon assets
 
 Design elements:
@@ -608,18 +601,46 @@ Assets:
 - `/assets/kiss-day/bg-kiss.*`
 - `/assets/kiss-day/kiss-mark.svg`
 - `/assets/kiss-day/floating-hearts-pack.svg`
+- `/assets/hug-day/hug-meter-heart-empty.svg`
+- `/assets/hug-day/hug-meter-heart-fill.svg`
 - Modal/coupon assets
 
 Design elements:
-- Kiss mark center
-- Heart particle overlay layer
+- Intro copy: “Your buira is sending you kisses… catch them before they fly away 💗”
+- Kiss marks spawn from lower area and float upward
+- Tap-to-catch interaction
+- Love meter at bottom-center using heart meter assets
 
-Animations:
-- On click: heart particles float up for ~2s
-- Modal pop-in after particles begin/end
+Gameplay rules (must):
+- Kisses float upward with slight side sway and random scale
+- Tap a kiss: pop + sparkle + +1 kiss count
+- Missed kiss: continues upward and fades out
+- Each caught kiss adds ~10% meter progress
+- Meter fills at 10 kisses total
+
+Spawn logic (must):
+- Spawn a kiss every 700–1200ms
+- Per kiss randomize:
+  - `positionX` (safe range in stage)
+  - `duration` (4–7s)
+  - `scale` (0.8–1.2)
+- Remove kisses when clicked or when they leave the top/fade out
+
+Micro-interactions:
+- On tap:
+  - scale up (~1.2x) -> shrink -> disappear (~250ms)
+  - tiny heart burst/sparkle
+  - optional soft pop sound
+
+Reward moment:
+- On meter reaching 100%:
+  - soft full-screen glow
+  - extra floating hearts
+  - text: “You caught all my kisses 😚”
+  - coupon modal opens
 
 Experience:
-- A quick cute “kiss” moment with floating hearts.
+- A playful catch game that feels affectionate, teasing, and rewarding.
 
 ---
 
@@ -686,10 +707,10 @@ Tasks:
 - Modal component with assets
 - CouponCard component with template assets
 - Download to PNG via html-to-image
-- Claimed state saved to localStorage
+- Keep interaction state in-memory only (no persistence)
   Validation:
 - Download produces readable PNG
-- Claimed persists after refresh
+- Refresh resets interaction UI state
 
 ### Phase 5 — Home Page + Word Cloud (Final)
 Tasks:
@@ -744,9 +765,22 @@ Tasks:
 
 ### Phase 12 — Kiss Day
 Tasks:
-- Kiss click -> heart particles -> coupon
+- Implement “Catch My Kisses” minigame:
+  - state: `kissCount`, `kissesSpawned[]`, `meterProgress`
+  - spawn system with randomized X/duration/scale
+  - tap-to-catch logic (+1, pop/sparkle, remove kiss)
+  - miss handling (float away + remove)
+  - bottom-center kiss meter using hug meter assets
+  - 10 kisses -> 100% meter -> reward moment -> coupon modal
+- Kiss Day coupon text:
+  - `Redeem for unlimited kisses from your personal boy toy 💋`
+- Ensure signature rotation includes:
+  - `your personal boy toy`
   Validation:
-- Hearts animate smoothly
+- Spawn cadence stays within 700–1200ms range
+- Meter progression is correct (10 catches to full)
+- No stuck kisses (all removed by click or expiry)
+- Reward sequence always triggers at 100%
 
 ### Phase 13 — Valentine’s Day Finale
 Tasks:
@@ -777,6 +811,7 @@ Tasks:
    - has the specified interaction
    - shows a coupon modal on completion
    - downloads a PNG coupon
+- No claimed/selection persistence across refresh
 - Word cloud:
    - SIHINTA centered and largest
    - all 41 words rendered exactly once
