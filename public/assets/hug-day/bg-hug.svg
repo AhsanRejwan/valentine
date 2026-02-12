@@ -1,0 +1,66 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hugGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE8F0;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#FFD4E5;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#FFDAB9;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="warmGlow">
+      <stop offset="0%" style="stop-color:#FFF4D4;stop-opacity:0.5"/>
+      <stop offset="50%" style="stop-color:#FFD4A3;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFD4A3;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="cloudBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+    </filter>
+  </defs>
+  
+  <!-- Base gradient -->
+  <rect width="1920" height="1080" fill="url(#hugGradient)"/>
+  
+  <!-- Warm glows -->
+  <ellipse cx="500" cy="300" rx="600" ry="500" fill="url(#warmGlow)" filter="url(#cloudBlur)"/>
+  <ellipse cx="1400" cy="600" rx="700" ry="550" fill="url(#warmGlow)" filter="url(#cloudBlur)" opacity="0.7"/>
+  
+  <!-- Soft cloud shapes -->
+  <g opacity="0.2" filter="url(#cloudBlur)">
+    <!-- Cloud 1 (top left) -->
+    <ellipse cx="300" cy="200" rx="120" ry="60" fill="#FFFFFF"/>
+    <ellipse cx="350" cy="190" rx="100" ry="50" fill="#FFFFFF"/>
+    <ellipse cx="380" cy="210" rx="90" ry="45" fill="#FFFFFF"/>
+    
+    <!-- Cloud 2 (top center) -->
+    <ellipse cx="900" cy="150" rx="140" ry="70" fill="#FFFFFF"/>
+    <ellipse cx="960" cy="140" rx="110" ry="55" fill="#FFFFFF"/>
+    <ellipse cx="1000" cy="165" rx="95" ry="48" fill="#FFFFFF"/>
+    
+    <!-- Cloud 3 (top right) -->
+    <ellipse cx="1500" cy="220" rx="130" ry="65" fill="#FFFFFF"/>
+    <ellipse cx="1560" cy="210" rx="105" ry="52" fill="#FFFFFF"/>
+    
+    <!-- Cloud 4 (middle left) -->
+    <ellipse cx="250" cy="500" rx="110" ry="55" fill="#FFFFFF"/>
+    <ellipse cx="300" cy="490" rx="90" ry="45" fill="#FFFFFF"/>
+    
+    <!-- Cloud 5 (middle right) -->
+    <ellipse cx="1650" cy="550" rx="125" ry="62" fill="#FFFFFF"/>
+    <ellipse cx="1710" cy="540" rx="100" ry="50" fill="#FFFFFF"/>
+    
+    <!-- Cloud 6 (bottom) -->
+    <ellipse cx="800" cy="850" rx="115" ry="58" fill="#FFFFFF"/>
+    <ellipse cx="850" cy="840" rx="95" ry="47" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Tiny hearts -->
+  <g opacity="0.15">
+    <path d="M 450 400 C 450 397 452 395 454 395 C 455 395 456 396 456 397 C 456 396 457 395 458 395 C 460 395 462 397 462 400 C 462 403 456 407 456 407 C 456 407 450 403 450 400 Z" fill="#FFB6C1"/>
+    <path d="M 1450 450 C 1450 447 1452 445 1454 445 C 1455 445 1456 446 1456 447 C 1456 446 1457 445 1458 445 C 1460 445 1462 447 1462 450 C 1462 453 1456 457 1456 457 C 1456 457 1450 453 1450 450 Z" fill="#FFB6C1"/>
+    <path d="M 950 650 C 950 647 952 645 954 645 C 955 645 956 646 956 647 C 956 646 957 645 958 645 C 960 645 962 647 962 650 C 962 653 956 657 956 657 C 956 657 950 653 950 650 Z" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- Subtle overlay -->
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.04"/>
+</svg>

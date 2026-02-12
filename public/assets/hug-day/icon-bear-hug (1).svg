@@ -1,0 +1,53 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow -->
+  <ellipse cx="200" cy="280" rx="75" ry="15" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <circle cx="200" cy="200" r="92" fill="#FFFFFF"/>
+  
+  <!-- Figure 1 (left - baby pink, facing right) -->
+  <!-- Head -->
+  <circle cx="175" cy="165" r="28" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <circle cx="175" cy="165" r="24" fill="#FFD4E5"/>
+  
+  <!-- Body -->
+  <ellipse cx="175" cy="225" rx="30" ry="45" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <ellipse cx="175" cy="225" rx="26" ry="41" fill="#FFD4E5"/>
+  
+  <!-- Arms wrapping tight -->
+  <path d="M 160 200 Q 200 200 220 220" fill="none" stroke="#8B6F47" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 162 202 Q 200 202 218 220" fill="none" stroke="#FFD4E5" stroke-width="4"/>
+  
+  <path d="M 160 240 Q 200 245 220 240" fill="none" stroke="#8B6F47" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 162 242 Q 200 247 218 242" fill="none" stroke="#FFDAB9" stroke-width="4"/>
+  
+  <!-- Figure 2 (right - soft peach, facing left) -->
+  <!-- Head -->
+  <circle cx="225" cy="165" r="28" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <circle cx="225" cy="165" r="24" fill="#FFDAB9"/>
+  
+  <!-- Body -->
+  <ellipse cx="225" cy="225" rx="30" ry="45" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <ellipse cx="225" cy="225" rx="26" ry="41" fill="#FFDAB9"/>
+  
+  <!-- Arms wrapping tight -->
+  <path d="M 240 200 Q 200 200 180 220" fill="none" stroke="#8B6F47" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 238 202 Q 200 202 182 220" fill="none" stroke="#FFDAB9" stroke-width="4"/>
+  
+  <!-- Closed happy eyes -->
+  <path d="M 170 163 Q 173 160 176 163" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 220 163 Q 223 160 226 163" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Big smiles -->
+  <path d="M 170 172 Q 175 176 180 172" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 220 172 Q 225 176 230 172" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hearts above -->
+  <path d="M 195 130 C 195 128 196 127 197 127 C 198 127 198 128 198 128 C 198 128 199 127 199 127 C 200 127 201 128 201 130 C 201 132 198 134 198 134 C 198 134 195 132 195 130 Z" fill="#FFB6C1" opacity="0.7"/>
+  
+  <path d="M 205 125 C 205 123 206 122 207 122 C 208 122 208 123 208 123 C 208 123 209 122 209 122 C 210 122 211 123 211 125 C 211 127 208 129 208 129 C 208 129 205 127 205 125 Z" fill="#FFB6C1" opacity="0.7"/>
+  
+  <!-- Sparkles -->
+  <circle cx="260" cy="185" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="140" cy="185" r="3" fill="#FFFFFF" opacity="0.8"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow -->
+  <ellipse cx="200" cy="280" rx="75" ry="15" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <circle cx="200" cy="200" r="92" fill="#FFFFFF"/>
+  
+  <!-- Figure 1 (left - peach) -->
+  <!-- Head -->
+  <circle cx="178" cy="172" r="27" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <circle cx="178" cy="172" r="23" fill="#FFDAB9"/>
+  
+  <!-- Body -->
+  <ellipse cx="178" cy="228" rx="29" ry="42" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <ellipse cx="178" cy="228" rx="25" ry="38" fill="#FFDAB9"/>
+  
+  <!-- Snug arm -->
+  <path d="M 163 208 Q 200 212 217 228" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 165 210 Q 200 214 215 228" fill="none" stroke="#FFDAB9" stroke-width="3"/>
+  
+  <!-- Figure 2 (right - pink) -->
+  <!-- Head nestled -->
+  <circle cx="222" cy="172" r="27" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <circle cx="222" cy="172" r="23" fill="#FFD4E5"/>
+  
+  <!-- Body -->
+  <ellipse cx="222" cy="228" rx="29" ry="42" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <ellipse cx="222" cy="228" rx="25" ry="38" fill="#FFD4E5"/>
+  
+  <!-- Snug arm -->
+  <path d="M 237 208 Q 200 212 183 228" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 235 210 Q 200 214 185 228" fill="none" stroke="#FFD4E5" stroke-width="3"/>
+  
+  <!-- Happy closed eyes -->
+  <path d="M 173 170 Q 176 168 179 170" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 217 170 Q 220 168 223 170" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Cozy smiles -->
+  <path d="M 175 178 Q 178 180 181 178" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 219 178 Q 222 180 225 178" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Blush cheeks -->
+  <ellipse cx="170" cy="178" rx="8" ry="5" fill="#FFB6C1" opacity="0.4"/>
+  <ellipse cx="230" cy="178" rx="8" ry="5" fill="#FFB6C1" opacity="0.4"/>
+  
+  <!-- Hearts -->
+  <path d="M 195 140 C 195 138 196 137 197 137 C 198 137 198 138 198 138 C 198 138 199 137 199 137 C 200 137 201 138 201 140 C 201 142 198 144 198 144 C 198 144 195 142 195 140 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <path d="M 205 145 C 205 143.5 205.5 143 206 143 C 206.5 143 207 143.5 207 144 C 207 143.5 207.5 143 208 143 C 208.5 143 209 143.5 209 145 C 209 146.5 207 148 207 148 C 207 148 205 146.5 205 145 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Sparkles -->
+  <circle cx="255" cy="190" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="145" cy="190" r="3" fill="#FFFFFF" opacity="0.8"/>
+</svg>
