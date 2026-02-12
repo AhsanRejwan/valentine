@@ -1,0 +1,60 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFD4A3;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="heartGlow">
+      <stop offset="0%" style="stop-color:#FFD4A3;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFD4A3;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+    </filter>
+  </defs>
+  
+  <!-- Shadow -->
+  <ellipse cx="150" cy="180" rx="60" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- Outer glow -->
+  <ellipse cx="150" cy="140" rx="90" ry="85" fill="url(#heartGlow)" filter="url(#softGlow)"/>
+  
+  <!-- White sticker border -->
+  <path d="M 150 200 C 150 200 90 160 90 120 C 90 95 103 83 118 83 C 130 83 140 90 150 102 C 160 90 170 83 182 83 C 197 83 210 95 210 120 C 210 160 150 200 150 200 Z" fill="#FFFFFF"/>
+  
+  <!-- Heart outline - cocoa brown -->
+  <path d="M 150 192 C 150 192 95 155 95 120 C 95 97 106 87 119 87 C 130 87 139 93 150 104 C 161 93 170 87 181 87 C 194 87 205 97 205 120 C 205 155 150 192 150 192 Z" fill="none" stroke="#8B6F47" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Heart fill - golden gradient -->
+  <path d="M 150 186 C 150 186 100 152 100 120 C 100 100 109 91 120 91 C 130 91 138 96 150 106 C 162 96 170 91 180 91 C 191 91 200 100 200 120 C 200 152 150 186 150 186 Z" fill="url(#goldenGradient)"/>
+  
+  <!-- Shimmer highlights -->
+  <ellipse cx="130" cy="110" rx="20" ry="15" fill="#FFFFFF" opacity="0.7" transform="rotate(-20 130 110)"/>
+  <ellipse cx="145" cy="125" rx="12" ry="8" fill="#FFFFFF" opacity="0.5" transform="rotate(-15 145 125)"/>
+  <ellipse cx="165" cy="115" rx="15" ry="10" fill="#FFFFFF" opacity="0.6" transform="rotate(15 165 115)"/>
+  
+  <!-- Golden shine streaks -->
+  <path d="M 135 105 Q 140 115 138 125" stroke="#FFFFFF" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 160 108 Q 163 118 161 128" stroke="#FFFFFF" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  
+  <!-- Subtle shading at bottom -->
+  <ellipse cx="150" cy="170" rx="40" ry="15" fill="#000000" opacity="0.08"/>
+  
+  <!-- Sparkles around heart -->
+  <circle cx="210" cy="105" r="4" fill="#FFD700" opacity="0.9"/>
+  <circle cx="218" cy="112" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="90" cy="105" r="4" fill="#FFD700" opacity="0.9"/>
+  <circle cx="82" cy="112" r="3" fill="#FFFFFF" opacity="0.8"/>
+  
+  <circle cx="130" cy="75" r="3" fill="#FFD4A3" opacity="0.85"/>
+  <circle cx="170" cy="75" r="3" fill="#FFD4A3" opacity="0.85"/>
+  
+  <!-- Tiny accent hearts -->
+  <path d="M 70 140 C 70 138 71 137 72 137 C 73 137 73 138 73 138 C 73 138 74 137 74 137 C 75 137 76 138 76 140 C 76 142 73 144 73 144 C 73 144 70 142 70 140 Z" fill="#FFD4A3" opacity="0.6"/>
+  
+  <path d="M 225 140 C 225 138 226 137 227 137 C 228 137 228 138 228 138 C 228 138 229 137 229 137 C 230 137 231 138 231 140 C 231 142 228 144 228 144 C 228 144 225 142 225 140 Z" fill="#FFD4A3" opacity="0.6"/>
+</svg>

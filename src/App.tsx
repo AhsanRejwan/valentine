@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
+import LegacyHome from './pages/LegacyHome'
 import RoseDay from './pages/RoseDay'
 import ProposeDay from './pages/ProposeDay'
 import ChocolateDay from './pages/ChocolateDay'
@@ -13,6 +14,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/legacy-home" element={<LegacyHome />} />
       <Route path="/rose-day" element={<RoseDay />} />
       <Route path="/propose-day" element={<ProposeDay />} />
       <Route path="/chocolate-day" element={<ChocolateDay />} />

@@ -20,7 +20,7 @@ Font is **Fredoka**.
     - Word cloud (heart-shaped) matching the approved mock vibe
     - Each day’s interaction + coupon modal
     - Coupon download to PNG (DOM → image)
-    - localStorage persistence for claimed coupons + user selections
+    - No persistence of claimed coupons or selections across refresh
     - Reduced motion support
 
 ---
@@ -107,7 +107,6 @@ src/
   utils/
     debug.ts
     unlock.ts
-    storage.ts
     time.ts
   App.tsx
   main.tsx
@@ -200,23 +199,15 @@ These must be honored on:
 
 ---
 
-## 6) Persistence (localStorage)
+## 6) Interaction State (No Persistence)
 
-### Required keys
-- `claimedCoupons` → `{ [dayId]: true }`
-- `selections` → store per day:
-   - Rose: selected color
-   - Propose: selected option
-   - Chocolate: slot states (optional)
-   - Teddy: selected accessories
-   - Promise: revealed count (optional)
-   - Hug: chosen hug type
-   - Kiss: claimed state
-   - Valentine: accepted state
+Use in-memory React state (`useState`) only for each page interaction.
 
-Create helper file `src/utils/storage.ts` with:
-- `getJSON(key, fallback)`
-- `setJSON(key, value)`
+Rules:
+- No `localStorage` usage for claimed coupons or selections
+- No saved progress across refresh/reopen
+- Coupon can be downloaded immediately after interaction completion
+- Unlock gating remains date-based and independent of interaction state
 
 ---
 
@@ -265,7 +256,6 @@ Responsibilities:
    - locked: dim + lock overlay
    - today: glow pulse
    - unlocked: normal
-   - claimed: add tiny badge (heart)
 
 Assets:
 - `/assets/home/roadmap-ribbon-path.svg`
@@ -291,7 +281,6 @@ Assets:
 
 Download responsibilities (`useCouponDownload.ts`):
 - Export coupon ref to PNG with html-to-image
-- Mark coupon claimed in localStorage
 - Filename format:
    - `coupon-<dayId>.png`
    - if selection exists: `coupon-<dayId>-<selection>.png`
@@ -686,10 +675,10 @@ Tasks:
 - Modal component with assets
 - CouponCard component with template assets
 - Download to PNG via html-to-image
-- Claimed state saved to localStorage
+- Keep interaction state in-memory only (no persistence)
   Validation:
 - Download produces readable PNG
-- Claimed persists after refresh
+- Refresh resets interaction UI state
 
 ### Phase 5 — Home Page + Word Cloud (Final)
 Tasks:
@@ -777,6 +766,7 @@ Tasks:
    - has the specified interaction
    - shows a coupon modal on completion
    - downloads a PNG coupon
+- No claimed/selection persistence across refresh
 - Word cloud:
    - SIHINTA centered and largest
    - all 41 words rendered exactly once

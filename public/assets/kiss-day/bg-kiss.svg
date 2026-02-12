@@ -1,0 +1,59 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kissGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6D4FF;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#D4C4F0;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#FFD4E5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFE8F0;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="softGlow">
+      <stop offset="0%" style="stop-color:#E6D4FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#FFD4E5;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#E6D4FF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="bokehBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+    </filter>
+  </defs>
+  
+  <!-- Base gradient -->
+  <rect width="1920" height="1080" fill="url(#kissGradient)"/>
+  
+  <!-- Soft glows for dreamy atmosphere -->
+  <ellipse cx="400" cy="250" rx="500" ry="450" fill="url(#softGlow)" filter="url(#bokehBlur)"/>
+  <ellipse cx="1500" cy="600" rx="600" ry="500" fill="url(#softGlow)" filter="url(#bokehBlur)" opacity="0.7"/>
+  <ellipse cx="950" cy="400" rx="450" ry="400" fill="url(#softGlow)" filter="url(#bokehBlur)" opacity="0.5"/>
+  
+  <!-- Floating hearts bokeh (soft and blurred) -->
+  <g opacity="0.2" filter="url(#bokehBlur)">
+    <path d="M 300 200 C 300 197 302 195 304 195 C 305 195 306 196 306 197 C 306 196 307 195 308 195 C 310 195 312 197 312 200 C 312 203 306 207 306 207 C 306 207 300 203 300 200 Z" fill="#FFB6C1"/>
+    
+    <path d="M 800 350 C 800 347 802 345 804 345 C 805 345 806 346 806 347 C 806 346 807 345 808 345 C 810 345 812 347 812 350 C 812 353 806 357 806 357 C 806 357 800 353 800 350 Z" fill="#E6D4FF"/>
+    
+    <path d="M 1400 250 C 1400 247 1402 245 1404 245 C 1405 245 1406 246 1406 247 C 1406 246 1407 245 1408 245 C 1410 245 1412 247 1412 250 C 1412 253 1406 257 1406 257 C 1406 257 1400 253 1400 250 Z" fill="#FFB6C1"/>
+    
+    <path d="M 500 700 C 500 697 502 695 504 695 C 505 695 506 696 506 697 C 506 696 507 695 508 695 C 510 695 512 697 512 700 C 512 703 506 707 506 707 C 506 707 500 703 500 700 Z" fill="#E6D4FF"/>
+    
+    <path d="M 1200 800 C 1200 797 1202 795 1204 795 C 1205 795 1206 796 1206 797 C 1206 796 1207 795 1208 795 C 1210 795 1212 797 1212 800 C 1212 803 1206 807 1206 807 C 1206 807 1200 803 1200 800 Z" fill="#FFB6C1"/>
+    
+    <path d="M 1600 450 C 1600 447 1602 445 1604 445 C 1605 445 1606 446 1606 447 C 1606 446 1607 445 1608 445 C 1610 445 1612 447 1612 450 C 1612 453 1606 457 1606 457 C 1606 457 1600 453 1600 450 Z" fill="#E6D4FF"/>
+    
+    <path d="M 600 500 C 600 497 602 495 604 495 C 605 495 606 496 606 497 C 606 496 607 495 608 495 C 610 495 612 497 612 500 C 612 503 606 507 606 507 C 606 507 600 503 600 500 Z" fill="#FFB6C1"/>
+    
+    <path d="M 1100 150 C 1100 147 1102 145 1104 145 C 1105 145 1106 146 1106 147 C 1106 146 1107 145 1108 145 C 1110 145 1112 147 1112 150 C 1112 153 1106 157 1106 157 C 1106 157 1100 153 1100 150 Z" fill="#E6D4FF"/>
+  </g>
+  
+  <!-- Additional soft bokeh circles -->
+  <g opacity="0.15" filter="url(#bokehBlur)">
+    <circle cx="350" cy="450" r="30" fill="#E6D4FF"/>
+    <circle cx="1550" cy="350" r="35" fill="#FFD4E5"/>
+    <circle cx="750" cy="650" r="28" fill="#FFB6C1"/>
+    <circle cx="1350" cy="750" r="32" fill="#E6D4FF"/>
+    <circle cx="950" cy="200" r="25" fill="#FFD4E5"/>
+  </g>
+  
+  <!-- Subtle overlay -->
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.03"/>
+</svg>

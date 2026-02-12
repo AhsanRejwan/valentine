@@ -68,7 +68,7 @@ If user visits locked page:
 #### Unlocked Day Behavior
 - Page accessible anytime after unlock
 - Completed days remain accessible
-- Downloaded coupons are remembered
+- No persistent progress memory is required across sessions
 
 ---
 
@@ -274,7 +274,7 @@ Coupon must:
 
 Success Criteria:
 - Download always works
-- Claimed state persists
+- No persistent claimed or selection state after refresh
 - Layout readable on all screens
 
 ---

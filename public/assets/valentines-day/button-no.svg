@@ -1,0 +1,26 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow -->
+  <ellipse cx="100" cy="62" rx="70" ry="10" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <rect x="20" y="25" width="160" height="50" rx="25" fill="#FFFFFF"/>
+  
+  <!-- Button - cocoa outline -->
+  <rect x="26" y="31" width="148" height="38" rx="19" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  
+  <!-- Button - cream fill -->
+  <rect x="30" y="35" width="140" height="30" rx="15" fill="#F5E6D3"/>
+  
+  <!-- Gentle highlight -->
+  <rect x="35" y="38" width="50" height="15" rx="7" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Subtle shading at bottom -->
+  <rect x="30" y="55" width="140" height="10" rx="5" fill="#000000" opacity="0.04"/>
+  
+  <!-- Tiny sparkles -->
+  <circle cx="185" cy="40" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="15" cy="40" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Tiny heart -->
+  <path d="M 125 50 C 125 48.5 125.5 48 126 48 C 126.5 48 127 48.5 127 49 C 127 48.5 127.5 48 128 48 C 128.5 48 129 48.5 129 50 C 129 51.5 127 53 127 53 C 127 53 125 51.5 125 50 Z" fill="#FFB6C1" opacity="0.6"/>
+</svg>

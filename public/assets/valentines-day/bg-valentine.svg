@@ -1,0 +1,70 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="valentineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF4D4;stop-opacity:1"/>
+      <stop offset="30%" style="stop-color:#FFD4A3;stop-opacity:1"/>
+      <stop offset="60%" style="stop-color:#FFD4E5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFE8F0;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="goldenGlow">
+      <stop offset="0%" style="stop-color:#FFD4A3;stop-opacity:0.8"/>
+      <stop offset="40%" style="stop-color:#FFF4D4;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#FFD4A3;stop-opacity:0"/>
+    </radialGradient>
+    
+    <radialGradient id="pinkGlow">
+      <stop offset="0%" style="stop-color:#FFD4E5;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#FFE8F0;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFD4E5;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="softBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+  </defs>
+  
+  <!-- Base gradient -->
+  <rect width="1920" height="1080" fill="url(#valentineGradient)"/>
+  
+  <!-- Golden glow (center-left) -->
+  <ellipse cx="600" cy="400" rx="700" ry="600" fill="url(#goldenGlow)" filter="url(#softBlur)"/>
+  
+  <!-- Pink glow (center-right) -->
+  <ellipse cx="1300" cy="650" rx="750" ry="650" fill="url(#pinkGlow)" filter="url(#softBlur)"/>
+  
+  <!-- Golden glow (top) -->
+  <ellipse cx="960" cy="200" rx="600" ry="450" fill="url(#goldenGlow)" filter="url(#softBlur)" opacity="0.7"/>
+  
+  <!-- Subtle sparkles -->
+  <g opacity="0.4">
+    <circle cx="300" cy="250" r="3" fill="#FFFFFF"/>
+    <circle cx="800" cy="200" r="2.5" fill="#FFF4D4"/>
+    <circle cx="1200" cy="300" r="3" fill="#FFFFFF"/>
+    <circle cx="1600" cy="250" r="2" fill="#FFD4A3"/>
+    <circle cx="500" cy="500" r="2.5" fill="#FFFFFF"/>
+    <circle cx="1400" cy="600" r="3" fill="#FFF4D4"/>
+    <circle cx="700" cy="750" r="2" fill="#FFFFFF"/>
+    <circle cx="1100" cy="850" r="2.5" fill="#FFD4A3"/>
+    <circle cx="400" cy="900" r="3" fill="#FFFFFF"/>
+    <circle cx="1700" cy="800" r="2" fill="#FFF4D4"/>
+  </g>
+  
+  <!-- Additional smaller sparkles -->
+  <g opacity="0.3">
+    <circle cx="450" cy="350" r="1.5" fill="#FFFFFF"/>
+    <circle cx="950" cy="450" r="1.5" fill="#FFD4A3"/>
+    <circle cx="1450" cy="400" r="1.5" fill="#FFFFFF"/>
+    <circle cx="600" cy="650" r="1.5" fill="#FFF4D4"/>
+    <circle cx="1250" cy="750" r="1.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Tiny hearts (very subtle) -->
+  <g opacity="0.15">
+    <path d="M 850 400 C 850 397 852 395 854 395 C 855 395 856 396 856 397 C 856 396 857 395 858 395 C 860 395 862 397 862 400 C 862 403 856 407 856 407 C 856 407 850 403 850 400 Z" fill="#FFB6C1"/>
+    <path d="M 1400 550 C 1400 547 1402 545 1404 545 C 1405 545 1406 546 1406 547 C 1406 546 1407 545 1408 545 C 1410 545 1412 547 1412 550 C 1412 553 1406 557 1406 557 C 1406 557 1400 553 1400 550 Z" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- Subtle overlay for depth -->
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.04"/>
+</svg>
