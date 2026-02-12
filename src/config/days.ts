@@ -17,8 +17,6 @@ export interface DayConfig {
   unlockOffsetDays: number
 }
 
-const GLOBAL_BG = '/assets/backgrounds/global-dreamy-gradient.svg'
-
 export const DAYS: DayConfig[] = [
   {
     id: 'rose-day',
@@ -49,7 +47,7 @@ export const DAYS: DayConfig[] = [
     title: 'Teddy Day',
     route: '/teddy-day',
     icon: '/assets/icons/teddy.svg',
-    background: GLOBAL_BG,
+    background: '/assets/teddy-day/bg-teddy.svg',
     unlockOffsetDays: 3,
   },
   {
@@ -65,7 +63,7 @@ export const DAYS: DayConfig[] = [
     title: 'Hug Day',
     route: '/hug-day',
     icon: '/assets/icons/hug.svg',
-    background: GLOBAL_BG,
+    background: '/assets/hug-day/bg-hug.svg',
     unlockOffsetDays: 5,
   },
   {
@@ -73,7 +71,7 @@ export const DAYS: DayConfig[] = [
     title: 'Kiss Day',
     route: '/kiss-day',
     icon: '/assets/icons/kiss.svg',
-    background: GLOBAL_BG,
+    background: '/assets/kiss-day/bg-kiss.svg',
     unlockOffsetDays: 6,
   },
   {
@@ -81,7 +79,7 @@ export const DAYS: DayConfig[] = [
     title: "Valentine's Day",
     route: '/valentines-day',
     icon: '/assets/icons/valentine-heart.svg',
-    background: GLOBAL_BG,
+    background: '/assets/valentines-day/bg-valentine.svg',
     unlockOffsetDays: 7,
   },
 ]

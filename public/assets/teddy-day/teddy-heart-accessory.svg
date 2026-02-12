@@ -1,0 +1,19 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="75" cy="85" rx="35" ry="8" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <path d="M 75 95 C 75 95 45 75 45 55 C 45 43 52 38 60 38 C 67 38 72 42 75 48 C 78 42 83 38 90 38 C 98 38 105 43 105 55 C 105 75 75 95 75 95 Z" fill="#FFFFFF"/>
+  
+  <!-- Cocoa outline -->
+  <path d="M 75 90 C 75 90 48 72 48 55 C 48 44 54 40 61 40 C 67 40 72 44 75 49 C 78 44 83 40 89 40 C 96 40 102 44 102 55 C 102 72 75 90 75 90 Z" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  
+  <!-- Pink fill -->
+  <path d="M 75 87 C 75 87 51 70 51 55 C 51 45 56 42 62 42 C 67 42 72 45 75 50 C 78 45 83 42 88 42 C 94 42 99 45 99 55 C 99 70 75 87 75 87 Z" fill="#FFB6C1"/>
+  
+  <!-- Highlight -->
+  <ellipse cx="65" cy="52" rx="12" ry="9" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Tiny sparkle -->
+  <circle cx="100" cy="50" r="3" fill="#FFFFFF" opacity="0.8"/>
+</svg>

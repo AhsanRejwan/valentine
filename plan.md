@@ -516,7 +516,7 @@ Assets:
 - `/assets/teddy-day/teddy-base.svg`
 - `/assets/teddy-day/teddy-heart-accessory.svg`
 - `/assets/teddy-day/teddy-bow-accessory.svg`
-- `/assets/teddy-day/teddy-sleep-cap-accessory.svg`
+- `/assets/teddy-day/teddy-flower-bouquet-accessory.svg`
 - Modal/coupon assets
 
 Design elements:

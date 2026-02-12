@@ -206,6 +206,7 @@ Customize teddy.
 Acceptance:
 - Teddy visible
 - Accessories toggle
+- Flower bouquet accessory option available
 - Confirm triggers animation
 - Coupon appears
 
