@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link, useLocation } from 'react-router-dom'
 import { Button } from '../components/ui/Button'
@@ -148,6 +148,7 @@ export default function KissDay() {
   const liveNow = useNow()
   const now = debug.debugDate ? getNow(debug) : liveNow
   const day = getDayById('kiss-day')
+  const isPageAccessible = !debug.invalidDayId && isUnlocked(day.id, now, debug)
 
   const meterProgress = Math.min(100, kissCount * 10)
 
@@ -199,29 +200,21 @@ export default function KissDay() {
     }
   }, [])
 
-  if (debug.invalidDayId) {
-    return <DebugErrorView invalidDayId={debug.invalidDayId} />
-  }
-
-  if (!isUnlocked(day.id, now, debug)) {
-    return <LockedView title={day.title} unlockAt={getDayUnlockAt(day.id, now)} backgroundSrc={day.background} />
-  }
-
-  const clearSpawnTimer = () => {
+  const clearSpawnTimer = useCallback(() => {
     if (spawnTimerRef.current !== null) {
       window.clearTimeout(spawnTimerRef.current)
       spawnTimerRef.current = null
     }
-  }
+  }, [])
 
-  const clearRewardTimer = () => {
+  const clearRewardTimer = useCallback(() => {
     if (rewardTimerRef.current !== null) {
       window.clearTimeout(rewardTimerRef.current)
       rewardTimerRef.current = null
     }
-  }
+  }, [])
 
-  const queueNextSpawn = () => {
+  const queueNextSpawn = useCallback(() => {
     if (rewardTriggeredRef.current) {
       return
     }
@@ -248,9 +241,14 @@ export default function KissDay() {
 
       queueNextSpawn()
     }, delayMs)
-  }
+  }, [])
 
   useEffect(() => {
+    if (!isPageAccessible) {
+      clearSpawnTimer()
+      return
+    }
+
     if (isRewardTriggered) {
       clearSpawnTimer()
       return
@@ -258,9 +256,13 @@ export default function KissDay() {
 
     queueNextSpawn()
     return () => clearSpawnTimer()
-  }, [isRewardTriggered])
+  }, [clearSpawnTimer, isPageAccessible, isRewardTriggered, queueNextSpawn])
 
   useEffect(() => {
+    if (!isPageAccessible) {
+      return
+    }
+
     if (kissCount < KISSES_TO_WIN || isRewardTriggered) {
       return
     }
@@ -279,7 +281,7 @@ export default function KissDay() {
       setIsCouponOpen(true)
       rewardTimerRef.current = null
     }, REWARD_DELAY_MS)
-  }, [kissCount, isRewardTriggered, prefersReducedMotion])
+  }, [clearSpawnTimer, isPageAccessible, kissCount, isRewardTriggered, prefersReducedMotion])
 
   const removeKiss = (kissId: number) => {
     setKisses((current) => current.filter((kiss) => kiss.id !== kissId))
@@ -340,6 +342,14 @@ export default function KissDay() {
     setShowRewardGlow(false)
     setIsCouponOpen(false)
     queueNextSpawn()
+  }
+
+  if (debug.invalidDayId) {
+    return <DebugErrorView invalidDayId={debug.invalidDayId} />
+  }
+
+  if (!isUnlocked(day.id, now, debug)) {
+    return <LockedView title={day.title} unlockAt={getDayUnlockAt(day.id, now)} backgroundSrc={day.background} />
   }
 
   return (

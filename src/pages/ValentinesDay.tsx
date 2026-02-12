@@ -281,7 +281,7 @@ export default function ValentinesDay() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, ease: 'easeOut' }}
                 >
-                  I love you to the moon, to infity and beyond. Now and forever.
+                  I love you to the moon, to infinity and beyond. Now and forever.
                 </motion.p>
               ) : null}
 

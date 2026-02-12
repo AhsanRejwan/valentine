@@ -66,7 +66,7 @@ export default function Home() {
         <section className="home-wordcloud-shell mx-auto w-full max-w-4xl">
           <div className="home-wordcloud-stage">
             <img
-              src="/assets/home/vaelntine-wordcloud.svg"
+              src="/assets/home/valentine-wordcloud.svg"
               alt="Valentine word cloud preview"
               className="home-wordcloud-static mx-auto h-auto w-full"
             />
