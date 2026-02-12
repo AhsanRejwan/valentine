@@ -1,0 +1,79 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="260" rx="70" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <g>
+    <!-- Left figure border -->
+    <circle cx="175" cy="160" r="26" fill="#FFFFFF"/>
+    <ellipse cx="170" cy="210" rx="32" ry="42" fill="#FFFFFF"/>
+    <!-- Right figure border -->
+    <circle cx="225" cy="160" r="26" fill="#FFFFFF"/>
+    <ellipse cx="230" cy="210" rx="32" ry="42" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- LEFT FIGURE -->
+  <!-- Head - cocoa outline -->
+  <circle cx="175" cy="160" r="22" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <!-- Head - baby pink fill -->
+  <circle cx="175" cy="160" r="18" fill="#FFD4E5"/>
+  
+  <!-- Body - cocoa outline -->
+  <ellipse cx="170" cy="210" rx="28" ry="38" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <!-- Body - baby pink fill -->
+  <ellipse cx="170" cy="210" rx="24" ry="34" fill="#FFD4E5"/>
+  
+  <!-- Left arm reaching around (behind right figure) -->
+  <path d="M 168 195 Q 165 210 175 220 Q 190 230 210 225" fill="none" stroke="#8B6F47" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 168 195 Q 165 210 175 220 Q 190 230 210 225" fill="none" stroke="#FFD4E5" stroke-width="4" stroke-linecap="round"/>
+  
+  
+  <!-- RIGHT FIGURE -->
+  <!-- Head - cocoa outline -->
+  <circle cx="225" cy="160" r="22" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <!-- Head - soft peach fill -->
+  <circle cx="225" cy="160" r="18" fill="#FFDAB9"/>
+  
+  <!-- Body - cocoa outline -->
+  <ellipse cx="230" cy="210" rx="28" ry="38" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  <!-- Body - soft peach fill -->
+  <ellipse cx="230" cy="210" rx="24" ry="34" fill="#FFDAB9"/>
+  
+  <!-- Right arm reaching around (behind left figure) -->
+  <path d="M 232 195 Q 235 210 225 220 Q 210 230 190 225" fill="none" stroke="#8B6F47" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 232 195 Q 235 210 225 220 Q 210 230 190 225" fill="none" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
+  
+  
+  <!-- FACIAL FEATURES -->
+  <!-- Left figure - closed happy eyes -->
+  <path d="M 168 158 Q 170 160 172 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 178 158 Q 180 160 182 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <!-- Left figure - smile -->
+  <path d="M 170 166 Q 175 169 180 166" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Right figure - closed happy eyes -->
+  <path d="M 218 158 Q 220 160 222 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 228 158 Q 230 160 232 158" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  <!-- Right figure - smile -->
+  <path d="M 220 166 Q 225 169 230 166" fill="none" stroke="#8B6F47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Blush cheeks -->
+  <ellipse cx="168" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="182" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="218" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="232" cy="163" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+  
+  <!-- Gentle highlights on heads -->
+  <ellipse cx="172" cy="153" rx="8" ry="5" fill="#FFFFFF" opacity="0.4"/>
+  <ellipse cx="222" cy="153" rx="8" ry="5" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Tiny sparkles around them -->
+  <circle cx="150" cy="180" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="250" cy="180" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="200" cy="145" r="3" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Tiny hearts floating above -->
+  <path d="M 195 135 C 195 133 196 132 197 132 C 198 132 198 133 198 133 C 198 133 199 132 199 132 C 200 132 201 133 201 135 C 201 137 198 139 198 139 C 198 139 195 137 195 135 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <path d="M 208 130 C 208 128.5 208.5 128 209 128 C 209.5 128 210 128.5 210 129 C 210 128.5 210.5 128 211 128 C 211.5 128 212 128.5 212 130 C 212 131.5 210 133 210 133 C 210 133 208 131.5 208 130 Z" fill="#FFB6C1" opacity="0.6"/>
+</svg>

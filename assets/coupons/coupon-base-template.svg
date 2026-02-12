@@ -1,0 +1,76 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for coupon background -->
+    <linearGradient id="couponGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFE8F0;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFD4E5;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Soft shadow -->
+  <rect x="25" y="25" width="550" height="250" rx="20" fill="#000000" opacity="0.08"/>
+  
+  <!-- Main coupon card - gradient fill -->
+  <rect x="20" y="20" width="560" height="260" rx="18" fill="url(#couponGradient)"/>
+  
+  <!-- Cocoa brown outline -->
+  <rect x="20" y="20" width="560" height="260" rx="18" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  
+  <!-- Stitched/dotted inner border -->
+  <rect x="40" y="40" width="520" height="220" rx="12" fill="none" stroke="#8B6F47" stroke-width="2" stroke-dasharray="8,6" stroke-linecap="round"/>
+  
+  <!-- Decorative scalloped edges (left side) -->
+  <circle cx="20" cy="100" r="8" fill="#FFFFFF"/>
+  <circle cx="20" cy="100" r="6" fill="url(#couponGradient)"/>
+  
+  <circle cx="20" cy="150" r="8" fill="#FFFFFF"/>
+  <circle cx="20" cy="150" r="6" fill="url(#couponGradient)"/>
+  
+  <circle cx="20" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="20" cy="200" r="6" fill="url(#couponGradient)"/>
+  
+  <!-- Decorative scalloped edges (right side) -->
+  <circle cx="580" cy="100" r="8" fill="#FFFFFF"/>
+  <circle cx="580" cy="100" r="6" fill="url(#couponGradient)"/>
+  
+  <circle cx="580" cy="150" r="8" fill="#FFFFFF"/>
+  <circle cx="580" cy="150" r="6" fill="url(#couponGradient)"/>
+  
+  <circle cx="580" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="580" cy="200" r="6" fill="url(#couponGradient)"/>
+  
+  <!-- Tiny hearts in corners -->
+  <!-- Top-left corner -->
+  <path d="M 50 50 C 50 47 52 45 54 45 C 55 45 56 46 56 47 C 56 46 57 45 58 45 C 60 45 62 47 62 50 C 62 53 56 57 56 57 C 56 57 50 53 50 50 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Top-right corner -->
+  <path d="M 538 50 C 538 47 540 45 542 45 C 543 45 544 46 544 47 C 544 46 545 45 546 45 C 548 45 550 47 550 50 C 550 53 544 57 544 57 C 544 57 538 53 538 50 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Bottom-left corner -->
+  <path d="M 50 250 C 50 247 52 245 54 245 C 55 245 56 246 56 247 C 56 246 57 245 58 245 C 60 245 62 247 62 250 C 62 253 56 257 56 257 C 56 257 50 253 50 250 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Bottom-right corner -->
+  <path d="M 538 250 C 538 247 540 245 542 245 C 543 245 544 246 544 247 C 544 246 545 245 546 245 C 548 245 550 247 550 250 C 550 253 544 257 544 257 C 544 257 538 253 538 250 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Blank center area indication (light rectangle for text placement) -->
+  <rect x="80" y="80" width="440" height="140" rx="8" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Decorative elements -->
+  <!-- Small sparkles -->
+  <circle cx="100" cy="70" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="500" cy="70" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="100" cy="230" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="500" cy="230" r="3" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Additional tiny hearts (decorative) -->
+  <path d="M 120 140 C 120 138.5 120.5 138 121 138 C 121.5 138 122 138.5 122 139 C 122 138.5 122.5 138 123 138 C 123.5 138 124 138.5 124 140 C 124 141.5 122 143 122 143 C 122 143 120 141.5 120 140 Z" fill="#FFDAB9" opacity="0.4"/>
+  
+  <path d="M 476 160 C 476 158.5 476.5 158 477 158 C 477.5 158 478 158.5 478 159 C 478 158.5 478.5 158 479 158 C 479.5 158 480 158.5 480 160 C 480 161.5 478 163 478 163 C 478 163 476 161.5 476 160 Z" fill="#FFDAB9" opacity="0.4"/>
+  
+  <!-- Subtle shading at bottom -->
+  <rect x="40" y="220" width="520" height="40" rx="12" fill="#000000" opacity="0.02"/>
+  
+  <!-- Gentle highlight at top -->
+  <ellipse cx="300" cy="60" rx="200" ry="20" fill="#FFFFFF" opacity="0.3"/>
+</svg>

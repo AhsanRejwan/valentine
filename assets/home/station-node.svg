@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="100" cy="110" rx="40" ry="8" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <circle cx="100" cy="100" r="48" fill="#FFFFFF"/>
+  
+  <!-- Cocoa brown outline (outer ring) -->
+  <circle cx="100" cy="100" r="42" fill="none" stroke="#8B6F47" stroke-width="8"/>
+  
+  <!-- Cream fill -->
+  <circle cx="100" cy="100" r="38" fill="#F5E6D3"/>
+  
+  <!-- Inner cocoa ring detail -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#8B6F47" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Subtle inner shading at bottom -->
+  <ellipse cx="100" cy="115" rx="32" ry="20" fill="#000000" opacity="0.04"/>
+  
+  <!-- Gentle shine highlight at top -->
+  <ellipse cx="90" cy="85" rx="20" ry="12" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Additional subtle shine -->
+  <ellipse cx="105" cy="90" rx="12" ry="8" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Tiny sparkles around node -->
+  <circle cx="140" cy="75" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="148" cy="82" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <circle cx="60" cy="78" r="2.5" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Tiny heart accent -->
+  <path d="M 55 105 C 55 103 56 102 57 102 C 58 102 58 103 58 103 C 58 103 59 102 59 102 C 60 102 61 103 61 105 C 61 107 58 109 58 109 C 58 109 55 107 55 105 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

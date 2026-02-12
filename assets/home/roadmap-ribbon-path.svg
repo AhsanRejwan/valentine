@@ -1,0 +1,44 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="600" cy="170" rx="500" ry="20" fill="#000000" opacity="0.06"/>
+  
+  <!-- White sticker border (ribbon path) -->
+  <path d="M 50 150 Q 150 80 250 150 Q 350 220 450 150 Q 550 80 650 150 Q 750 220 850 150 Q 950 80 1050 150 Q 1100 180 1150 150" 
+        fill="none" stroke="#FFFFFF" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Cocoa brown outline -->
+  <path d="M 50 150 Q 150 80 250 150 Q 350 220 450 150 Q 550 80 650 150 Q 750 220 850 150 Q 950 80 1050 150 Q 1100 180 1150 150" 
+        fill="none" stroke="#8B6F47" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Soft orange/peach fill -->
+  <path d="M 50 150 Q 150 80 250 150 Q 350 220 450 150 Q 550 80 650 150 Q 750 220 850 150 Q 950 80 1050 150 Q 1100 180 1150 150" 
+        fill="none" stroke="#FFDAB9" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Center line for ribbon detail -->
+  <path d="M 50 150 Q 150 80 250 150 Q 350 220 450 150 Q 550 80 650 150 Q 750 220 850 150 Q 950 80 1050 150 Q 1100 180 1150 150" 
+        fill="none" stroke="#8B6F47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+  
+  <!-- Gentle highlights on top curves -->
+  <ellipse cx="250" cy="150" rx="30" ry="12" fill="#FFFFFF" opacity="0.4"/>
+  <ellipse cx="650" cy="150" rx="30" ry="12" fill="#FFFFFF" opacity="0.4"/>
+  <ellipse cx="1050" cy="150" rx="30" ry="12" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Subtle shading on bottom curves -->
+  <ellipse cx="450" cy="150" rx="30" ry="12" fill="#000000" opacity="0.05"/>
+  <ellipse cx="850" cy="150" rx="30" ry="12" fill="#000000" opacity="0.05"/>
+  
+  <!-- Tiny sparkles along the path -->
+  <circle cx="150" cy="115" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="550" cy="115" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="950" cy="115" r="4" fill="#FFFFFF" opacity="0.8"/>
+  
+  <circle cx="350" cy="185" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="750" cy="185" r="3" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Tiny heart accents floating near path -->
+  <path d="M 200 120 C 200 118 201 117 202 117 C 203 117 203 118 203 118 C 203 118 204 117 204 117 C 205 117 206 118 206 120 C 206 122 203 124 203 124 C 203 124 200 122 200 120 Z" fill="#FFB6C1" opacity="0.5"/>
+  
+  <path d="M 600 120 C 600 118 601 117 602 117 C 603 117 603 118 603 118 C 603 118 604 117 604 117 C 605 117 606 118 606 120 C 606 122 603 124 603 124 C 603 124 600 122 600 120 Z" fill="#FFB6C1" opacity="0.5"/>
+  
+  <path d="M 1000 120 C 1000 118 1001 117 1002 117 C 1003 117 1003 118 1003 118 C 1003 118 1004 117 1004 117 C 1005 117 1006 118 1006 120 C 1006 122 1003 124 1003 124 C 1003 124 1000 122 1000 120 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

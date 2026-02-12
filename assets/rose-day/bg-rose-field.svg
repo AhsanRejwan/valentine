@@ -1,0 +1,141 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE8F0;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFD4E5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:1"/>
+    </linearGradient>
+    
+    <!-- Sunlight glow -->
+    <radialGradient id="sunGlow">
+      <stop offset="0%" style="stop-color:#FFF4D4;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#FFD4A3;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFD4A3;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Ground gradient -->
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4E5D3;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#C8DCC8;stop-opacity:0.8"/>
+    </linearGradient>
+    
+    <!-- Blur for depth -->
+    <filter id="softBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Soft sunlight glow (top center) -->
+  <ellipse cx="960" cy="200" rx="600" ry="400" fill="url(#sunGlow)"/>
+  
+  <!-- Ground/meadow -->
+  <ellipse cx="960" cy="1200" rx="1200" ry="400" fill="url(#groundGradient)"/>
+  
+  <!-- Subtle sparkles in sky -->
+  <g opacity="0.4">
+    <circle cx="300" cy="200" r="3" fill="#FFFFFF"/>
+    <circle cx="800" cy="150" r="2" fill="#FFF4D4"/>
+    <circle cx="1200" cy="250" r="2.5" fill="#FFFFFF"/>
+    <circle cx="1600" cy="180" r="2" fill="#FFF4D4"/>
+    <circle cx="500" cy="300" r="2" fill="#FFFFFF"/>
+    <circle cx="1400" cy="220" r="3" fill="#FFF4D4"/>
+  </g>
+  
+  <!-- Background roses (very blurred, distant) -->
+  <g opacity="0.2" filter="url(#softBlur)">
+    <circle cx="200" cy="700" r="40" fill="#FFB6C1"/>
+    <circle cx="400" cy="750" r="35" fill="#FFD4E5"/>
+    <circle cx="1500" cy="720" r="45" fill="#FFDAB9"/>
+    <circle cx="1700" cy="780" r="38" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- BOTTOM LEFT CORNER - Foreground roses (sticker style) -->
+  <g>
+    <!-- Rose 1 - bottom left -->
+    <!-- White sticker border -->
+    <circle cx="180" cy="950" r="48" fill="#FFFFFF"/>
+    <!-- Outer petals -->
+    <ellipse cx="180" cy="930" rx="20" ry="26" fill="#8B6F47"/>
+    <ellipse cx="180" cy="930" rx="17" ry="23" fill="#FFD4E5"/>
+    <ellipse cx="160" cy="945" rx="20" ry="26" fill="#8B6F47" transform="rotate(-70 160 945)"/>
+    <ellipse cx="160" cy="945" rx="17" ry="23" fill="#FFD4E5" transform="rotate(-70 160 945)"/>
+    <ellipse cx="200" cy="945" rx="20" ry="26" fill="#8B6F47" transform="rotate(70 200 945)"/>
+    <ellipse cx="200" cy="945" rx="17" ry="23" fill="#FFD4E5" transform="rotate(70 200 945)"/>
+    <!-- Center -->
+    <circle cx="180" cy="950" r="12" fill="#8B6F47"/>
+    <circle cx="180" cy="950" r="9" fill="#FFDAB9"/>
+    <!-- Stem -->
+    <rect x="177" y="950" width="6" height="40" rx="3" fill="#8B6F47"/>
+    <rect x="178.5" y="952" width="3" height="36" rx="1.5" fill="#D4E5D3"/>
+    <!-- Leaf -->
+    <ellipse cx="165" cy="970" rx="12" ry="8" fill="#8B6F47" transform="rotate(-30 165 970)"/>
+    <ellipse cx="165" cy="970" rx="9" ry="6" fill="#D4E5D3" transform="rotate(-30 165 970)"/>
+  </g>
+  
+  <g>
+    <!-- Rose 2 - left side -->
+    <circle cx="120" cy="850" r="42" fill="#FFFFFF"/>
+    <ellipse cx="120" cy="835" rx="18" ry="24" fill="#8B6F47"/>
+    <ellipse cx="120" cy="835" rx="15" ry="21" fill="#FFB6C1"/>
+    <ellipse cx="105" cy="848" rx="18" ry="24" fill="#8B6F47" transform="rotate(-65 105 848)"/>
+    <ellipse cx="105" cy="848" rx="15" ry="21" fill="#FFB6C1" transform="rotate(-65 105 848)"/>
+    <ellipse cx="135" cy="848" rx="18" ry="24" fill="#8B6F47" transform="rotate(65 135 848)"/>
+    <ellipse cx="135" cy="848" rx="15" ry="21" fill="#FFB6C1" transform="rotate(65 135 848)"/>
+    <circle cx="120" cy="850" r="10" fill="#8B6F47"/>
+    <circle cx="120" cy="850" r="7" fill="#FFDAB9"/>
+    <rect x="117.5" y="850" width="5" height="35" rx="2.5" fill="#8B6F47"/>
+    <rect x="119" y="852" width="2" height="31" rx="1" fill="#D4E5D3"/>
+    <ellipse cx="130" cy="868" rx="10" ry="7" fill="#8B6F47" transform="rotate(30 130 868)"/>
+    <ellipse cx="130" cy="868" rx="7" ry="5" fill="#D4E5D3" transform="rotate(30 130 868)"/>
+  </g>
+  
+  <!-- BOTTOM RIGHT CORNER - Foreground roses -->
+  <g>
+    <!-- Rose 3 - bottom right -->
+    <circle cx="1740" cy="950" r="48" fill="#FFFFFF"/>
+    <ellipse cx="1740" cy="930" rx="20" ry="26" fill="#8B6F47"/>
+    <ellipse cx="1740" cy="930" rx="17" ry="23" fill="#FFDAB9"/>
+    <ellipse cx="1720" cy="945" rx="20" ry="26" fill="#8B6F47" transform="rotate(-70 1720 945)"/>
+    <ellipse cx="1720" cy="945" rx="17" ry="23" fill="#FFDAB9" transform="rotate(-70 1720 945)"/>
+    <ellipse cx="1760" cy="945" rx="20" ry="26" fill="#8B6F47" transform="rotate(70 1760 945)"/>
+    <ellipse cx="1760" cy="945" rx="17" ry="23" fill="#FFDAB9" transform="rotate(70 1760 945)"/>
+    <circle cx="1740" cy="950" r="12" fill="#8B6F47"/>
+    <circle cx="1740" cy="950" r="9" fill="#FFB6C1"/>
+    <rect x="1737" y="950" width="6" height="40" rx="3" fill="#8B6F47"/>
+    <rect x="1738.5" y="952" width="3" height="36" rx="1.5" fill="#D4E5D3"/>
+    <ellipse cx="1755" cy="970" rx="12" ry="8" fill="#8B6F47" transform="rotate(30 1755 970)"/>
+    <ellipse cx="1755" cy="970" rx="9" ry="6" fill="#D4E5D3" transform="rotate(30 1755 970)"/>
+  </g>
+  
+  <g>
+    <!-- Rose 4 - right side -->
+    <circle cx="1800" cy="850" r="42" fill="#FFFFFF"/>
+    <ellipse cx="1800" cy="835" rx="18" ry="24" fill="#8B6F47"/>
+    <ellipse cx="1800" cy="835" rx="15" ry="21" fill="#FFD4E5"/>
+    <ellipse cx="1785" cy="848" rx="18" ry="24" fill="#8B6F47" transform="rotate(-65 1785 848)"/>
+    <ellipse cx="1785" cy="848" rx="15" ry="21" fill="#FFD4E5" transform="rotate(-65 1785 848)"/>
+    <ellipse cx="1815" cy="848" rx="18" ry="24" fill="#8B6F47" transform="rotate(65 1815 848)"/>
+    <ellipse cx="1815" cy="848" rx="15" ry="21" fill="#FFD4E5" transform="rotate(65 1815 848)"/>
+    <circle cx="1800" cy="850" r="10" fill="#8B6F47"/>
+    <circle cx="1800" cy="850" r="7" fill="#FFDAB9"/>
+    <rect x="1797.5" y="850" width="5" height="35" rx="2.5" fill="#8B6F47"/>
+    <rect x="1799" y="852" width="2" height="31" rx="1" fill="#D4E5D3"/>
+    <ellipse cx="1790" cy="868" rx="10" ry="7" fill="#8B6F47" transform="rotate(-30 1790 868)"/>
+    <ellipse cx="1790" cy="868" rx="7" ry="5" fill="#D4E5D3" transform="rotate(-30 1790 868)"/>
+  </g>
+  
+  <!-- Foreground sparkles -->
+  <g opacity="0.6">
+    <circle cx="250" cy="920" r="4" fill="#FFFFFF"/>
+    <circle cx="1670" cy="920" r="4" fill="#FFFFFF"/>
+    <circle cx="180" cy="800" r="3" fill="#FFF4D4"/>
+    <circle cx="1740" cy="800" r="3" fill="#FFF4D4"/>
+  </g>
+  
+  <!-- Subtle overlay for depth -->
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.02"/>
+</svg>

@@ -1,0 +1,85 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main dreamy gradient -->
+    <linearGradient id="dreamyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1"/>
+      <stop offset="35%" style="stop-color:#FFE8F0;stop-opacity:1"/>
+      <stop offset="65%" style="stop-color:#FFD4E5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:1"/>
+    </linearGradient>
+    
+    <!-- Radial gradient for soft glow -->
+    <radialGradient id="softGlow1">
+      <stop offset="0%" style="stop-color:#FFDAB9;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:0"/>
+    </radialGradient>
+    
+    <radialGradient id="softGlow2">
+      <stop offset="0%" style="stop-color:#FFD4E5;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFD4E5;stop-opacity:0"/>
+    </radialGradient>
+    
+    <radialGradient id="softGlow3">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Blur filter for bokeh effect -->
+    <filter id="bokeh">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+    
+    <filter id="softBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+    </filter>
+  </defs>
+  
+  <!-- Main gradient background -->
+  <rect width="1920" height="1080" fill="url(#dreamyGradient)"/>
+  
+  <!-- Soft glowing circles for dreamy effect -->
+  <ellipse cx="300" cy="200" rx="400" ry="350" fill="url(#softGlow1)" filter="url(#softBlur)"/>
+  <ellipse cx="1600" cy="800" rx="500" ry="400" fill="url(#softGlow2)" filter="url(#softBlur)"/>
+  <ellipse cx="900" cy="400" rx="350" ry="300" fill="url(#softGlow3)" filter="url(#softBlur)"/>
+  <ellipse cx="1400" cy="300" rx="300" ry="280" fill="url(#softGlow1)" filter="url(#softBlur)"/>
+  <ellipse cx="500" cy="850" rx="380" ry="320" fill="url(#softGlow2)" filter="url(#softBlur)"/>
+  
+  <!-- Subtle heart bokeh (very soft and blurred) -->
+  <g opacity="0.15" filter="url(#bokeh)">
+    <!-- Small hearts scattered -->
+    <path d="M 250 150 C 250 150 235 142 235 135 C 235 130 238 128 242 128 C 245 128 247 130 250 133 C 253 130 255 128 258 128 C 262 128 265 130 265 135 C 265 142 250 150 250 150 Z" fill="#FFB6C1"/>
+    
+    <path d="M 1650 250 C 1650 250 1635 242 1635 235 C 1635 230 1638 228 1642 228 C 1645 228 1647 230 1650 233 C 1653 230 1655 228 1658 228 C 1662 228 1665 230 1665 235 C 1665 242 1650 250 1650 250 Z" fill="#FFDAB9"/>
+    
+    <path d="M 1200 850 C 1200 850 1185 842 1185 835 C 1185 830 1188 828 1192 828 C 1195 828 1197 830 1200 833 C 1203 830 1205 828 1208 828 C 1212 828 1215 830 1215 835 C 1215 842 1200 850 1200 850 Z" fill="#FFD4E5"/>
+    
+    <path d="M 450 600 C 450 600 440 594 440 589 C 440 585 442 583 445 583 C 447 583 449 585 450 587 C 451 585 453 583 455 583 C 458 583 460 585 460 589 C 460 594 450 600 450 600 Z" fill="#FFB6C1"/>
+    
+    <path d="M 1500 550 C 1500 550 1490 544 1490 539 C 1490 535 1492 533 1495 533 C 1497 533 1499 535 1500 537 C 1501 535 1503 533 1505 533 C 1508 533 1510 535 1510 539 C 1510 544 1500 550 1500 550 Z" fill="#FFDAB9"/>
+    
+    <path d="M 750 300 C 750 300 740 294 740 289 C 740 285 742 283 745 283 C 747 283 749 285 750 287 C 751 285 753 283 755 283 C 758 283 760 285 760 289 C 760 294 750 300 750 300 Z" fill="#FFD4E5"/>
+    
+    <path d="M 1100 200 C 1100 200 1090 194 1090 189 C 1090 185 1092 183 1095 183 C 1097 183 1099 185 1100 187 C 1101 185 1103 183 1105 183 C 1108 183 1110 185 1110 189 C 1110 194 1100 200 1100 200 Z" fill="#FFB6C1"/>
+    
+    <path d="M 350 950 C 350 950 340 944 340 939 C 340 935 342 933 345 933 C 347 933 349 935 350 937 C 351 935 353 933 355 933 C 358 933 360 935 360 939 C 360 944 350 950 350 950 Z" fill="#FFDAB9"/>
+    
+    <path d="M 1750 650 C 1750 650 1740 644 1740 639 C 1740 635 1742 633 1745 633 C 1747 633 1749 635 1750 637 C 1751 635 1753 633 1755 633 C 1758 633 1760 635 1760 639 C 1760 644 1750 650 1750 650 Z" fill="#FFD4E5"/>
+    
+    <path d="M 900 750 C 900 750 890 744 890 739 C 890 735 892 733 895 733 C 897 733 899 735 900 737 C 901 735 903 733 905 733 C 908 733 910 735 910 739 C 910 744 900 750 900 750 Z" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- Very subtle soft circles for additional bokeh -->
+  <g opacity="0.1" filter="url(#bokeh)">
+    <circle cx="600" cy="400" r="30" fill="#FFDAB9"/>
+    <circle cx="1300" cy="700" r="40" fill="#FFD4E5"/>
+    <circle cx="200" cy="800" r="25" fill="#FFB6C1"/>
+    <circle cx="1700" cy="400" r="35" fill="#FFDAB9"/>
+    <circle cx="800" cy="150" r="28" fill="#FFD4E5"/>
+    <circle cx="1450" cy="950" r="32" fill="#FFB6C1"/>
+    <circle cx="400" cy="500" r="22" fill="#FFDAB9"/>
+    <circle cx="1000" cy="900" r="38" fill="#FFD4E5"/>
+  </g>
+  
+  <!-- Subtle overlay for depth -->
+  <rect width="1920" height="1080" fill="#FFFFFF" opacity="0.03"/>
+</svg>

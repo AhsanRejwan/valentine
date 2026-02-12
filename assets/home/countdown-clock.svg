@@ -1,0 +1,51 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="235" rx="65" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <circle cx="200" cy="200" r="72" fill="#FFFFFF"/>
+  
+  <!-- Cocoa brown outline (clock face) -->
+  <circle cx="200" cy="200" r="65" fill="none" stroke="#8B6F47" stroke-width="10"/>
+  
+  <!-- Baby pink fill (clock face) -->
+  <circle cx="200" cy="200" r="60" fill="#FFD4E5"/>
+  
+  <!-- Clock center dot - cocoa brown -->
+  <circle cx="200" cy="200" r="8" fill="#8B6F47"/>
+  
+  <!-- Hour hand (pointing to 10) - cocoa brown -->
+  <line x1="200" y1="200" x2="175" y2="170" stroke="#8B6F47" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Minute hand (pointing to 2) - cocoa brown -->
+  <line x1="200" y1="200" x2="230" y2="175" stroke="#8B6F47" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Hour markers - soft peach dots at 12, 3, 6, 9 -->
+  <circle cx="200" cy="155" r="5" fill="#FFDAB9"/><!-- 12 -->
+  <circle cx="245" cy="200" r="5" fill="#FFDAB9"/><!-- 3 -->
+  <circle cx="200" cy="245" r="5" fill="#FFDAB9"/><!-- 6 -->
+  <circle cx="155" cy="200" r="5" fill="#FFDAB9"/><!-- 9 -->
+  
+  <!-- Smaller hour markers - cream -->
+  <circle cx="217" cy="160" r="3" fill="#F5E6D3"/><!-- 1 -->
+  <circle cx="230" cy="175" r="3" fill="#F5E6D3"/><!-- 2 -->
+  <circle cx="240" cy="217" r="3" fill="#F5E6D3"/><!-- 4 -->
+  <circle cx="230" cy="225" r="3" fill="#F5E6D3"/><!-- 5 -->
+  <circle cx="183" cy="240" r="3" fill="#F5E6D3"/><!-- 7 -->
+  <circle cx="170" cy="225" r="3" fill="#F5E6D3"/><!-- 8 -->
+  <circle cx="160" cy="183" r="3" fill="#F5E6D3"/><!-- 10 -->
+  <circle cx="170" cy="175" r="3" fill="#F5E6D3"/><!-- 11 -->
+  
+  <!-- Subtle inner shading at bottom -->
+  <ellipse cx="200" cy="230" rx="50" ry="25" fill="#000000" opacity="0.04"/>
+  
+  <!-- Gentle shine highlight at top -->
+  <ellipse cx="185" cy="175" rx="25" ry="15" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Tiny sparkles -->
+  <circle cx="260" cy="170" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="267" cy="177" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Tiny heart accent -->
+  <path d="M 135 180 C 135 178 136 177 137 177 C 138 177 138 178 138 178 C 138 178 139 177 139 177 C 140 177 141 178 141 180 C 141 182 138 184 138 184 C 138 184 135 182 135 180 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

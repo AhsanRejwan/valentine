@@ -1,0 +1,31 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="225" rx="45" ry="10" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border (heart shape) -->
+  <path d="M 200 250 C 200 250 145 205 145 170 C 145 148 162 135 180 135 C 192 135 198 140 200 148 C 202 140 208 135 220 135 C 238 135 255 148 255 170 C 255 205 200 250 200 250 Z" fill="#FFFFFF"/>
+  
+  <!-- Cocoa brown outline (heart shape) -->
+  <path d="M 200 242 C 200 242 152 200 152 170 C 152 151 166 141 182 141 C 193 141 198 145 200 152 C 202 145 207 141 218 141 C 234 141 248 151 248 170 C 248 200 200 242 200 242 Z" fill="#8B6F47"/>
+  
+  <!-- Baby pink fill (heart shape) -->
+  <path d="M 200 235 C 200 235 158 196 158 170 C 158 154 170 146 184 146 C 194 146 198 150 200 156 C 202 150 206 146 216 146 C 230 146 242 154 242 170 C 242 196 200 235 200 235 Z" fill="#FFD4E5"/>
+  
+  <!-- Subtle inner shading at bottom of heart -->
+  <path d="M 200 235 C 200 235 158 196 158 170 C 158 170 165 215 200 235 C 235 215 242 170 242 170 C 242 196 200 235 200 235 Z" fill="#000000" opacity="0.04"/>
+  
+  <!-- Gentle highlight shine on top left of heart -->
+  <ellipse cx="180" cy="165" rx="20" ry="12" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Additional subtle shine on top right -->
+  <ellipse cx="220" cy="165" rx="15" ry="10" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Tiny sparkles around the heart -->
+  <circle cx="155" cy="155" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="245" cy="155" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="148" cy="185" r="2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="252" cy="185" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Tiny heart accent (top right) -->
+  <path d="M 240 145 C 240 143 241 142 242 142 C 243 142 243 143 243 143 C 243 143 244 142 244 142 C 245 142 246 143 246 145 C 246 147 243 149 243 149 C 243 149 240 147 240 145 Z" fill="#FFB6C1" opacity="0.5"/>
+</svg>

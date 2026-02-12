@@ -1,0 +1,73 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="200" cy="265" rx="65" ry="12" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <g>
+    <rect x="145" y="185" width="110" height="70" rx="8" fill="#FFFFFF"/>
+    <rect x="145" y="125" width="110" height="60" rx="8" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Box bottom - cocoa outline -->
+  <rect x="150" y="190" width="100" height="60" rx="6" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  
+  <!-- Box bottom - cream fill -->
+  <rect x="153" y="193" width="94" height="54" rx="5" fill="#F5E6D3"/>
+  
+  <!-- Box lid (open, tilted back) - cocoa outline -->
+  <rect x="150" y="130" width="100" height="50" rx="6" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  
+  <!-- Box lid - soft pink fill -->
+  <rect x="153" y="133" width="94" height="44" rx="5" fill="#FFD4E5"/>
+  
+  <!-- Inner cushion (inside box) - soft cream -->
+  <ellipse cx="200" cy="215" rx="35" ry="18" fill="#FFDAB9"/>
+  
+  <!-- Ring on cushion -->
+  <!-- Ring band - cocoa outline -->
+  <ellipse cx="200" cy="210" rx="16" ry="16" fill="none" stroke="#8B6F47" stroke-width="4"/>
+  
+  <!-- Ring band - soft gold/peach fill -->
+  <ellipse cx="200" cy="210" rx="13" ry="13" fill="none" stroke="#FFDAB9" stroke-width="3"/>
+  
+  <!-- Ring band inner -->
+  <ellipse cx="200" cy="210" rx="10" ry="10" fill="none" stroke="#8B6F47" stroke-width="2"/>
+  
+  <!-- Diamond on ring -->
+  <path d="M 200 190 L 206 198 L 202 204 L 198 204 L 194 198 Z" fill="#8B6F47"/>
+  <path d="M 200 192 L 205 199 L 202 203 L 198 203 L 195 199 Z" fill="#D4E5FF"/>
+  
+  <!-- Diamond facets -->
+  <line x1="200" y1="192" x2="200" y2="203" stroke="#8B6F47" stroke-width="1"/>
+  <line x1="195" y1="199" x2="205" y2="199" stroke="#8B6F47" stroke-width="1"/>
+  
+  <!-- Diamond sparkle/shine -->
+  <circle cx="198" cy="196" r="2" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Ribbon detail on lid -->
+  <rect x="153" y="150" width="94" height="8" fill="#FFDAB9" opacity="0.6"/>
+  
+  <!-- Gentle highlight on lid -->
+  <rect x="160" y="138" width="35" height="12" rx="4" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Gentle highlight on box -->
+  <rect x="160" y="198" width="35" height="12" rx="4" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Subtle shading on box bottom -->
+  <rect x="153" y="225" width="94" height="22" rx="5" fill="#000000" opacity="0.04"/>
+  
+  <!-- Big sparkles around ring (pastel sparkle) -->
+  <circle cx="175" cy="195" r="4" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="225" cy="195" r="4" fill="#FFF4D4" opacity="0.9"/>
+  <circle cx="190" cy="185" r="3.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="210" cy="185" r="3.5" fill="#D4E5FF" opacity="0.8"/>
+  
+  <!-- Additional sparkles -->
+  <circle cx="165" cy="205" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="235" cy="205" r="3" fill="#FFF4D4" opacity="0.7"/>
+  
+  <!-- Tiny heart accents -->
+  <path d="M 255 200 C 255 198 256 197 257 197 C 258 197 258 198 258 198 C 258 198 259 197 259 197 C 260 197 261 198 261 200 C 261 202 258 204 258 204 C 258 204 255 202 255 200 Z" fill="#FFB6C1" opacity="0.6"/>
+  
+  <path d="M 140 160 C 140 158 141 157 142 157 C 143 157 143 158 143 158 C 143 158 144 157 144 157 C 145 157 146 158 146 160 C 146 162 143 164 143 164 C 143 164 140 162 140 160 Z" fill="#FFB6C1" opacity="0.6"/>
+</svg>

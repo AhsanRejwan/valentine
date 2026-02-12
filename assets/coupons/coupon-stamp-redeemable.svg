@@ -1,0 +1,58 @@
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft shadow -->
+  <ellipse cx="150" cy="85" rx="120" ry="15" fill="#000000" opacity="0.08"/>
+  
+  <!-- White sticker border -->
+  <rect x="25" y="25" width="250" height="100" rx="12" fill="#FFFFFF"/>
+  
+  <!-- Cocoa brown outline (stamp border) -->
+  <rect x="30" y="30" width="240" height="90" rx="10" fill="none" stroke="#8B6F47" stroke-width="6"/>
+  
+  <!-- Pastel pink ink fill (stamp background) -->
+  <rect x="35" y="35" width="230" height="80" rx="8" fill="#FFD4E5" opacity="0.4"/>
+  
+  <!-- Inner decorative border (dotted) -->
+  <rect x="40" y="40" width="220" height="70" rx="6" fill="none" stroke="#8B6F47" stroke-width="2" stroke-dasharray="4,3"/>
+  
+  <!-- Text: REDEEMABLE -->
+  <!-- R -->
+  <path d="M 55 65 L 55 95 M 55 65 L 65 65 Q 70 65 70 70 Q 70 75 65 75 L 55 75 M 65 75 L 70 95" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- E -->
+  <path d="M 85 65 L 75 65 L 75 95 L 85 95 M 75 80 L 83 80" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- D -->
+  <path d="M 95 65 L 95 95 M 95 65 L 105 65 Q 110 70 110 80 Q 110 90 105 95 L 95 95" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- E -->
+  <path d="M 130 65 L 120 65 L 120 95 L 130 95 M 120 80 L 128 80" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- E -->
+  <path d="M 150 65 L 140 65 L 140 95 L 150 95 M 140 80 L 148 80" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- M -->
+  <path d="M 160 95 L 160 65 L 167 75 L 174 65 L 174 95" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- A -->
+  <path d="M 184 95 L 189 65 L 194 95 M 186 85 L 192 85" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- B -->
+  <path d="M 204 65 L 204 95 M 204 65 L 212 65 Q 216 67 216 72 Q 216 77 212 80 L 204 80 M 204 80 L 213 80 Q 218 82 218 87 Q 218 92 213 95 L 204 95" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- L -->
+  <path d="M 228 65 L 228 95 L 238 95" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- E -->
+  <path d="M 255 65 L 245 65 L 245 95 L 255 95 M 245 80 L 253 80" fill="none" stroke="#8B6F47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Heart emoji replacement (small heart shape) -->
+  <path d="M 270 85 C 270 85 266 82 266 79 C 266 77 267 76 268.5 76 C 269.5 76 270 77 270 78 C 270 77 270.5 76 271.5 76 C 273 76 274 77 274 79 C 274 82 270 85 270 85 Z" fill="#FFB6C1"/>
+  <path d="M 270 85 C 270 85 266 82 266 79 C 266 77 267 76 268.5 76 C 269.5 76 270 77 270 78 C 270 77 270.5 76 271.5 76 C 273 76 274 77 274 79 C 274 82 270 85 270 85 Z" fill="none" stroke="#8B6F47" stroke-width="1.5"/>
+  
+  <!-- Tiny sparkles -->
+  <circle cx="45" cy="50" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="255" cy="50" r="2" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Subtle texture overlay -->
+  <rect x="35" y="35" width="230" height="80" rx="8" fill="#FFDAB9" opacity="0.1"/>
+</svg>

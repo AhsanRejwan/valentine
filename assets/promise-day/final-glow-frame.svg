@@ -1,0 +1,44 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="frameGlow">
+      <stop offset="0%" style="stop-color:#FFDAB9;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#FFD4E5;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:0"/>
+    </radialGradient>
+    
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer glow layers -->
+  <rect x="30" y="30" width="540" height="340" rx="20" fill="url(#frameGlow)" filter="url(#softGlow)" opacity="0.5"/>
+  <rect x="40" y="40" width="520" height="320" rx="18" fill="url(#frameGlow)" opacity="0.6"/>
+  
+  <!-- Frame border -->
+  <rect x="50" y="50" width="500" height="300" rx="16" fill="none" stroke="#FFDAB9" stroke-width="4" opacity="0.7"/>
+  <rect x="55" y="55" width="490" height="290" rx="14" fill="none" stroke="#FFD4E5" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Inner glow -->
+  <rect x="60" y="60" width="480" height="280" rx="12" fill="#FFD4E5" opacity="0.15"/>
+  
+  <!-- Sparkles around frame -->
+  <circle cx="80" cy="70" r="4" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="520" cy="70" r="4" fill="#FFF4D4" opacity="0.9"/>
+  <circle cx="80" cy="330" r="4" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="520" cy="330" r="4" fill="#FFF4D4" opacity="0.9"/>
+  
+  <circle cx="150" cy="50" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="450" cy="50" r="3" fill="#FFF4D4" opacity="0.8"/>
+  <circle cx="150" cy="350" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="450" cy="350" r="3" fill="#FFF4D4" opacity="0.8"/>
+  
+  <circle cx="300" cy="40" r="3.5" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="300" cy="360" r="3.5" fill="#FFF4D4" opacity="0.85"/>
+  
+  <!-- Corner hearts -->
+  <path d="M 65 60 C 65 58 66 57 67 57 C 68 57 68 58 68 58 C 68 58 69 57 69 57 C 70 57 71 58 71 60 C 71 62 68 64 68 64 C 68 64 65 62 65 60 Z" fill="#FFB6C1" opacity="0.6"/>
+  <path d="M 530 60 C 530 58 531 57 532 57 C 533 57 533 58 533 58 C 533 58 534 57 534 57 C 535 57 536 58 536 60 C 536 62 533 64 533 64 C 533 64 530 62 530 60 Z" fill="#FFB6C1" opacity="0.6"/>
+  <path d="M 65 340 C 65 338 66 337 67 337 C 68 337 68 338 68 338 C 68 338 69 337 69 337 C 70 337 71 338 71 340 C 71 342 68 344 68 344 C 68 344 65 342 65 340 Z" fill="#FFB6C1" opacity="0.6"/>
+  <path d="M 530 340 C 530 338 531 337 532 337 C 533 337 533 338 533 338 C 533 338 534 337 534 337 C 535 337 536 338 536 340 C 536 342 533 344 533 344 C 533 344 530 342 530 340 Z" fill="#FFB6C1" opacity="0.6"/>
+</svg>
