@@ -69,7 +69,7 @@ export default function LegacyHome() {
                     <img src={day.icon} alt="" aria-hidden className="h-8 w-8 object-contain" />
                     <div>
                       <p className="text-sm font-semibold text-rich-brown">{day.title}</p>
-                      <p className="text-xs text-soft-brown">{day.id}</p>
+                      <p className="text-xs text-soft-brown">{day.subtitle}</p>
                     </div>
                   </div>
                   <span className={`rounded-full border px-3 py-1 text-xs font-semibold ${getStatusStyles(status)}`}>

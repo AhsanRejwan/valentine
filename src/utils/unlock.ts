@@ -80,7 +80,7 @@ export function getDayStatus(dayId: DayId, now: Date, debug: DebugConfig): DaySt
 }
 
 export function getNextUnlock(now: Date, debug: DebugConfig): NextUnlock | null {
-  if (debug.invalidDayId || debug.allUnlocked || debug.debugDayId) {
+  if (debug.invalidDayId || debug.allUnlocked) {
     return null
   }
 

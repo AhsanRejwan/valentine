@@ -11,6 +11,7 @@ export type DayId =
 export interface DayConfig {
   id: DayId
   title: string
+  subtitle: string
   route: string
   icon: string
   background: string
@@ -21,6 +22,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'rose-day',
     title: 'Rose Day',
+    subtitle: "Pick Today's Rose",
     route: '/rose-day',
     icon: '/assets/icons/rose.svg',
     background: '/assets/rose-day/bg-rose-field.svg',
@@ -29,6 +31,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'propose-day',
     title: 'Propose Day',
+    subtitle: 'How Should I Propose The Date?',
     route: '/propose-day',
     icon: '/assets/icons/ring.svg',
     background: '/assets/propose-day/bg-day-date.svg',
@@ -37,6 +40,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'chocolate-day',
     title: 'Chocolate Day',
+    subtitle: 'Build Your Chocolate Box',
     route: '/chocolate-day',
     icon: '/assets/icons/chocolate.svg',
     background: '/assets/chocolate-day/bg-choco.svg',
@@ -45,6 +49,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'teddy-day',
     title: 'Teddy Day',
+    subtitle: "Style Today's Teddy",
     route: '/teddy-day',
     icon: '/assets/icons/teddy.svg',
     background: '/assets/teddy-day/bg-teddy.svg',
@@ -53,6 +58,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'promise-day',
     title: 'Promise Day',
+    subtitle: 'Open The Floating Promise Boxes',
     route: '/promise-day',
     icon: '/assets/icons/promise-scroll.svg',
     background: '/assets/promise-day/bg-promise.svg',
@@ -61,6 +67,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'hug-day',
     title: 'Hug Day',
+    subtitle: 'Choose A Hug, Then Hold Tight',
     route: '/hug-day',
     icon: '/assets/icons/hug.svg',
     background: '/assets/hug-day/bg-hug.svg',
@@ -69,6 +76,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'kiss-day',
     title: 'Kiss Day',
+    subtitle: 'Catch My Kisses',
     route: '/kiss-day',
     icon: '/assets/icons/kiss.svg',
     background: '/assets/kiss-day/bg-kiss.svg',
@@ -77,6 +85,7 @@ export const DAYS: DayConfig[] = [
   {
     id: 'valentines-day',
     title: "Valentine's Day",
+    subtitle: 'One Final Question',
     route: '/valentines-day',
     icon: '/assets/icons/valentine-heart.svg',
     background: '/assets/valentines-day/bg-valentine.svg',

@@ -194,7 +194,7 @@ export default function TeddyDay() {
 
               <p className="mt-4 text-center text-sm font-semibold text-rich-brown">
                 {hasSelection
-                  ? `${selectedAccessories.length} accessory${selectedAccessories.length > 1 ? 'ies' : 'y'} selected`
+                  ? `${selectedAccessories.length} ${selectedAccessories.length > 1 ? 'accessories' : 'accessory'} selected`
                   : 'Pick at least one accessory'}
               </p>
             </div>
